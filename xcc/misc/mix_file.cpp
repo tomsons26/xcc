@@ -28,7 +28,7 @@ bool Cmix_file::is_valid()
 	int size = get_size();
 	if (sizeof(t_mix_header) > size)
 		return false;
-	if (header.c_files && sizeof(t_mix_header) + header.c_files * sizeof(t_mix_index_entry) + header.size == size)
+	if (header.c_files /*&& sizeof(t_mix_header) + header.c_files * sizeof(t_mix_index_entry) + header.size == size*/)
 		return true;
 	if (header.flags & ~(mix_encrypted | mix_checksum))
 		return false;
@@ -49,7 +49,7 @@ bool Cmix_file::is_valid()
 	else
 	{
 		const t_mix_header* header = reinterpret_cast<const t_mix_header*>(data + 4);
-		if (!header->c_files || 4 + sizeof(t_mix_header) + header->c_files * sizeof(t_mix_index_entry) + header->size + (m_has_checksum ? 20 : 0) != size)
+		if (!header->c_files /*|| 4 + sizeof(t_mix_header) + header->c_files * sizeof(t_mix_index_entry) + header->size + (m_has_checksum ? 20 : 0) != size*/)
 			return false;
 	}
 	return true;
