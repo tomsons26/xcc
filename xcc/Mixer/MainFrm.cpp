@@ -100,23 +100,11 @@ static UINT indicators[] =
 
 CMainFrame::CMainFrame()
 {
-	m_convert_from_td = false;
-	m_convert_from_ra = false;
-	m_dd = NULL;
-	m_ds = NULL;
-	m_enable_compression = true;
-	m_remap_team_colors = false;
-	m_combine_shadows = m_split_shadows = false;
 	m_game = static_cast<t_game>(-1);
 	m_lists_initialized = GetAsyncKeyState(VK_SHIFT) < 0;
-	m_palet_i = -1;
-	m_reg_key = "MainFrame";
-	m_vxl_mode = 0;
-	m_use_palet_for_conversion = false;
 
 	m_combine_shadows = AfxGetApp()->GetProfileInt(m_reg_key, "combine_shadows", false);
 	m_enable_compression = AfxGetApp()->GetProfileInt(m_reg_key, "enable_compression", true);
-	m_fix_shadows = false;
 	m_palet_i = AfxGetApp()->GetProfileInt(m_reg_key, "palet_i", -1);
 	m_split_shadows = AfxGetApp()->GetProfileInt(m_reg_key, "split_shadows", false);
 	m_use_palet_for_conversion = AfxGetApp()->GetProfileInt(m_reg_key, "use_palet_for_conversion", false);
@@ -130,15 +118,12 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 {
 	if (CFrameWnd::OnCreate(lpCreateStruct) == -1)
 		return -1;
-	
-	if (!m_wndStatusBar.Create(this) ||
-		!m_wndStatusBar.SetIndicators(indicators,
-		  sizeof(indicators)/sizeof(UINT)))
+	if (!m_wndStatusBar.Create(this) 
+		|| !m_wndStatusBar.SetIndicators(indicators, sizeof(indicators) / sizeof(UINT)))
 	{
 		TRACE0("Failed to create status bar\n");
-		return -1;      // fail to create
+		return -1;
 	}
-
 	return 0;
 }
 
@@ -458,11 +443,8 @@ void CMainFrame::initialize_lists()
 	for (int i = 0; i < game_unknown; i++)
 	{
 		t_sort_list sort_list;
-		while (j < m_pal_i[i])
-		{
+		for (; j < m_pal_i[i]; j++)
 			sort_list[pal_list[j].name] = j;
-			j++;
-		}
 		for (auto& l : sort_list)
 			m_pal_list.push_back(pal_list[l.second]);
 	}
@@ -534,25 +516,23 @@ void CMainFrame::OnUpdateViewPalet(CCmdUI* pCmdUI)
 
 void CMainFrame::OnViewPaletPrev() 
 {
-	if (m_pal_i[game_ra2])
-	{
-		if (m_palet_i > -1)
-			m_palet_i--;
-		m_file_info_pane->Invalidate();
-		set_msg((m_palet_i == -1 ? "default" : m_pal_list[m_palet_i].name) + " selected");
-	}
+	if (!m_pal_i[game_ra2])
+		return;
+	if (m_palet_i > -1)
+		m_palet_i--;
+	m_file_info_pane->Invalidate();
+	set_msg((m_palet_i == -1 ? "default" : m_pal_list[m_palet_i].name) + " selected");
 }
 
 void CMainFrame::OnViewPaletNext() 
 {
-	if (m_pal_i[game_ra2])
-	{
-		m_palet_i++;
-		if (m_palet_i == m_pal_i[game_ra2])
-			m_palet_i = 0;
-		m_file_info_pane->Invalidate();
-		set_msg(m_pal_list[m_palet_i].name + " selected");
-	}
+	if (!m_pal_i[game_ra2])
+		return;
+	m_palet_i++;
+	if (m_palet_i == m_pal_i[game_ra2])
+		m_palet_i = 0;
+	m_file_info_pane->Invalidate();
+	set_msg(m_pal_list[m_palet_i].name + " selected");
 }
 
 bool CMainFrame::auto_select(t_game game, string palet)
@@ -706,11 +686,10 @@ void CMainFrame::open_ds()
 
 void CMainFrame::close_ds()
 {
-	if (m_ds)
-	{
-		m_ds->Release();
-		m_ds = NULL;
-	}
+	if (!m_ds)
+		return;
+	m_ds->Release();
+	m_ds = NULL;
 }
 
 static CXCCMixerApp* GetApp()
