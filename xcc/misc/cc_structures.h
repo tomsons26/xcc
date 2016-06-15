@@ -281,11 +281,12 @@ struct t_shp_dune2_image_header
 struct t_shp_header
 {
     __int16 c_images;
-    __int16 unknown1;
-    __int16 unknown2;
+    __int16 xpos;
+    __int16 ypos;
     __int16 cx;
     __int16 cy;
-    __int32 unknown3;
+    __int16 delta;
+    __int16 flags;
 };
 
 struct t_shp_ts_header

@@ -618,12 +618,13 @@ void CXCCFileView::OnDraw(CDC* pDC)
 			{
 				Cshp_file f;
 				f.load(m_data);
-				draw_info("Count images:", n(f.cf()));
+				draw_info("Frame Count:", n(f.cf()));
 				draw_info("Size:", n(f.cx()) + " x " + n(f.cy()));
 #ifndef NDEBUG
-				draw_info("Unknown1:", n(f.header().unknown1));
-				draw_info("Unknown2:", n(f.header().unknown2));
-				draw_info("Unknown3:", n(f.header().unknown3));
+				draw_info("XPos:", n(f.header().xpos));
+				draw_info("YPos:", n(f.header().ypos));
+				draw_info("Delta Size:", n(f.header().delta));
+				draw_info("Flags:", n(f.header().flags));
 #endif
 				m_y += m_y_inc;
 				load_color_table(get_default_palet(), true);
