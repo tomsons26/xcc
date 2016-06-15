@@ -113,13 +113,64 @@ Cvirtual_binary shp_file_write(const byte* s, int cx, int cy, int c_images)
 	w += sizeof(t_shp_header);
 	int* index = reinterpret_cast<int*>(w);
 	w += 8 * (c_images + 2);
-	for (int i = 0; i < c_images; i++)
+	
+	const byte* last = r;
+	const byte* last40 = nullptr;
+	const byte* last80 = r;
+	byte* last80w = w;
+	int count20 = 0;
+	int deltaframe = 0;
+	
+	//first frame is always format80(LCW)
+	*index++ = 0x80000000 | w - d.data();
+	*index++ = 0;
+	w += encode80(r, w, cx * cy);
+	r += cx * cy;
+		
+	for (int i = 1; i < c_images; i++)
 	{
-		*index++ = 0x80000000 | w - d.data();
-		*index++ = 0;
-		w += encode80(r, w, cx * cy);
-		r += cx * cy;
+		int size80;
+		int size40;
+		int size20;
+		
+		// do test encodes of the 3 possible frame formats to see which is
+		// smaller.
+		if ( last40 != nullptr ) {
+			size20 = encode40(last, r, w, cx * cy);
+		} else {
+			size20 = 0x7FFFFFFF;
+		}
+		
+		size40 = encode40(last80, r, w, cx * cy);
+		size80 = encode80(r, w, cx * cy);
+		
+		// if format80 is smallest or equal, do format80
+		if ( size80 <= size40 && size80 <= size20 ) {
+			*index++ = 0x80000000 | w - d.data();
+			*index++ = 0;
+			last80 = r;
+			last40 = nullptr;
+			last = r;
+			last80w = w;
+			w += encode80(r, w, cx * cy);
+			r += cx * cy;
+		} else if ( size40 <= size20 ) {
+			*index++ = 0x40000000 | w - d.data();
+			*index++ = 0x80000000 | last80w - d.data();
+			last = r;
+			last40 = r;
+			deltaframe = i;
+			w += encode40(last80, r, w, cx * cy);
+			r += cx * cy;
+		} else {
+			*index++ = 0x20000000 | w - d.data();
+			*index++ = 0x48000000 | deltaframe;
+			last = r;
+			w += encode40(last80, r, w, cx * cy);
+			r += cx * cy;
+		}
 	}
+	
 	*index++ = w - d.data();
 	*index++ = 0;
 	*index++ = 0;
