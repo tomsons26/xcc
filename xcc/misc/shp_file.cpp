@@ -175,8 +175,8 @@ Cvirtual_binary shp_file_write(const byte* s, int cx, int cy, int c_images)
 		} else {
 			*index++ = 0x20000000 | w - d.data();
 			*index++ = 0x48000000 | deltaframe;
+			w += encode40(last, r, w, cx * cy);
 			last = r;
-			w += encode40(last80, r, w, cx * cy);
 			r += cx * cy;
 			
 			if ( size20 > largest ) {
@@ -185,7 +185,7 @@ Cvirtual_binary shp_file_write(const byte* s, int cx, int cy, int c_images)
 		}
 	}
 	
-	header.delta = largest + 39;
+	header.delta = largest + 37;
 	
 	*index++ = w - d.data();
 	*index++ = 0;
