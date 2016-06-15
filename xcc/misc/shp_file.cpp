@@ -128,6 +128,7 @@ Cvirtual_binary shp_file_write(const byte* s, int cx, int cy, int c_images)
 	*index++ = 0;
 	w += encode80(r, w, cx * cy);
 	r += cx * cy;
+	largest = w - last80w;
 		
 	for (int i = 1; i < c_images; i++)
 	{
