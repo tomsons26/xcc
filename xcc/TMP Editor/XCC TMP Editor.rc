@@ -109,16 +109,22 @@ BEGIN
         POPUP "&Copy"
         BEGIN
             MENUITEM "&Complete",                   ID_POPUP_COPY_COMPLETE
+			MENUITEM SEPARATOR
             MENUITEM "&Image\tCtrl+C",              ID_POPUP_COPY_IMAGE
             MENUITEM "&Extra image",                ID_POPUP_COPY_EXTRA_IMAGE
 
+            MENUITEM "&Z Data",                     ID_COPY_ZDATA
+            MENUITEM "E&xtra Z Data",               ID_COPY_EXTRAZDATA
         END
         POPUP "&Paste"
         BEGIN
             MENUITEM "&Complete",                   ID_POPUP_PASTE_COMPLETE
+            MENUITEM SEPARATOR
             MENUITEM "&Image\tCtrl+V",              ID_POPUP_PASTE_IMAGE
             MENUITEM "&Extra image",                ID_POPUP_PASTE_EXTRA_IMAGE
 
+            MENUITEM "&Z Data",                     ID_PASTE_ZDATA
+            MENUITEM "E&xtra Z Data",               ID_PASTE_EXTRAZDATA
         END
         POPUP "&Load"
         BEGIN
@@ -144,6 +150,7 @@ BEGIN
         END
         MENUITEM SEPARATOR
         MENUITEM "&Properties\tAlt+Enter",      ID_POPUP_PROPERTIES
+        MENUITEM "Resize",                      ID_POPUP_RESIZE
     END
 END
 
@@ -180,31 +187,44 @@ END
 // Dialog
 //
 
-IDD_PROPERTIES DIALOG DISCARDABLE  0, 0, 156, 165
-STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+IDD_PROPERTIES DIALOGEX 0, 0, 182, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
 CAPTION "Properties"
-FONT 8, "MS Sans Serif"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+
 BEGIN
-    EDITTEXT        IDC_X,57,7,91,13,ES_RIGHT | ES_AUTOHSCROLL
-    EDITTEXT        IDC_Y,57,26,91,13,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
-    EDITTEXT        IDC_X_EXTRA,57,45,91,13,ES_RIGHT | ES_AUTOHSCROLL
-    EDITTEXT        IDC_Y_EXTRA,57,64,91,13,ES_RIGHT | ES_AUTOHSCROLL | 
+    EDITTEXT        IDC_X,38,7,51,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,123,7,52,13,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_X_EXTRA,38,25,51,13,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y_EXTRA,123,25,52,13,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
-    EDITTEXT        IDC_HEIGHT,57,83,91,13,ES_RIGHT | ES_AUTOHSCROLL | 
+    EDITTEXT        IDC_HEIGHT,57,44,118,13,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
-    EDITTEXT        IDC_TERRAIN_TYPE,57,102,91,13,ES_RIGHT | ES_AUTOHSCROLL | 
+    EDITTEXT        IDC_TERRAIN_TYPE,57,63,118,13,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
-    EDITTEXT        IDC_RAMP_TYPE,57,121,91,13,ES_RIGHT | ES_AUTOHSCROLL | 
+    EDITTEXT        IDC_RAMP_TYPE,57,82,118,13,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
-    DEFPUSHBUTTON   "OK",IDOK,42,144,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,99,144,50,14
-    LTEXT           "X:",IDC_STATIC,12,7,8,8
-    LTEXT           "Y:",IDC_STATIC,12,26,8,8
-    LTEXT           "X Extra:",IDC_STATIC,12,45,26,8
-    LTEXT           "Y Extra:",IDC_STATIC,12,64,26,8
-    LTEXT           "Terrain type:",IDC_STATIC,12,102,40,8
-    LTEXT           "Height:",IDC_STATIC,12,83,24,8
-    LTEXT           "Ramp type:",IDC_STATIC,12,121,37,8
+    EDITTEXT        IDC_RED1,66,101,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GREEN1,104,101,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BLUE1,143,101,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RED2,66,119,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GREEN2,104,119,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BLUE2,143,119,32,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,72,153,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,153,50,14
+    LTEXT           "X:",IDC_STATIC,6,7,8,8
+    LTEXT           "Y:",IDC_STATIC,93,7,8,8
+    LTEXT           "X Extra:",IDC_STATIC,6,25,32,8
+    LTEXT           "Y Extra:",IDC_STATIC,91,27,26,8
+    LTEXT           "Height:",IDC_STATIC,6,47,24,8
+    LTEXT           "Terrain type:",IDC_STATIC,6,65,51,8
+    LTEXT           "Ramp type:",IDC_STATIC,6,84,37,8
+    LTEXT           "Left radar colour:",IDC_STATIC,6,102,60,8
+    LTEXT           "Right radar colour:",IDC_STATIC,6,121,60,8
+    PUSHBUTTON      "AutoColour",IDC_AUTOCOLOUR,6,153,60,14
+    CONTROL         "Has damaged artwork",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,89,137,86,10
 END
 
 
@@ -218,10 +238,18 @@ GUIDELINES DESIGNINFO DISCARDABLE
 BEGIN
     IDD_PROPERTIES, DIALOG
     BEGIN
-        LEFTMARGIN, 7
-        RIGHTMARGIN, 149
+        LEFTMARGIN, 6
+
+        RIGHTMARGIN, 175
+        VERTGUIDE, 38
+        VERTGUIDE, 57
+        VERTGUIDE, 66
+        VERTGUIDE, 97
+        VERTGUIDE, 104
+        VERTGUIDE, 136
+        VERTGUIDE, 143
         TOPMARGIN, 7
-        BOTTOMMARGIN, 158
+        BOTTOMMARGIN, 167
     END
 END
 #endif    // APSTUDIO_INVOKED
@@ -234,8 +262,8 @@ END
 
 STRINGTABLE PRELOAD DISCARDABLE 
 BEGIN
-    IDR_MAINFRAME           "XCC TMP Editor 1.04"
-    IDR_TMPTYPE             "\nTMP\nTMP\nTemplate Files (*.des;*.lun;*.sno;*.tem;*.ubn;*.urb)\n.tem\nXCCTMPEditor.Document\nTemplate Document"
+    IDR_MAINFRAME           "XCC TMP Editor 1.05"
+    IDR_TMPTYPE             "\nTMP\nTMP\nTemplate Files (*.tem;*.sno;*.urb;*.des;*.ubn;*.lun)\n.tem;.sno;.urb;.des;.ubn;.lun\nXCCTMPEditor.Document\nTemplate Document"
 END
 
 STRINGTABLE PRELOAD DISCARDABLE 
@@ -294,6 +322,67 @@ END
 #endif    // APSTUDIO_INVOKED
 
 #endif    // Dutch (Netherlands) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RESIZE DIALOGEX 0, 0, 122, 89
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Resize"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,68,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,65,68,50,14
+    EDITTEXT        IDC_WIDTH,49,7,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,49,25,66,14,ES_AUTOHSCROLL
+    LTEXT           "Width (\\):",IDC_STATIC,7,10,35,8
+    LTEXT           "Height (/):",IDC_STATIC,7,28,34,8
+    LTEXT           "Warning: Tiles outside the specified range will be deleted!",
+                    IDC_STATIC,7,44,108,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_RESIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+        HORZGUIDE, 18
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\XCC TMP Editor.manifest"
+#endif    // English (Canada) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

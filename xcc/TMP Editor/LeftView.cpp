@@ -1,3 +1,5 @@
+// LeftView.cpp : implementation of the CLeftView class
+//
 #include "stdafx.h"
 
 #include "XCC TMP EditorDoc.h"
@@ -7,6 +9,14 @@
 #include "properties_dlg.h"
 #include "virtual_image.h"
 
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CLeftView
 IMPLEMENT_DYNCREATE(CLeftView, CListView)
 
 BEGIN_MESSAGE_MAP(CLeftView, CListView)
@@ -50,8 +60,19 @@ BEGIN_MESSAGE_MAP(CLeftView, CListView)
 	ON_UPDATE_COMMAND_UI(ID_POPUP_SAVEASPCX_EXTRAIMAGE, OnUpdatePopupCopyExtraImage)
 	ON_NOTIFY_REFLECT(NM_DBLCLK, OnDblclk)
 	//}}AFX_MSG_MAP
+	ON_COMMAND(ID_POPUP_RESIZE, OnPopupResize)
+	ON_COMMAND(ID_COPY_ZDATA, OnCopyZdata)
+	ON_COMMAND(ID_COPY_EXTRAZDATA, OnCopyExtrazdata)
+	ON_UPDATE_COMMAND_UI(ID_COPY_ZDATA, OnUpdateCopyZdata)
+	ON_UPDATE_COMMAND_UI(ID_COPY_EXTRAZDATA, OnUpdateCopyExtrazdata)
+	ON_COMMAND(ID_PASTE_ZDATA, OnPasteZdata)
+	ON_COMMAND(ID_PASTE_EXTRAZDATA, OnPasteExtrazdata)
+	ON_UPDATE_COMMAND_UI(ID_PASTE_ZDATA, OnUpdatePasteZdata)
+	ON_UPDATE_COMMAND_UI(ID_PASTE_EXTRAZDATA, OnUpdatePasteExtrazdata)
 END_MESSAGE_MAP()
 
+/////////////////////////////////////////////////////////////////////////////
+// CLeftView construction/destruction
 CLeftView::CLeftView()
 {
 }
@@ -83,6 +104,8 @@ void CLeftView::OnInitialUpdate()
 	CListView::OnInitialUpdate();
 }
 
+/////////////////////////////////////////////////////////////////////////////
+// CLeftView message handlers
 void CLeftView::OnGetdispinfo(NMHDR* pNMHDR, LRESULT* pResult) 
 {
 	LV_DISPINFO* pDispInfo = (LV_DISPINFO*)pNMHDR;
@@ -323,7 +346,7 @@ void CLeftView::OnUpdatePopupDeleteExtraimage(CCmdUI* pCmdUI)
 
 void CLeftView::OnPopupInsert() 
 {
-	GetDocument()->insert();
+	GetDocument()->insert2(); //GetDocument()->insert();
 }
 
 void CLeftView::OnUpdatePopupInsert(CCmdUI* pCmdUI) 
@@ -432,7 +455,7 @@ void CLeftView::OnPopupProperties()
 	int id = get_current_id();
 	t_tmp_image_header header = GetDocument()->map().find(id)->second.header;
 	Cproperties_dlg dlg;
-	dlg.set(header);
+	dlg.set(header, GetDocument(), get_current_id());
 	if (IDOK == dlg.DoModal())
 	{
 		dlg.get(header);
@@ -468,4 +491,68 @@ void CLeftView::OnDblclk(NMHDR* pNMHDR, LRESULT* pResult)
 	if (get_current_id() != -1)
 		OnPopupProperties();	
 	*pResult = 0;
+}
+
+void CLeftView::OnPopupResize()
+{
+	// TODO: Add your command handler code here
+	t_tmp_ts_header header = GetDocument()->header();
+	CXCCTMPEditorResizeBox dlg;
+	dlg.set(header);
+	if (dlg.DoModal() == IDOK)
+	{
+		dlg.get(&header);
+		GetDocument()->resize(header.cblocks_x, header.cblocks_y);
+	}
+}
+
+void CLeftView::OnCopyZdata()
+{
+	GetDocument()->get_z_image(get_current_id()).set_clipboard();
+}
+
+void CLeftView::OnCopyExtrazdata()
+{
+	GetDocument()->get_z_extra(get_current_id()).set_clipboard();
+}
+
+void CLeftView::OnUpdateCopyZdata(CCmdUI *pCmdUI)
+{
+	pCmdUI->Enable(get_current_id() != -1);
+}
+
+void CLeftView::OnUpdateCopyExtrazdata(CCmdUI *pCmdUI)
+{
+	int id = get_current_id();
+	pCmdUI->Enable(id != -1 && GetDocument()->map().find(id)->second.extra_data.data());
+}
+
+void CLeftView::OnPasteZdata()
+{
+	Cvirtual_image image;
+	if (image.get_clipboard())
+		return;
+	if (image.cb_pixel() == 3)
+		image.decrease_color_depth(1, CXCCTMPEditorDoc::make_grey_table(32));
+	GetDocument()->set_z_image(get_current_id(), image);
+}
+
+void CLeftView::OnPasteExtrazdata()
+{
+	Cvirtual_image image;
+	if (image.get_clipboard())
+		return;
+	if (image.cb_pixel() == 3)
+		image.decrease_color_depth(1, CXCCTMPEditorDoc::make_grey_table(32));
+	GetDocument()->set_z_extra(get_current_id(), image);
+}
+
+void CLeftView::OnUpdatePasteZdata(CCmdUI *pCmdUI)
+{
+	pCmdUI->Enable(get_current_id() != -1 && IsClipboardFormatAvailable(CF_DIB));
+}
+
+void CLeftView::OnUpdatePasteExtrazdata(CCmdUI *pCmdUI)
+{
+	pCmdUI->Enable(get_current_id() != -1 && IsClipboardFormatAvailable(CF_DIB));
 }

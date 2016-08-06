@@ -1,7 +1,16 @@
+// XCC TMP EditorDoc.h : interface of the CXCCTMPEditorDoc class
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_XCCTMPEDITORDOC_H__64DA8143_F21A_11D4_B606_0000B4936994__INCLUDED_)
+#define AFX_XCCTMPEDITORDOC_H__64DA8143_F21A_11D4_B606_0000B4936994__INCLUDED_
+
+#if _MSC_VER > 1000
 #pragma once
+#endif // _MSC_VER > 1000
 
 #include "tmp_ts_file.h"
-#include <virtual_binary.h>
+#include "virtual_binary.h"
 #include "virtual_image.h"
 
 struct t_rect
@@ -83,8 +92,18 @@ public:
 	Cvirtual_image get_complete() const;
 	Cvirtual_image get_extra_image(int id);
 	Cvirtual_image get_image(int id);
+
+	Cvirtual_image get_z_extra(int id);
+	Cvirtual_image get_z_image(int id);
+	void set_z_extra(int id, const Cvirtual_image& image);
+	void set_z_image(int id, const Cvirtual_image& image);
+
+	static t_palet_entry *make_grey_table(int c_colors = 256, byte max = 255);
+
 	void insert();
+	void insert2();
 	void remove(int id);
+	void resize(unsigned int x, unsigned int y);
 	virtual ~CXCCTMPEditorDoc();
 
 protected:
@@ -99,3 +118,10 @@ private:
 	t_map m_map;
 	t_palet m_palet;
 };
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_XCCTMPEDITORDOC_H__64DA8143_F21A_11D4_B606_0000B4936994__INCLUDED_)

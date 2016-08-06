@@ -455,7 +455,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDR_MAINFRAME           "XCC Mixer 1.47"
+    IDR_MAINFRAME           "XCC Mixer 1.48"
 END
 
 STRINGTABLE

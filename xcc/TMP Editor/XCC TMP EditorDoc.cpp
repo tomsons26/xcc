@@ -1,3 +1,6 @@
+// XCC TMP EditorDoc.cpp : implementation of the CXCCTMPEditorDoc class
+//
+
 #include "stdafx.h"
 
 #include "XCC TMP EditorDoc.h"
@@ -8,6 +11,14 @@
 #include "string_conversion.h"
 #include "xcc_dirs.h"
 
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CXCCTMPEditorDoc
 using namespace boost;
 
 IMPLEMENT_DYNCREATE(CXCCTMPEditorDoc, CDocument)
@@ -17,6 +28,8 @@ BEGIN_MESSAGE_MAP(CXCCTMPEditorDoc, CDocument)
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
+/////////////////////////////////////////////////////////////////////////////
+// CXCCTMPEditorDoc construction/destruction
 CXCCTMPEditorDoc::CXCCTMPEditorDoc()
 {
 }
@@ -30,14 +43,24 @@ BOOL CXCCTMPEditorDoc::OnNewDocument()
 	if (!CDocument::OnNewDocument())
 		return FALSE;
 
+	// Shame on you, Olaf! This makes ANY new file save as a 16-byte null tileset >_<
 	m_header.cblocks_x = m_header.cblocks_y = 0;
+
+	// TODO: Popup a dialog asking for these to
+	// allow creation of new *TS* tilesets. =D
 	m_header.cx = 60;
 	m_header.cy = 30;
 	m_map.clear();
 	load_temperate_palet(false);
-
+	m_header.cblocks_x = m_header.cblocks_y = 1; // Safe minimum. Use the new Resize tool to fix.
+	
 	return TRUE;
 }
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CXCCTMPEditorDoc serialization
 
 void CXCCTMPEditorDoc::Serialize(CArchive& ar)
 {
@@ -76,7 +99,7 @@ void CXCCTMPEditorDoc::Serialize(CArchive& ar)
 							e.header.extra_z_ofs = 2 * cb_diamond + cb_extra_data + sizeof(t_tmp_image_header);
 						e.header.has_extra_data = static_cast<bool>(e.extra_data.data());
 						e.header.has_z_data = static_cast<bool>(e.z_data.data());
-						e.header.has_damaged_data = true; // false;
+						//e.header.has_damaged_data = true; // WTF are you smoking, Olaf? This is IMPORTANT!! // false;
 						*reinterpret_cast<t_tmp_image_header*>(w) = e.header;
 						w += sizeof(t_tmp_image_header);
 						assert(e.data.size() == cb_diamond);
@@ -291,6 +314,36 @@ void CXCCTMPEditorDoc::insert()
 	UpdateAllViews(NULL);
 }
 
+void CXCCTMPEditorDoc::insert2()
+{
+	t_map_entry *prev = m_map.empty() ? NULL : &m_map[m_map.begin()->first];
+	t_map_entry& e = m_map[m_map.empty() ? 0 : m_map.rbegin()->first + 1];
+	{
+		t_tmp_image_header& h = e.header;
+		h.x = 0;
+		h.y = 0;
+		h.x_extra = 0;
+		h.y_extra = 0;
+		h.cx_extra = 0;
+		h.cy_extra = 0;
+		h.height = 0;
+		h.terrain_type = 0;
+		h.ramp_type = 0;
+		h.radar_red_left = 0x80;
+		h.radar_green_left = 0x80;
+		h.radar_blue_left = 0x80;
+		h.radar_red_right = 0x80;
+		h.radar_green_right = 0x80;
+		h.radar_blue_right = 0x80;
+	}
+	e.data = Cvirtual_binary(NULL, m_header.cx * m_header.cy >> 1);
+	// Fix for freshly allocated garbage
+	if (prev) memcpy((byte *)e.data.data(), prev->data.data(), m_header.cx * m_header.cy >> 1);
+	e.z_data = Cvirtual_binary(NULL, m_header.cx * m_header.cy >> 1);
+	if (prev) memcpy((byte *)e.z_data.data(), prev->z_data.data(), m_header.cx * m_header.cy >> 1);
+	SetModifiedFlag();
+	UpdateAllViews(NULL);
+}
 void CXCCTMPEditorDoc::remove(int id)
 {
 	m_map.erase(id);
@@ -341,6 +394,40 @@ Cvirtual_image CXCCTMPEditorDoc::get_image(int id)
 	return image;
 }
 
+// mostly the same as above by olaf
+Cvirtual_image CXCCTMPEditorDoc::get_z_image(int id)
+{
+	const t_map_entry& e = map().find(id)->second;
+	int cx = header().cx;
+	int cy = header().cy;
+	byte* d = new byte[cx * cy];
+	t_palet_entry *pal;
+	// I'm presuming the only purpose of decode_tile is to
+	// diagonalize to the isometric perspective
+	decode_tile(e.z_data.data(), d, cx);
+	Cvirtual_image image;
+	image.load(d, cx, cy, 1, pal = make_grey_table(32));
+	delete[] d;
+	delete[] pal;
+	return image;
+}
+
+t_palet_entry *CXCCTMPEditorDoc::make_grey_table(int c_colors, byte max)
+{
+	t_palet_entry *greytable = new t_palet;
+	int i;
+	for (i = 0; i < c_colors; i++)
+	{
+		greytable[i].r = greytable[i].g = greytable[i].b = i * max / (c_colors - 1);
+	}
+
+	for (; i < 256; i++)
+	{
+		greytable[i].r = max;
+		greytable[i].g = greytable[i].b = 0;
+	}
+	return greytable;
+}
 Cvirtual_image CXCCTMPEditorDoc::get_extra_image(int id)
 {
 	const t_map_entry& e = map().find(id)->second;
@@ -349,6 +436,15 @@ Cvirtual_image CXCCTMPEditorDoc::get_extra_image(int id)
 	return image;
 }
 
+Cvirtual_image CXCCTMPEditorDoc::get_z_extra(int id)
+{
+	const t_map_entry& e = map().find(id)->second;
+	Cvirtual_image image;
+	t_palet_entry *pal;
+	image.load(e.extra_z_data.data(), e.header.cx_extra, e.header.cy_extra, 1, pal = make_grey_table(32));
+	delete[] pal;
+	return image;
+}
 void CXCCTMPEditorDoc::set_image(int id, const Cvirtual_image& image)
 {
 	int cx = header().cx;
@@ -377,6 +473,27 @@ void CXCCTMPEditorDoc::set_extra_image(int id, const Cvirtual_image& image)
 	UpdateAllViews(NULL);
 }
 
+void CXCCTMPEditorDoc::set_z_image(int id, const Cvirtual_image& image)
+{
+	int cx = header().cx;
+	int cy = header().cy;
+	if (image.cx() != cx || image.cy() != cy)
+		return;
+	t_map_entry& e = map_edit().find(id)->second;
+	encode_tile(image.image(), e.z_data.data_edit(), cx);
+	SetModifiedFlag();
+	UpdateAllViews(NULL);
+}
+
+void CXCCTMPEditorDoc::set_z_extra(int id, const Cvirtual_image& image)
+{
+	t_map_entry& e = map_edit().find(id)->second;
+	if (!e.header.has_extra_data || (image.cx() != e.header.cx_extra) || (image.cy() != e.header.cy_extra))
+		return; // Only allow the data to be set if the size matches exactly (ie. was copied from here in the first place)
+	e.extra_z_data.write(image.image(), image.cb_image());
+	SetModifiedFlag();
+	UpdateAllViews(NULL);
+}
 void CXCCTMPEditorDoc::set_image_header(int id, const t_tmp_image_header& header)
 {
 	map_edit().find(id)->second.header = header;
@@ -556,4 +673,23 @@ void CXCCTMPEditorDoc::draw_reverse(const byte* d)
 	}
 	SetModifiedFlag();
 	UpdateAllViews(NULL);
+}
+
+void CXCCTMPEditorDoc::resize(unsigned int x, unsigned int y)
+{
+	t_map::iterator i = m_map.begin();
+	#define real_x	(e.header.y + e.header.x / 2)/m_header.cy // inverse of TS's 'angleyness'
+	#define real_y	(e.header.y - e.header.x / 2)/m_header.cy
+	// Cut off tiles that extend beyond new tileset end
+	while (i != m_map.end())
+	{
+		t_map_entry &e = m_map[i->first];
+		if ((real_x >= x) || (real_y >= y))
+		{
+			remove(i++->first);
+		}
+		else i++;
+	}
+	m_header.cblocks_x = x;
+	m_header.cblocks_y = y;
 }
