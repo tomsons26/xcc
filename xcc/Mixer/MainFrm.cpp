@@ -7,7 +7,6 @@
 #include "XSE_dlg.h"
 #include "XSTE_dlg.h"
 
-#include <boost/algorithm/string.hpp>
 #include <fstream>
 #include "aud_file.h"
 #include "directoriesdlg.h"
@@ -20,8 +19,6 @@
 #include "xcc_dirs.h"
 #include "xcc_log.h"
 #include "xste.h"
-
-using namespace boost;
 
 IMPLEMENT_DYNCREATE(CMainFrame, CFrameWnd)
 

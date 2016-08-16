@@ -2,7 +2,6 @@
 #include "XSTE_dlg.h"
 #include "XSTE_edit_dlg.h"
 
-#include <boost/algorithm/string.hpp>
 #include "SearchStringDlg.h"
 #include "mix_file.h"
 #include "string_conversion.h"
