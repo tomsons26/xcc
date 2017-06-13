@@ -263,6 +263,12 @@ scs46ea.ini
 scs47ea.ini	
 scs48ea.ini	
 scs49ea.ini	
+scs50ea.ini	
+scs51ea.ini	
+scs60ea.ini	
+scs61ea.ini	
+scs62ea.ini	
+scs63ea.ini	
 scs40ea.bin	
 scs41ea.bin	
 scs42ea.bin	
@@ -273,6 +279,12 @@ scs46ea.bin
 scs47ea.bin	
 scs48ea.bin	
 scs49ea.bin	
+scs50ea.bin	
+scs51ea.bin	
+scs60ea.bin	
+scs61ea.bin	
+scs62ea.bin	
+scs63ea.bin	
 c_stlall.aud	
 e_stlall.aud	
 m_stlall.aud	
@@ -317,3 +329,4 @@ viceicnh.shp
 viceicnh.tem	
 workremx.aud	
 TELPAD.SHP	
+HSRADAR.SHP	
