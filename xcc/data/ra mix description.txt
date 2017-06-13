@@ -85,3 +85,6 @@ IRONCUR2.AUD
 PORTS.SHP	
 eva5.aud	
 eva6.aud	
+EXP.SHP	
+UNEXP.SHP	
+findpage.shp	

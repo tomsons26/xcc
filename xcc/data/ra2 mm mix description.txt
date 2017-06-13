@@ -5,7 +5,6 @@ teslaicon.shp
 pmatkmove.shp	
 pmgrdarea.shp	
 clktarg.aud	
-clktarg.aud	
 obs_alli.pcx	
 obs_sovi.pcx	
 obs_yuri.pcx	
