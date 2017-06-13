@@ -1,59 +1,29 @@
-ebtn-dn.shp	
-ebtn-up.shp	
-missile.shp	
-rg06ab1.shp	
-rg06b2.shp	
-rg06b3.shp	
-rg09cd.shp	
-rg09d1.shp	
-rg09d2.shp	
-rg12a2.shp	
-rn06ab1.shp	
-rn06b1.shp	
-rn06b2.shp	
-rn06b3.shp	
-rn09cd.shp	
-rn09d1.shp	
-rn09d2.shp	
-rn11a2.shp	
-rn12a2.shp	
-tg04a1.shp	
-tg07a2.shp	
-tg07ab2.shp	
-tg11a1.shp	
-tg12a1.shp	
-tg12ab1.shp	
-tn04a1.shp	
-tn07a2.shp	
-tn07ab2.shp	
-tn11a1.shp	
-tn12a1.shp	
-tn12ab1.shp	
-mislsam.vxl	
-mislsam.hva	
-probe.hva	
-probe.vxl	
-rg05b1.shp	
-tn01a.shp	
-rn05ab1.shp	
-dbrs10lg.shp	
-cliff42.tem	
-s_bang48.shp	
-rg05ab1.shp	
-tg01a.shp	
-missile.shp	
-rn05b1.shp	
-dbrs10sm.shp	
-rg01a.shp	
-rn06ab2.shp	
-cliff41.tem	
-rg06ab2.shp	
-rn01a.shp	
-key.ini	
-se2kmix.inf	sun edit 2000 mix information
-explolrg.shp	big explosion
-chamspy.shp	unit: chameleon spy
-local mix database.dat	mix database
+00-W000.V00	-
+00-W002.V00	-
+00-W004.V00	-
+00-W006.V00	-
+00-W008.V00	-
+00-W010.V00	-
+00-W012.V00	-
+00-W014.V00	-
+00-W016.V00	-
+00-W017.V00	-
+00-W018.V00	-
+00-W020.V00	-
+00-W022.V00	-
+00-W024.V00	-
+00-W026.V00	-
+00-W028.V00	-
+00-W029.V00	-
+00-W030.V00	-
+00-W031.V00	-
+00-W032.V00	-
+00-W034.V00	-
+00-W036.V00	-
+00-W038.V00	-
+00-W040.V00	-
+00-W042.V00	-
+00-W044.V00	-
 00-i008.aud	gdi structure destroyed
 00-i012.aud	battle controll offline
 00-i014.aud	building infiltrated
@@ -272,6 +242,31 @@ local mix database.dat	mix database
 00-n506.aud	destroy the bridges
 00-n508.aud	locating the civillians might help in disabling the laser fencing
 00-n510.aud	proboble location within civillian outpost to the north
+01-W000.V01	-
+01-W002.V01	-
+01-W004.V01	-
+01-W006.V01	-
+01-W008.V01	-
+01-W010.V01	-
+01-W012.V01	-
+01-W014.V01	-
+01-W016.V01	-
+01-W018.V01	-
+01-W020.V01	-
+01-W022.V01	-
+01-W024.V01	-
+01-W026.V01	-
+01-W028.V01	-
+01-W030.V01	-
+01-W031.V01	-
+01-W032.V01	-
+01-W034.V01	-
+01-W036.V01	-
+01-W038.V01	-
+01-W040.V01	-
+01-W042.V01	-
+01-W044.V01	-
+01-W046.V01	-
 01-i342.aud	inferior tactics detected
 01-i350.aud	observe superior tactics while you still have human eyes
 01-i352.aud	your defeat is at hand
@@ -432,8 +427,6 @@ local mix database.dat	mix database
 11-i014.aud	for kane
 11-i016.aud	they will pay for this
 11-i018.aud	for the brotherhood
-120mmf.aud	artillery sound
-120mmx9.aud	artillery sound two-shooter
 12-i000.aud	yes cabal
 12-i002.aud	where to
 12-i004.aud	yes
@@ -443,6 +436,10 @@ local mix database.dat	mix database
 12-i012.aud	we must find oxanna
 12-i014.aud	leave no enemy standing
 12-i016.aud	kill them
+120mm.shp	tank shell
+120mmf.aud	artillery sound
+120mmx9.aud	artillery sound two-shooter
+12metfnt.fnt	-
 13-i000.aud	huh
 13-i002.aud	what
 13-i004.aud	ah
@@ -495,6 +492,17 @@ local mix database.dat	mix database
 19-i018.aud	i can fix that
 19-n100.aud	looks like the kodiak is a loss
 19-n102.aud	ive got the eva unit, lets get out of here
+1ice6.ini	
+1ice6.map	-
+1lworld7.ini	
+1lworld7.map	-
+1pres.shp	-
+1tnk.hva	-
+1tnk.vxl	light tank
+1tnkbarl.hva	-
+1tnkbarl.vxl	light tank barrel
+1tnktur.hva	-
+1tnktur.vxl	light tank turret
 20-i000.aud	medic reporting
 20-i004.aud	yes sir
 20-i006.aud	awaiting orders
@@ -569,6 +577,15 @@ local mix database.dat	mix database
 25-i024.aud	you got it
 25-i026.aud	no problem
 27-i002.aud	unit deploy response
+2pres.shp	-
+2temp7.ini	
+2temp7.map	-
+2tnk.hva	-
+2tnk.vxl	medium tank
+2tnkbarl.hva	-
+2tnkbarl.vxl	medium tank barrel
+2tnktur.hva	-
+2tnktur.vxl	medium tank turret
 30-i000.aud	pilot reporting
 30-i002.aud	ready
 30-i004.aud	awaiting orders
@@ -653,6 +670,15 @@ local mix database.dat	mix database
 38-n154.aud	fire storm is offline
 38-n156.aud	code fragment retrieved
 39-n000.aud	i am free, now its paback time, hassan
+3pres.shp	-
+3tnk.hva	-
+3tnk.vxl	heavy tank
+3tnkbarl.hva	-
+3tnkbarl.vxl	heavy tank barrel
+3tnktur.hva	-
+3tnktur.vxl	heavy tank turret
+3tweak10.ini	
+3tweak10.map	-
 40-n000.aud	we have been touched by the spirit hand of kane
 41-n000.aud	stand and identify yourself in the name of kane
 41-n002.aud	sound the alarm
@@ -669,6 +695,14 @@ local mix database.dat	mix database
 43-n000.aud	I have the codes
 44-n000.aud	we are here & waiting for your arrival
 47-n000.aud	dont shoot, i can tell you gdis evac locations
+4pres.shp	-
+4tnk.hva	-
+4tnk.vxl	mammoth tank
+4tnkbarl.hva	-
+4tnkbarl.vxl	mammoth tank barrel
+4tnktur.hva	-
+4tnktur.vxl	mammoth tank turret
+50cal.shp	bullet
 52-n000.aud	welcome stranger
 52-n002.aud	can i offer you a cool beverage
 52-n004.aud	what do you think you are doing
@@ -814,6 +848,8 @@ local mix database.dat	mix database
 69-n106.aud	do i gotta
 69-n108.aud	i gotta walk
 69-n110.aud	are you sure
+6point.fnt	-
+6pres.shp	-
 70-n000.aud	yes sir
 70-n002.aud	need assistance
 70-n004.aud	im your man
@@ -844,6 +880,8 @@ local mix database.dat	mix database
 71-n132.aud	firestorm is offline
 71-n134.aud	code fragment retrieved
 71-n136.aud	these laser posts are stronger than normal
+87v3barl.hva	-
+8point.fnt	-
 92-i269.aud	-
 99-n454.aud	you dare to attack me
 99-n456.aud	cybernetic intellegence will allways be superior
@@ -851,686 +889,6 @@ local mix database.dat	mix database
 99-n460.aud	cabal laugh
 99-n464.aud	activating defence protocol, defender, now
 99-n466.aud	miscalculation in enemy ability, compensation initiated
-approach.aud	approach
-bargraph.aud	-
-bestbox.aud	-
-bigggun1.aud	railgun
-bleep1.aud	generic beep
-boop.aud	stub sound used for all unsigned sound trigers
-cashturn.aud	sell sound
-chaingn1.aud	buggy fires gun/apache fires guns
-choice1.aud	menu choice
-clicky1.aud	generic click
-cloak5.aud	cloaking sound
-commup1.aud	communications center goes online
-corefir1.aud	core defender fire
-coreup1.aud	core defender up
-creddwn1.aud	credit negative
-credup1.aud	credit positive
-crmble2.aud	building crumbling
-cygun1.aud	cyborg fires gun
-dedgirl1.aud	dead girl 1
-dedgirl2.aud	dead girl 2
-dedgirl3.aud	dead girl 3
-dedgirl4.aud	dead girl 4
-dedman1.aud	dead man 1
-dedman2.aud	dead man 2
-dedman3.aud	dead man 3
-dedman4.aud	dead man 4
-dedman5.aud	dead man 5
-dedman6.aud	dead man 6
-defense.aud	defense
-dmachine.aud	-
-dropdwn1.aud	dropship lands
-dropup1.aud	dropship takes off
-dsaping1.aud	deployable sensor array ping
-duskhour.aud	dusk hour
-efficien.aud	-
-electro1.aud	electrocution
-elusive.aud	-
-emblem.aud	emblem
-expdirt1.aud	dirt explosion
-expnew01.aud	big building explosion with glass
-expnew02.aud	big building explosion with glass
-expnew03.aud	big building explosion with glass
-expnew04.aud	big building explosion with glass
-expnew05.aud	medium explosion for vehicle or structure
-expnew06.aud	medium explosion good for all & land destruction
-expnew07.aud	medium explosion with glass
-expnew08.aud	lg/md explosion with glass
-expnew09.aud	medium explosion general
-expnew10.aud	medium explosion general and vehicle
-expnew11.aud	medium explosion with glass
-expnew12.aud	small explosion general
-expnew13.aud	small explosion general
-expnew14.aud	small explosion general
-expnew15.aud	small explosion general
-expnew16.aud	explosion
-expnew17.aud	explosion
-expnew18.aud	explosion
-expnew19.aud	explosion
-facbld1.aud	factory goes online
-fiend1.aud	tiberium fiend
-fiend2.aud	tiberium fiend
-fireweb1.aud	web firing sound
-firstrm1.aud	firestorm defense burning
-flamtnk1.aud	flame tank fire
-floatk1.aud	tiberium floater attack
-floatmov.aud	tiberium floater move
-flotmov2.aud	tiberium floater move
-flotmov3.aud	tiberium floater move
-flotmov4.aud	tiberium floater move
-flurry.aud	flurry
-fsmap.aud	firestorm map screen
-fsmenu.aud	firestorm main menu
-gamefrm1.aud	game forming
-gatedwn1.aud	gate going down
-gateup1.aud	gate going up
-gdi-02.aud	-
-gdi-03a.aud	-
-gdi-03b.aud	-
-gdi-04.aud	-
-gdi-05a.aud	-
-gdi-05b.aud	-
-gdi-06a.aud	-
-gdi-06b.aud	-
-gdi-07.aud	-
-gdi-08.aud	-
-gdi-09a.aud	-
-gdi-09b.aud	-
-gdi-09c.aud	-
-gdi-09d.aud	-
-gdi-10a.aud	-
-gdi-10b.aud	-
-gdi-11.aud	-
-gdi-12.aud	-
-glnch4.aud	rpg launch
-gloom.aud	gloom
-gostgun1.aud	ghost talker
-gsweep.aud	-
-gun18.aud	civilian gun
-hacker.aud	-
-healer1.aud	healing units
-heroism.aud	heroism
-hovrmis1.aud	hovermlrs rocket fire
-hunter2.aud	hunter seeker droid
-icbm1.aud	big huge icbm rocket
-icecrak1.aud	ice crack
-icecrak2.aud	ice crack
-icecrak3.aud	ice crack
-infgun3.aud	infantry gun
-infiltra.aud	-
-infrared.aud	infrared
-intro.aud	-
-ion1.aud	ion cannon strike
-ionstorm.aud	ion storm ambient (no music track but ion storm sound)
-jugger1.aud	juggernaut firing sound
-jumpjet1.aud	jump jet fires gun
-klax1.aud	klaxon
-kmachine.aud	-
-lastur1.aud	laser turret
-limpbom1.aud	limpet drone attatch
-limpc3.aud	limpet drone move
-limpc4.aud	limpet drone move
-limpq3.aud	limpet drone move
-limpq4.aud	limpet drone move
-linkup.aud	-
-lonetrop.aud	lone troop
-madrap.aud	mad rap
-maps.aud	-
-message1.aud	incomming message
-meteor1.aud	large meteor
-meteor2.aud	small meteor
-methit1.aud	meteor hits ground
-misl1.aud	bike missile
-mobemp1.aud	mobile emp
-msg1.aud	message
-mutants.aud	mutants
-nod-02.aud	-
-nod-03a.aud	-
-nod-03b.aud	-
-nod-04a.aud	-
-nod-04b.aud	-
-nod-05.aud	-
-nod-06a.aud	-
-nod-06b.aud	-
-nod-06c.aud	-
-nod-07.aud	-
-nod-07.aud	-
-nod-08.aud	-
-nod-09a.aud	-
-nod-09b.aud	-
-nod-10.aud	-
-nod-11.aud	-
-nod-12a.aud	-
-nod-12b.aud	-
-nodcrush.aud	nod crush
-notify.aud	notification
-nsweep.aud	-
-obelcor3.aud	cabals obelisk firing
-obelmod1.aud	cabals obelisk firing
-obelpowr.aud	obelisk powering up
-obelray1.aud	obelisk firing laser
-orcadwn1.aud	orca lands
-orcamis1.aud	orca fighter attack
-orcaup1.aud	orca takes off
-pharotek.aud	pharotek
-place2.aud	place a building down
-plsecan2.aud	pulse cannon fires
-radardn1.aud	communication failure
-railuse5.aud	heavy mech railgun
-rainnite.aud	-
-redsky.aud	red sky
-repair11.aud	repair vehicle
-rketinf1.aud	rocket infantry fire
-samshot1.aud	sam site missile
-sandbag1.aud	sandbag being run over
-scold8.aud	cant push button sound
-score.aud	score screen
-scout.aud	scout
-scrin5b.aud	banshee fires
-silencer.aud	sniper gun
-slavesys.aud	-
-slvkgun1.aud	slavik gun
-sonic4.aud	sonic weapon fire
-spiddie1.aud	reaper death
-squish6.aud	guy squish
-squishy2.aud	guy squish
-ssplash1.aud	small water splash
-ssplash2.aud	small water splash
-ssplash3.aud	small water splash
-storm.aud	ion storm
-subdril1.aud	subterrian drill
-text1.aud	-
-text2.aud	-
-text3.aud	-
-timebomb.aud	time bomb
-tsgun4.aud	wolverene gun
-type.aud	-
-valves1b.aud	valves
-vicer1.aud	two viceroids combine
-whatlurk.aud	what lurks
-wipe.aud	-
-wrong1.aud	build queue full
-12metfnt.fnt	-
-6point.fnt	-
-8point.fnt	-
-editfnt.fnt	-
-grad6fnt.fnt	-
-kia6pt.fnt	-
-utnk.hva	-
-misl.hva	-
-mtrt.hva	-
-m113.hva	-
-m113tur.hva	-
-h18tur.hva	-
-hvrbarl.hva	-
-axle.hva	-
-axle.vxl	-
-87v3barl.hva	-
-1tnk.hva	-
-1tnkbarl.hva	-
-1tnktur.hva	-
-2tnk.hva	-
-2tnkbarl.hva	-
-2tnktur.hva	-
-3tnk.hva	-
-3tnkbarl.hva	-
-3tnktur.hva	-
-4tnk.hva	-
-4tnkbarl.hva	-
-4tnktur.hva	-
-apache.hva	-
-apachebarl.hva	-
-apachetur.hva	-
-apc.hva	-
-apcw.hva	-
-art2.hva	-
-art2barl.hva	-
-art2tur.hva	-
-arty.hva	-
-artybarl.hva	-
-bggy.hva	-
-bike.hva	-
-bus.hva	-
-car.hva	-
-cargocar.hva	-
-djuggbar.hva	-
-dpod.hva	-
-dpodbarl.hva	-
-dpodtur.hva	-
-dshp.hva	-
-dshpbarl.hva	-
-dshptur.hva	-
-ftnk.hva	-
-gastank.hva	-
-harv.hva	-
-heli.hva	-
-hind.hva	-
-hmec.hva	-
-horv.hva	-
-hvr.hva	-
-hvrtur.hva	-
-icbm.hva	-
-jeep.hva	-
-jeeptur.hva	-
-laser.hva	-
-lpst.hva	-
-m_emp.hva	-
-mcv.hva	-
-mislchem.hva	-
-mislmlti.hva	-
-mlrs.hva	-
-mlrstur.hva	-
-mmchbarl.hva	-
-mmchtur.hva	-
-mnly.hva	-
-monocar.hva	-
-monoeng.hva	-
-mrj.hva	-
-mrjtur.hva	-
-mtrb.hva	-
-mtrs.hva	-
-mwar_nod.hva	-
-orca.hva	-
-orcab.hva	-
-orcatran.hva	-
-pick.hva	-
-piece.hva	-
-pulscan.hva	-
-repair.hva	-
-sapc.hva	-
-scrin.hva	-
-sgen.hva	-
-sonic.hva	-
-sonicbarl.hva	-
-sonictur.hva	-
-stnk.hva	-
-subtank.hva	-
-tire.hva	-
-tran.hva	-
-trnsport.hva	-
-trucka.hva	-
-truckb.hva	-
-truk.hva	-
-ttnk.hva	-
-ttnkbarl.hva	-
-ttnktur.hva	-
-weed.hva	-
-wini.hva	-
-ai.ini	TS ai settings
-aifs.ini	FS ai settings
-art.ini	TS graphic settings
-artfs.ini	FS graphic settings
-battle.ini	TS campaign settings
-battlefs.ini	FS campaign settings
-day.ini	-
-dusk.ini	-
-firestrm.ini	FS main settings
-ion.ini	-
-keyboard.ini	TS keyboard settings
-mapsel.ini	TS map selection settings
-mapsel01.ini	FS map selection settings
-mission.ini	TS mission briefings
-mission1.ini	FS mission briefings
-morning.ini	-
-newmenu.ini	new menu settings file
-night.ini	-
-rules.ini	TS main settings
-rules1.ini	TS main settings
-rule1.ini	TS main settings
-rule01.ini	TS main settings
-rules01.ini	TS main settings
-snow.ini	TS snow theater settings
-sound.ini	TS sound settings
-sound01.ini	FS sound settings
-temperat.ini	TS temperate theater settings
-theme.ini	TS music theme settings
-theme01.ini	FS music theme settings
-tmcj4f.ini	-
-tutorial.ini	TS ingame strings
-wdtchoice.ini	-
-wdthist.ini	-
-wdtmap.ini	-
-1ice6.map	-
-1lworld7.map	-
-2temp7.map	-
-3tweak10.map	-
-access.map	-
-arivruns.map	-
-caseycan.map	-
-cityscap.map	-
-cliffsin.map	-
-desolar.map	-
-drawbrid.map	-
-duel.map	-
-float.map	-
-forestfr.map	-
-fsgdi01.map	-
-fsgdi02.map	-
-fsgdi03.map	-
-fsgdi04.map	-
-fsgdi05.map	-
-fsgdi06.map	-
-fsgdi07.map	-
-fsgdi08.map	-
-fsgdi09.map	-
-fsnod01.map	-
-fsnod02.map	-
-fsnod03.map	-
-fsnod04.map	-
-fsnod05.map	-
-fsnod06.map	-
-fsnod07.map	-
-fsnod08.map	-
-fsnod09.map	-
-g_canyon.map	-
-g_knoll.map	-
-gdi10a.map	-
-gdi10b.map	-
-gdi11a.map	-
-gdi12a.map	-
-gdi1a.map	-
-gdi2a.map	-
-gdi3a.map	-
-gdi3b.map	-
-gdi4a.map	-
-gdi5a.map	-
-gdi5b.map	-
-gdi5c.map	-
-gdi6a.map	-
-gdi6b.map	-
-gdi7a.map	-
-gdi8a.map	-
-gdi9a.map	-
-gdi9b.map	-
-gdi9c.map	-
-gdi9d.map	-
-hextreme.map	-
-icecliff.map	-
-icemust.map	-
-mutants.map	-
-narrow.map	-
-nod10a.map	-
-nod11a.map	-
-nod12a.map	-
-nod12b.map	-
-nod1a.map	-
-nod2a.map	-
-nod3a.map	-
-nod3b.map	-
-nod4a.map	-
-nod4b.map	-
-nod5a.map	-
-nod6a.map	-
-nod6b.map	-
-nod6c.map	-
-nod7a.map	-
-nod7b.map	-
-nod8a.map	-
-nod9a.map	-
-nod9b.map	-
-pentagrm.map	-
-permfrst.map	-
-pitplats.map	-
-pockets.map	-
-rivrrad4.map	-
-seismic.map	-
-sinkhole.map	-
-springs.map	-
-storms.map	-
-strmyvly.map	-
-sup_bh_r.map	-
-t_garden.map	-
-tactical.map	-
-terrace.map	-
-tiers.map	-
-tread_l.map	-
-tunnel.map	-
-xcapades.map	-
-cache.mix	-
-conquer.mix	-
-e01sc01.mix	-
-e01sc02.mix	-
-e01vox01.mix	-
-e01vox02.mix	-
-ecache01.mix	-
-gmenu.mix	-
-isosnow.mix	-
-isotemp.mix	-
-local.mix	-
-sidec01.mix	-
-sidec02.mix	-
-sidenc01.mix	-
-sidenc02.mix	-
-sno.mix	-
-snow.mix	-
-sounds.mix	-
-sounds01.mix	-
-speech01.mix	-
-speech02.mix	-
-tem.mix	-
-temperat.mix	-
-anim.pal	animations palette
-cameo.pal	icons palette
-dropship.pal	dropship palette
-fullfnt3.pal	-
-gditarget.pal	-
-isosno.pal	snow theater palette
-isotem.pal	temperate theater paltette
-mapsel.pal	map selection screen palette
-mousepal.pal	mouse cursors palette
-msovrly.pal	map selection overlay palette
-nodtarget.pal	-
-palette.pal	-
-sidebar.pal	sidebar palette
-sidefnt3.pal	-
-snow.pal	snow palette
-temperat.pal	temperate palette
-unitsno.pal	snow unit palette
-unittem.pal	temperate unit palette
-waypoint.pal	waypoint palette
-amerclick1.pcx	-
-arrow_dd.pcx	-
-arrow_du.pcx	-
-arrow_ud.pcx	-
-arrow_uu.pcx	-
-b01nc.pcx	-
-b01nc-h.pcx	-
-b02lm.pcx	-
-b02lm-g.pcx	-
-b02lm-h.pcx	-
-b03l.pcx	-
-b03l-h.pcx	-
-b04i.pcx	-
-b04i-h.pcx	-
-b05sm.pcx	-
-b05sm-h.pcx	-
-b06s.pcx	-
-b06s-h.pcx	-
-b07wdt.pcx	-
-b07wdt-h.pcx	-
-b08o.pcx	-
-b08o-h.pcx	-
-b09b.pcx	-
-b09b-h.pcx	-
-b10e.pcx	-
-b10e-h.pcx	-
-b12e.pcx	-
-b12e-h.pcx	-
-bar_ll.pcx	-
-bar_lr.pcx	-
-bar_ul.pcx	-
-bar_ur.pcx	-
-bde_li24.pcx	-
-bde_li30.pcx	-
-bde_mi24.pcx	-
-bde_mi30.pcx	-
-bde_ri24.pcx	-
-bde_ri30.pcx	-
-bits_a.pcx	-
-bits_i.pcx	-
-bud_li24.pcx	-
-bud_li30.pcx	-
-bud_mi24.pcx	-
-bud_mi30.pcx	-
-bud_ri24.pcx	-
-bud_ri30.pcx	-
-bue_li24.pcx	-
-bue_li30.pcx	-
-bue_mi24.pcx	-
-bue_mi30.pcx	-
-bue_ri24.pcx	-
-bue_ri30.pcx	-
-bwdt.pcx	-
-bwdth.pcx	-
-cback.pcx	-
-cback.vqa	-
-ccd_i.pcx	-
-cce_i.pcx	-
-cfirstr.pcx	-
-cfirstrh.pcx	-
-choice1.pcx	-
-ctibsun.pcx	-
-ctibsunh.pcx	-
-cue_i.pcx	-
-cud_i.pcx	-
-dbak6440.pcx	-
-dlgsysa.pcx	-
-dlgsysi.pcx	-
-dnarrowp.pcx	-
-dnarrowr.pcx	-
-euroclick1.pcx	-
-fstback.pcx	-
-fstback.vqa	-
-gdic.pcx	-
-gdich.pcx	-
-gdiclk01.pcx	-
-gdiclk02.pcx	-
-gdiclk03.pcx	-
-gdiclk04.pcx	-
-gdiclk05.pcx	-
-gdii.pcx	-
-gdimap01.pcx	-
-gdimap02.pcx	-
-gdimap03.pcx	-
-gdimap04.pcx	-
-gdimap05.pcx	-
-leftbar.pcx	-
-load400a.pcx	-
-load400b.pcx	-
-load400c.pcx	-
-load400d.pcx	-
-load480a.pcx	-
-load480b.pcx	-
-load480c.pcx	-
-load480d.pcx	-
-load600a.pcx	-
-load600b.pcx	-
-load600c.pcx	-
-load600d.pcx	-
-loading.pcx	-
-mpscore.pcx	-
-nodc.pcx	-
-nodch.pcx	-
-nodclk01.pcx	-
-nodclk02.pcx	-
-nodclk03.pcx	-
-nodclk04.pcx	-
-nodclk05.pcx	-
-nodi.pcx	-
-nodmap01.pcx	-
-nodmap02.pcx	-
-nodmap03.pcx	-
-nodmap04.pcx	-
-nodmap05.pcx	-
-rightbar.pcx	-
-sbgripb.pcx	-
-sbgripm.pcx	-
-sbgript.pcx	-
-score.pcx	-
-tab_fbl.pcx	-
-tab_fbm.pcx	-
-tab_fbr.pcx	-
-tab_fml.pcx	-
-tab_fmr.pcx	-
-tab_ftl.pcx	-
-tab_ftm.pcx	-
-tab_ftr.pcx	-
-tab_tld.pcx	-
-tab_tlu.pcx	-
-tab_tmd.pcx	-
-tab_tmu.pcx	-
-tab_trd.pcx	-
-tab_tru.pcx	-
-tb01nc.pcx	-
-tb01nc-h.pcx	-
-tb02lm.pcx	-
-tb02lm-g.pcx	-
-tb02lm-h.pcx	-
-tb03l.pcx	-
-tb03l-h.pcx	-
-tb04i.pcx	-
-tb04i-h.pcx	-
-tb05sm.pcx	-
-tb05sm-h.pcx	-
-tb06s.pcx	-
-tb06s-h.pcx	-
-tb07o.pcx	-
-tb07o-h.pcx	-
-tb08b.pcx	-
-tb08b-h.pcx	-
-tb09e.pcx	-
-tb09e-h.pcx	-
-tb10isp.pcx	-
-tb10isp-h.pcx	-
-title.pcx	-
-trakgrip.pcx	-
-trofl.pcx	-
-trofm.pcx	-
-trofr.pcx	-
-tstback.pcx	-
-uparrowp.pcx	-
-uparrowr.pcx	-
-wdtfc.pcx	-
-wodact.pcx	-
-wodban.pcx	-
-wodclan.pcx	-
-woddcon.pcx	-
-wodfgame.pcx	-
-wodfind.pcx	-
-wodhelp.pcx	-
-wodkick.pcx	-
-wodleave.pcx	-
-wodopt.pcx	-
-wodref.pcx	-
-wodsqlch.pcx	-
-wodtrny.pcx	-
-wolacpt.pcx	-
-wolclan.pcx	-
-wolhost.pcx	-
-woloper.pcx	-
-wolpriv.pcx	-
-wolsqlch.pcx	-
-woltrny.pcx	-
-woluser.pcx	-
-wolvoice.pcx	-
-wouact.pcx	-
-wouban.pcx	-
-wouclan.pcx	-
-woudcon.pcx	-
-woufgame.pcx	-
-woufind.pcx	-
-wouhelp.pcx	-
-woukick.pcx	-
-wouleave.pcx	-
-wouopt.pcx	-
-wouref.pcx	-
-wousqlch.pcx	-
-woutrny.pcx	-
-missions.pkt	-
-multi01.pkt	-
-120mm.shp	tank shell
 aban01.shp	-
 aban02.shp	-
 aban03.shp	-
@@ -1549,14 +907,82 @@ aban15.shp	-
 aban16.shp	-
 aban17.shp	-
 aban18.shp	-
+access.ini	
+access.map	-
 addon.shp	-
+ai.ini	TS ai settings
+aifs.ini	FS ai settings
+alphatst.shp	-
+amerclick1.pcx	-
 ammo01.shp	-
+anim.pal	animations palette
+apache.hva	-
+apache.vxl	harpy
+apachebarl.hva	-
+apachetur.hva	-
+apc.hva	-
+apc.vxl	amphibious apc
 apchicon.shp	icon: harpy
 apcicon.shp	icon: amphibious apc
+apcw.hva	-
+apcw.vxl	amphibious apc in water
+approach.aud	approach
 apwricon.shp	icon: advanced power plant
+arivruns.ini	
+arivruns.map	-
 armor.shp	crate: armor upgrade
+arrow.shp	-
+arrow_dd.pcx	-
+arrow_du.pcx	-
+arrow_ud.pcx	-
+arrow_uu.pcx	-
+art.ini	TS graphic settings
+art2.hva	-
+art2.vxl	deployable artillery
+art2barl.hva	-
+art2barl.vxl	deployable artillery barrel
+art2tur.hva	-
+art2tur.vxl	deployable artillery turret
+artfs.ini	FS graphic settings
+arty.hva	-
+arty.vxl	artillery
+artybarl.hva	-
+artybarl.vxl	artillery
 artyicon.shp	icon: artillery
+axle.hva	-
+axle.vxl	-
+b01nc-h.pcx	-
+b01nc.pcx	-
+b02lm-g.pcx	-
+b02lm-h.pcx	-
+b02lm.pcx	-
+b03l-h.pcx	-
+b03l.pcx	-
+b04i-h.pcx	-
+b04i.pcx	-
+b05sm-h.pcx	-
+b05sm.pcx	-
+b06s-h.pcx	-
+b06s.pcx	-
+b07wdt-h.pcx	-
+b07wdt.pcx	-
+b08o-h.pcx	-
+b08o.pcx	-
+b09b-h.pcx	-
+b09b.pcx	-
+b10e-h.pcx	-
+b10e.pcx	-
+b12e-h.pcx	-
+b12e.pcx	-
+bar_ll.pcx	-
+bar_lr.pcx	-
+bar_ul.pcx	-
+bar_ur.pcx	-
+barb.shp	-
+bargraph.aud	-
 batricon.shp	icon: battery
+battle.ini	TS campaign settings
+battlefs.ini	FS campaign settings
 bboard01.shp	-
 bboard02.shp	-
 bboard03.shp	-
@@ -1573,1173 +999,31 @@ bboard13.shp	-
 bboard14.shp	-
 bboard15.shp	-
 bboard16.shp	-
+bde_li24.pcx	-
+bde_li30.pcx	-
+bde_mi24.pcx	-
+bde_mi30.pcx	-
+bde_ri24.pcx	-
+bde_ri30.pcx	-
+beachead.vqa	-
 beacon.shp	beacon
 best01.shp	-
 best02.shp	-
+bestbox.aud	-
+bggy.hva	-
+bggy.vxl	attack buggy
 bggyicon.shp	icon: attack buggy
-bigfont.shp	-
-brrkicon.shp	icon: gdi barracks
-btn-mins.shp	-
-btn-plus.shp	-
-buildngz.shp	-
-burn-l.shp	large fire (on tree)
-burn-m.shp	medium fire (on tree)
-burn-s.shp	small fire (on tree)
-c_kodiak.shp	-
-c_shadow.shp	-
-ca0001.shp	-
-ca0002.shp	-
-ca0003.shp	-
-ca0004.shp	-
-ca0005.shp	-
-ca0006.shp	-
-ca0007.shp	-
-ca0008.shp	-
-ca0009.shp	-
-ca0010.shp	-
-ca0011.shp	-
-ca0012.shp	-
-ca0013.shp	-
-ca0014.shp	-
-ca0015.shp	-
-ca0016.shp	-
-ca0017.shp	-
-ca0018.shp	-
-ca0019.shp	-
-ca0020.shp	-
-ca0021.shp	-
-ct0001.shp	-
-ct0002.shp	-
-ct0003.shp	-
-ct0004.shp	-
-ct0005.shp	-
-ct0006.shp	-
-ct0007.shp	-
-ct0008.shp	-
-ct0009.shp	-
-ct0010.shp	-
-ct0011.shp	-
-ct0012.shp	-
-ct0013.shp	-
-ct0014.shp	-
-ct0015.shp	-
-ct0016.shp	-
-ct0017.shp	-
-ct0018.shp	-
-ct0019.shp	-
-ct0020.shp	-
-ct0021.shp	-
-caaray.shp	-
-caaray_a.shp	-
-caaray_b.shp	-
-caaray_c.shp	-
-caaray_d.shp	-
-ctaray.shp	-
-ctaray_a.shp	-
-ctaray_b.shp	-
-ctaray_c.shp	-
-ctaray_d.shp	-
-caarmr.shp	-
-caarmr_a.shp	-
-ctarmr.shp	-
-ctarmr_a.shp	-
-cabhut.shp	-
-ctbhut.shp	-
-cacrsh01.shp	-
-cacrsh02.shp	-
-cacrsh03.shp	-
-cacrsh04.shp	-
-cacrsh05.shp	-
-ctcrsh01.shp	-
-ctcrsh02.shp	-
-ctcrsh03.shp	-
-ctcrsh04.shp	-
-ctcrsh05.shp	-
-cahosp.shp	-
-cahosp_a.shp	-
-cthosp.shp	-
-cthosp_a.shp	-
-canister.shp	rpg projectile
-capyr01.shp	-
-capyr02.shp	-
-capyr03.shp	-
-ctpyr01.shp	-
-ctpyr02.shp	-
-ctpyr03.shp	-
-casu01.shp	-
-casu02.shp	-
-chamicon.shp	icon: mutant hijacker
-chemicon.shp	icon: chemical missile
-chemisle.shp	crate: chemical missile
-city01.shp	-
-city02.shp	-
-city03.shp	-
-city04.shp	-
-city05.shp	-
-city06.shp	-
-city07.shp	-
-city08.shp	-
-city09.shp	-
-city10.shp	-
-city11.shp	-
-city12.shp	-
-city13.shp	-
-city14.shp	-
-city15.shp	-
-city16.shp	-
-city17.shp	-
-city18.shp	-
-city19.shp	-
-city20.shp	-
-city21.shp	-
-city22.shp	-
-civ1.shp	unit: civilian
-ctech.shp	-
-civ2.shp	unit: civilian
-civ3.shp	unit: civilian
-clckicon.shp	icon: stealth generator
-cldrngl1.shp	-
-cldrngl2.shp	-
-cldrngmd.shp	-
-cldrngsm.shp	-
-cloak.shp	crate: stealth
-cloud1.shp	poison gas cloud (large)
-cloud1d.shp	poison gas cloud disappearing
-cloud2.shp	poison gas cloud (small)
-cloud2d.shp	poison gas cloud desappearing
-compass.shp	-
-core.shp	-
-core_a.shp	-
-core_b.shp	-
-core_c.shp	-
-coremk.shp	-
-crryicon.shp	icon: orca transport
-ctdam.shp	-
-ctdam_a.shp	-
-ctdam_b.shp	-
-ctvega.shp	-
-cadam.shp	-
-cadam_a.shp	-
-cadam_b.shp	-
-cavega.shp	-
-curr01.shp	-
-cybcicon.shp	icon: cyborg commando
-cybiicon.shp	icon: cyborg
-cyborg.shp	-
-cyc2.shp	unit: cyborg commando
-cyclicon.shp	icon: attack cycle
-darken.shp	-
-dbris10lg.shp	-
-dbris10sm.shp	-
-dbris1lg.shp	-
-dbris1sm.shp	-
-dbris2lg.shp	-
-dbris2sm.shp	-
-dbris3lg.shp	-
-dbris3sm.shp	-
-dbris4lg.shp	-
-dbris4sm.shp	-
-dbris5lg.shp	-
-dbris5sm.shp	-
-dbris6lg.shp	-
-dbris6sm.shp	-
-dbris7lg.shp	-
-dbris7sm.shp	-
-dbris8lg.shp	-
-dbris8sm.shp	-
-dbris9lg.shp	-
-dbris9sm.shp	-
-death_a.shp	-
-death_b.shp	-
-death_c.shp	-
-death_d.shp	-
-death_e.shp	-
-death_f.shp	-
-defd.shp	-
-defd_exp.shp	-
-defdmk.shp	-
-defender.shp	-
-detnicon.shp	icon: hunter-seeker
-dgreen1.shp	-
-dgreen2.shp	-
-dgreen3.shp	-
-dgreen4.shp	-
-dig.shp	digging animation
-dirtexpl.shp	dirt explosion
-discus.shp	disk thrower's disk
-djugg.shp	-
-djugg_a.shp	-
-djuggmk.shp	-
-dlimp_a.shp	-
-dlimpet.shp	-
-dlimpmk.shp	-
-doggie.shp	-
-dragon.shp	missile image
-drop0001.shp	-
-drop0002.shp	-
-drop0003.shp	-
-dropdown.shp	-
-dropexp.shp	-
-droppod.shp	unit: droppod (dropping from right)
-droppod2.shp	unit: droppod (dropping from left)
-droppody.shp	-
-droppody2.shp	-
-dropup.shp	-
-e1.shp	unit: light infantry
-e1icon.shp	icon: light infantry
-e2.shp	unit: disk thrower
-e2icon.shp	icon: disk thrower
-e3.shp	-
-e4.shp	unit: rocket infantry
-e4icon.shp	icon: rocket infantry
-e5.shp	-
-efic01.shp	-
-elcad.shp	-
-electro.shp	infantry being electricuted
-emp_fx01.shp	emp effect displayed on units
-empicon.shp	-
-engineer.shp	unit: engineer
-engnicon.shp	-
-explomed.shp	medium explosion
-explosml.shp	small explosion
-facticon.shp	icon: construction yard
-fire1.shp	large fire (on ground)
-fire2.shp	medium fire (on ground)
-fire3.shp	small fire (on ground)
-fire4.shp	tiny fire (on ground)
-firepowr.shp	crate: firepower upgrade
-fixicon.shp	-
-flagfly.shp	-
-flameall.shp	devil's tongue flame stream
-flameguy.shp	infantry caught on fire
-floater.shp	-
-fog.shp	-
-fsair.shp	firestorm animation (with aerial proj/units)
-fsdicon.shp	icon: firestrom generator
-fsgrnd.shp	firestorm animation (with ground proj/units)
-fsidle.shp	firestorm animation (blue idle anim)
-fspicon.shp	icon: firestorm wall section
-fstdicon.shp	icon: firestorm defence
-fullfnt3.shp	-
-gaarty.shp	-
-gaartymk.shp	-
-gacnst.shp	-
-gacnst_a.shp	-
-gacnst_b.shp	-
-gacnst_c.shp	-
-gacnst_d.shp	-
-gacnstmk.shp	-
-gactwr.shp	-
-gactwr_a.shp	-
-gactwr_b.shp	-
-gactwr_c.shp	-
-gactwr_d.shp	-
-gactwrmk.shp	-
-gadept.shp	-
-gadept_a.shp	-
-gadept_b.shp	-
-gadept_c.shp	-
-gadept_d.shp	-
-gadeptbb.shp	-
-gadeptmk.shp	-
-gadpsa.shp	-
-gadpsa_a.shp	-
-gadpsamk.shp	-
-gadrop.shp	-
-gadrop_a.shp	-
-gadrop_b.shp	-
-gadropmk.shp	-
-gafdsf.shp	-
-gafire.shp	-
-gafire_a.shp	-
-gafire_b.shp	-
-gafire_c.shp	-
-gafiremk.shp	-
-gafsdf.shp	-
-gafsdf_a.shp	-
-gagate_a.shp	-
-gagate_b.shp	-
-gagateza.shp	-
-gagatezb.shp	-
-gagreen.shp	-
-gahpad.shp	-
-gahpad_a.shp	-
-gahpadbb.shp	-
-gahpadmk.shp	-
-gaicbm.shp	-
-gaicbm_a.shp	-
-gaicbmmk.shp	-
-gakodk.shp	-
-gakodk_a.shp	-
-gakodk_b.shp	-
-gakodk_c.shp	-
-galite.shp	-
-gaoldcc1.shp	Ruined Old C&C Construction Yard
-gaoldcc2.shp	Ruined Old C&C Temple
-gaoldcc3.shp	Ruined Old C&C Weapons Factory
-gaoldcc4.shp	Ruined Old C&C Refinery
-gaoldcc5.shp	Ruined Old C&C Advanced Power
-gaoldcc6.shp	Ruined Old C&C Silos
-gapave.shp	-
-gap.shp	-
-gapmake.shp	-
-gap.sno	-
-gapmake.sno	-
-gaplug.shp	-
-gaplug_a.shp	-
-gaplug_b.shp	-
-gaplug_c.shp	-
-gaplug_d.shp	-
-gaplug_e.shp	-
-gaplug_f.shp	-
-gaplugmk.shp	-
-gapowr.shp	-
-gapowr_a.shp	-
-gapowr_b.shp	-
-gapowrmk.shp	-
-gapile.shp	-
-gapile_a.shp	-
-gapile_b.shp	-
-gapile_c.shp	-
-gapilemk.shp	-
-garadr.shp	-
-garadr_a.shp	-
-garadrmk.shp	-
-gasand.shp	-
-gasilo.shp	-
-gasilo_a.shp	-
-gasilo_b.shp	-
-gasilomk.shp	-
-gaslrgmk.shp	veinhole creating gas animation
-gaspot.shp	-
-gaspot_a.shp	-
-gaspotmk.shp	-
-gat2icon.shp	icon: gdi gate
-gatech.shp	-
-gatech_a.shp	-
-gatechmk.shp	-
-gateicon.shp	icon: gdi gate
-gatick.shp	-
-gatickmk.shp	-
-gawall.shp	-
-gaweap.shp	-
-gaweap_1.shp	-
-gaweap_2.shp	-
-gaweap_a.shp	-
-gaweap_b.shp	-
-gaweap_c.shp	-
-gaweap_d.shp	-
-gaweapbb.shp	-
-gaweapmk.shp	-
-gtarty.shp	-
-gtartymk.shp	-
-gtcnst.shp	-
-gtcnst_a.shp	-
-gtcnst_b.shp	-
-gtcnst_c.shp	-
-gtcnst_d.shp	-
-gtcnstmk.shp	-
-gtctwr.shp	-
-gtctwr_a.shp	-
-gtctwr_b.shp	-
-gtctwr_c.shp	-
-gtctwr_d.shp	-
-gtctwrmk.shp	-
-gtdept.shp	-
-gtdept_a.shp	-
-gtdept_b.shp	-
-gtdept_c.shp	-
-gtdept_d.shp	-
-gtdeptbb.shp	-
-gtdeptmk.shp	-
-gtdpsa.shp	-
-gtdpsa_a.shp	-
-gtdpsamk.shp	-
-gtdrop.shp	-
-gtdrop_a.shp	-
-gtdrop_b.shp	-
-gtdropmk.shp	-
-gtfsdf.shp	-
-gtfsdf_a.shp	-
-gtfire.shp	-
-gtfire_a.shp	-
-gtfire_b.shp	-
-gtfire_c.shp	-
-gtfiremk.shp	-
-gtgate_a.shp	-
-gtgate_b.shp	-
-gtgateza.shp	-
-gtgatezb.shp	-
-gtgreen.shp	-
-gthpad.shp	-
-gthpad_a.shp	-
-gthpadbb.shp	-
-gthpadmk.shp	-
-gticbm.shp	-
-gticbm_a.shp	-
-gticbmmk.shp	-
-gtkodk.shp	-
-gtkodk_a.shp	-
-gtkodk_b.shp	-
-gtkodk_c.shp	-
-gtlite.shp	-
-gtoldcc1.shp	Ruined Old C&C Construction Yard
-gtoldcc2.shp	Ruined Old C&C Temple
-gtoldcc3.shp	Ruined Old C&C Weapons Factory
-gtoldcc4.shp	Ruined Old C&C Refinery
-gtoldcc5.shp	Ruined Old C&C Advanced Power
-gtoldcc6.shp	Ruined Old C&C Silos
-gtpave.shp	-
-gtplug.shp	-
-gtplug_a.shp	-
-gtplug_b.shp	-
-gtplug_c.shp	-
-gtplug_d.shp	-
-gtplug_e.shp	-
-gtplug_f.shp	-
-gtplugmk.shp	-
-gtpowr.shp	-
-gtpowr_a.shp	-
-gtpowr_b.shp	-
-gtpowrmk.shp	-
-gtpile.shp	-
-gtpile_a.shp	-
-gtpile_b.shp	-
-gtpile_c.shp	-
-gtpilemk.shp	-
-gtradr.shp	-
-gtradr_a.shp	-
-gtradrmk.shp	-
-gtsand.shp	-
-gtsilo.shp	-
-gtsilo_a.shp	-
-gtsilo_b.shp	-
-gtsilomk.shp	-
-gtslrgmk.shp	-
-gtspot.shp	-
-gtspot_a.shp	-
-gtspotmk.shp	-
-gtt2icon.shp	-
-gttech.shp	-
-gttech_a.shp	-
-gttechmk.shp	-
-gtteicon.shp	-
-gttick.shp	-
-gttickmk.shp	-
-gtwall.shp	-
-gtweap.shp	-
-gtweap_1.shp	-
-gtweap_2.shp	-
-gtweap_a.shp	-
-gtweap_b.shp	-
-gtweap_c.shp	-
-gtweap_d.shp	-
-gtweapbb.shp	-
-gtweapmk.shp	-
-gbayicon.shp	icon: dropship bay
-gclock2.shp	-
-gditarget2.shp	-
-gghunt.shp	unit: hunter seeker
-ghost.shp	unit: ghost stalker
-globe.shp	-
-gosticon.shp	icon: ghost stalker
-gunfire.shp	-
-h2o_exp1.shp	-
-h2o_exp2.shp	-
-h2o_exp3.shp	-
-handicon.shp	icon: hand of nod
-harvestr.shp	-
-harvicon.shp	-
-healone.shp	crate: heal unit
-healall.shp	crate: heal everything
-heliicon.shp	icon: gdi helipad
-hmecicon.shp	icon: mammoth mk 2
-hovricon.shp	icon: hover mlrs
-infdie.shp	-
-inviso.shp	-
-ionbeam.shp	ion cannon beam
-ioncicon.shp	icon: ion cannon
-jjeticon.shp	icon: jumpjet infantry
-jugger.shp	-
-juggicon.shp	-
-jumpjet.shp	unit: jumpjet infantry
-k_light1.shp	-
-k_light2.shp	-
-lasricon.shp	icon: laser fence post
-lgrysmk1.shp	-
-limped.shp	-
-limpicon.shp	-
-liteicon.shp	icon: light
-loadout.shp	-
-logo01.shp	-
-lpsticon.shp	-
-lrotor.shp	-
-matt.shp	-
-mcvicon.shp	-
-medic.shp	unit: medic
-mediicon.shp	icon: medic
-mempfx.shp	-
-mempicon.shp	-
-metdebri.shp	-
-metlarge.shp	large meteor
-metltral.shp	-
-metricon.shp	icon: meteor shower
-metsmall.shp	small meteor
-metstral.shp	-
-mgun-e.shp	machine gun fire (east)
-mgun-n.shp	machine gun fire (north)
-mgun-ne.shp	machine gun fire (northeast)
-mgun-nw.shp	machine gun fire (northwest)
-mgun-s.shp	machine gun fire (south)
-mgun-se.shp	machine gun fire (southeast)
-mgun-sw.shp	machine gun fire (southwest)
-mgun-w.shp	machine gun fire (west)
-mhijack.shp	unit: mutant hijacker
-mltiicon.shp	icon: multi-missile
-mltimisl.shp	multi-missile projectile
-mmch.shp	unit: titan
-mmchicon.shp	icon: titan
-money.shp	crate: money
-mouse.shp	mouse cursors
-msslicon.shp	icon: missile silo
-mstl.shp	-
-mstl_a.shp	-
-mstlicon.shp	-
-mstlmk.shp	-
-mutant.shp	unit: mutant
-mutant2.shp	-
-mutant3.shp	unit: mutant sergent
-mutcicon.shp	icon: umagon, tratos, ghost stalker (group photo)
-mwar.shp	-
-mwar_1.shp	-
-mwar_2.shp	-
-mwar_a.shp	-
-mwar_b.shp	-
-mwar_c.shp	-
-mwar_d.shp	-
-mwarbb.shp	-
-mwaricon.shp	-
-mwarmk.shp	-
-mwmn.shp	unit: mutant soldier/woman
-naapwr.shp	-
-naapwr_a.shp	-
-naapwrmk.shp	-
-nafnce.shp	-
-nagate_a.shp	-
-nagate_b.shp	-
-nagateza.shp	-
-nagatezb.shp	-
-nahand.shp	-
-nahand_a.shp	-
-nahand_b.shp	-
-nahandmk.shp	-
-nahpad.shp	-
-nahpad_a.shp	-
-nahpadbb.shp	-
-nahpadmk.shp	-
-nalasr.shp	-
-nalasrmk.shp	-
-namisl.shp	-
-namisl_a.shp	-
-namisl_b.shp	-
-namislmk.shp	-
-namntk.shp	-
-namtnk_a.shp	-
-naobel.shp	-
-naobel_a.shp	-
-naobel_b.shp	-
-naobelmk.shp	-
-napost.shp	-
-napost_a.shp	-
-napost_b.shp	-
-napost_d.shp	-
-napostmk.shp	-
-napowr.shp	-
-napowr_a.shp	-
-napowrmk.shp	-
-napuls.shp	-
-napuls_a.shp	-
-napulsmk.shp	-
-naradr.shp	-
-naradr_a.shp	-
-naradrmk.shp	-
-narefn.shp	-
-narefn_a.shp	-
-narefn_ar.shp	-
-narefn_b.shp	-
-narefn_C.shp	-
-narefnbb.shp	-
-narefnmk.shp	-
-nasam.shp	-
-nasammk.shp	-
-nastlh.shp	-
-nastlh_a.shp	-
-nastlhmk.shp	-
-natech.shp	-
-natech_a.shp	-
-natechmk.shp	-
-natmpl.shp	-
-natmpl_a.shp	-
-natmplmk.shp	-
-nawall.shp	-
-nawast.shp	-
-nawast_a.shp	-
-nawast_b.shp	-
-nawastbb.shp	-
-nawastmk.shp	-
-naweap.shp	-
-naweap_1.shp	-
-naweap_2.shp	-
-naweap_a.shp	-
-naweap_b.shp	-
-naweapbb.shp	-
-naweapmk.shp	-
-ntapwr.shp	-
-ntapwr_a.shp	-
-ntapwrmk.shp	-
-ntfnce.shp	-
-ntgate_a.shp	-
-ntgate_b.shp	-
-ntgateza.shp	-
-ntgatezb.shp	-
-nthand.shp	-
-nthand_a.shp	-
-nthand_b.shp	-
-nthandmk.shp	-
-nthpad.shp	-
-nthpad_a.shp	-
-nthpadbb.shp	-
-nthpadmk.shp	-
-ntlasr.shp	-
-ntlasrmk.shp	-
-ntmisl.shp	-
-ntmisl_a.shp	-
-ntmisl_b.shp	-
-ntmislmk.shp	-
-ntmntk.shp	-
-ntmtnk_a.shp	-
-ntobel.shp	-
-ntobel_a.shp	-
-ntobel_b.shp	-
-ntobelmk.shp	-
-ntpost.shp	-
-ntpost_a.shp	-
-ntpost_b.shp	-
-ntpost_d.shp	-
-ntpostmk.shp	-
-ntpowr.shp	-
-ntpowr_a.shp	-
-ntpowrmk.shp	-
-ntpuls.shp	-
-ntpuls_a.shp	-
-ntpulsmk.shp	-
-ntradr.shp	-
-ntradr_a.shp	-
-ntradrmk.shp	-
-ntrefn.shp	-
-ntrefn_a.shp	-
-ntrefn_ar.shp	-
-ntrefn_b.shp	-
-ntrefn_C.shp	-
-ntrefnbb.shp	-
-ntrefnmk.shp	-
-ntsam.shp	-
-ntsammk.shp	-
-ntstlh.shp	-
-ntstlh_a.shp	-
-ntstlhmk.shp	-
-nttech.shp	-
-nttech_a.shp	-
-nttechmk.shp	-
-nttmpl.shp	-
-nttmpl_a.shp	-
-nttmplmk.shp	-
-ntwall.shp	-
-ntwast.shp	-
-ntwast_a.shp	-
-ntwast_b.shp	-
-ntwastbb.shp	-
-ntwastmk.shp	-
-ntweap.shp	-
-ntweap_1.shp	-
-ntweap_2.shp	-
-ntweap_a.shp	-
-ntweap_b.shp	-
-ntweapbb.shp	-
-ntweapmk.shp	-
-nga2icon.shp	icon: nod gate
-ngaticon.shp	icon: nod gate
-nhpdicon.shp	icon: nod helipad
-nodtarget2.shp	-
-npwricon.shp	icon: nod power plant
-nradicon.shp	icon: nod radar
-ntchicon.shp	icon: nod tech center
-ntpyra.shp	-
-ntpyra_a.shp	-
-napyra.shp	-
-napyra_a.shp	-
-nwalicon.shp	icon: nod wall
-nwepicon.shp	icon: nod war factory
-obl1.shp	-
-obl1_a.shp	-
-obl1_b.shp	-
-obl1_c.shp	-
-obl2.shp	-
-obl2_a.shp	-
-obl2_b.shp	-
-obl2_c.shp	-
-obliicon.shp	icon: obliesk of light
-obmbicon.shp	icon: orca bomber
-orcaicon.shp	icon: orca fighter
-otrnicon.shp	icon: carryall
-oxanna.shp	unit: oxanna
-parabomb.shp	parabombs
-parach.shp	-
-paveicon.shp	icon: pavement
-piff.shp	single bullet hits ground (hollow point)
-piffpiff.shp	multiple bullets hit ground (small arms fire)
-pilotlit.shp	-
-pips.shp	signs that appear at bottom of a unit
-pips2.shp	more pips
-place.shp	-
-plticon.shp	icon: laser turret
-plugicon.shp	-
-pod.shp	unit: droppod
-podring.shp	droppod landing ring
-podsicon.shp	-
-power.shp	-
-poweroff.shp	-
-powerp.shp	-
-powricon.shp	icon: gdi power plant
-progbar.shp	-
-progbar2.shp	-
-progbarm.shp	-
-proicon.shp	icon: banshee
-pulsball.shp	emp ball
-pulsefx1.shp	emp hits
-pulsefx2.shp	emp hits
-pulsicon.shp	icon: em pulse
-rad1icon.shp	icon: threat rating node
-rad2icon.shp	icon: seeker control
-rad3icon.shp	icon: ion cannon uplink
-radar.shp	-
-radricon.shp	icon: gdi radar
-rboticon.shp	icon: mobile repair vehicle
-rclock2.shp	-
-r-dn.shp	-
-reaper.shp	-
-reapicon.shp	-
-reficon.shp	-
-repair.shp	-
-reveal.shp	crate: reveal whole map
-rg02a.shp	-
-rg03a.shp	-
-rg03ab.shp	-
-rg04a1.shp	-
-rg04a2.shp	-
-rg05ab2.shp	-
-rg05b2.shp	-
-rg06ab3.shp	-
-rg06ab4.shp	-
-rg06b4.shp	-
-rg07a.shp	-
-rg08a.shp	-
-rg09abd.shp	-
-rg09bd.shp	-
-rg10ab1.shp	-
-rg11a1.shp	-
-rg12a1.shp	-
-ring.shp	-
-ring1.shp	ion cannon blast ring
-rn02a.shp	-
-rn03a.shp	-
-rn03ab.shp	-
-rn04a1.shp	-
-rn04a2.shp	-
-rn05ab2.shp	-
-rn05b2.shp	-
-rn06ab3.shp	-
-rn06ab4.shp	-
-rn06b4.shp	-
-rn07a.shp	-
-rn08a.shp	-
-rn09abd.shp	-
-rn09bd.shp	-
-rn10ab1.shp	-
-rn11a1.shp	-
-rn12a1.shp	-
-rrotor.shp	-
-r-up.shp	-
-s_bang16.shp	small explosion (bang/pop type)
-s_bang24.shp	medium explosion (bang/pop type)
-s_bang34.shp	large explosion (bang/pop type)
-s_bang38.shp	-
-s_brnl20.shp	small explosion (burning type)
-s_brnl30.shp	medium explosion (burning type)
-s_brnl40.shp	large explosion (burning type)
-s_brnl58.shp	x-large explosion (burning type)
-s_clsn16.shp	tiny explosion (cannon/missile impact)
-s_clsn22.shp	small explosion (cannon/missile impact)
-s_clsn30.shp	medium explosion (cannon/missile impact)
-s_clsn42.shp	large explosion (cannon/missile impact)
-s_clsn58.shp	x-large explosion (cannon/missile impact)
-s_tumu22.shp	small explosion (vehicle blows up)
-s_tumu30.shp	medium explosion (vehicle blows up)
-s_tumu42.shp	large explosion (vehicle blows up)
-s_tumu60.shp	x-large explosion (vehicle blows up)
-sam-e.shp	-
-samicon.shp	icon: nod sam
-sam-n.shp	-
-sam-ne.shp	-
-sam-nw.shp	-
-sam-s.shp	-
-sam-se.shp	-
-sam-sw.shp	-
-sam-w.shp	-
-sapcicon.shp	icon: subterrainean apc
-sbagicon.shp	
-seekicon.shp	icon: hunter seeker
-select.shp	select unit mouse cursor
-sell.shp	-
-sgrysmk1.shp	-
-sgrysmk1.shp	-
-shadow.shp	-
-shroud.shp	-
-shroudx.shp	crate: shroud whole map
-side1.shp	-
-side2.shp	-
-side3.shp	-
-sidegdi1.shp	-
-sidegdi2.shp	-
-sidegdi3.shp	-
-siloicon.shp	-
-slav.shp	unit: slavick
-smchicon.shp	icon: wolverine
-smech.shp	unit: wolverine
-smlogo.shp	-
-smokey.shp	-
-smokey2.shp	-
-smokland.shp	-
-soniicon.shp	icon: disruptor
-spoticon.shp	icon: spotlight tower
-static.shp	-
-steampuf.shp	-
-stnkicon.shp	icon: stealth tank
-subticon.shp	icon: devil's tongue flame tank
-tabs.shp	-
-talkbubl.shp	-
-target1.shp	-
-target2.shp	-
-techicon.shp	icon: gdi tech center
-tg02a.shp	-
-tg03a.shp	-
-tg03ab.shp	-
-tg04a2.shp	-
-tg04ab1.shp	-
-tg04ab2.shp	-
-tg05a.shp	-
-tg06a1.shp	-
-tg06a2.shp	-
-tg06bc.shp	-
-tg07a1.shp	-
-tg07ab1.shp	-
-tg08a.shp	-
-tg09ab.shp	-
-tg10a1.shp	-
-tg10a2.shp	-
-tg11a2.shp	-
-tg12a2.shp	-
-tg12ab2.shp	-
-tickicon.shp	icon: tick tank
-time01.shp	-
-tmplicon.shp	icon: temple of nod
-tn02a.shp	-
-tn03a.shp	-
-tn03ab.shp	-
-tn04a2.shp	-
-tn04ab1.shp	-
-tn04ab2.shp	-
-tn05a.shp	-
-tn05a.shp	-
-tn06a1.shp	-
-tn06a2.shp	-
-tn06bc.shp	-
-tn07a1.shp	-
-tn07ab1.shp	-
-tn08a.shp	-
-tn08a.shp	-
-tn09ab.shp	-
-tn10a1.shp	-
-tn10a2.shp	-
-tn11a2.shp	-
-tn12a2.shp	-
-tn12ab2.shp	-
-towricon.shp	icon: component tower
-tratos.shp	unit: tratos
-treesprd.shp	blossom tree spreading spores
-torpedo.shp	proton torpedo
-turbicon.shp	icon: power turbine
-twinkle1.shp	-
-twinkle2.shp	-
-twinkle3.shp	-
-twlt026.shp	small explosion (white)
-twlt036.shp	medium explosion (white)
-twlt050.shp	large explosion (white)
-twlt070.shp	x-large explosion (white)
-twlt070t.shp	-
-twlt100.shp	biggest explosion in the game
-twlt100i.shp	-
-twr1icon.shp	icon: vulcan cannon add-on
-twr2icon.shp	icon: rpg add-on
-twr3icon.shp	icon: sam add-on
-umagicon.shp	icon: umagon
-umagon.shp	unit: umagon
-veteran.shp	crate: veteran upgrade
-visc_lrg.shp	-
-visc_sml.shp	-
-vislrg.shp	unit: adult visroid
-vislgatk.shp	adult visroid attack animation
-vissml.shp	unit: baby visroid
-wallicon.shp	icon: concrete wall
-wasticon.shp	icon: tiberium waste facility
-wayp.shp	-
-weapicon.shp	icon: gdi war factory
-weaticon.shp	icon: ?
-webguy.shp	-
-weed.shp	unit: ?
-weedicon.shp	icon: weed eater
-wrench.shp	-
-xgrymed1.shp	medium explosion (high explosives)
-xgrymed2.shp	medium explosion (high explosives)
-xgrysml1.shp	small explosion (high explosives)
-xgrysml2.shp	small explosion (high explosives)
-xplolrg.shp	-
-xxicon.shp	icon: blank
+bigblue.sno	-
 bigblue.tem	-
 bigblue3.tem	-
+bigfont.shp	-
+bigggun1.aud	railgun
+bike.hva	-
+bike.vxl	attack cycle
+bits_a.pcx	-
+bits_i.pcx	-
+blank01.sno	-
 blank01.tem	-
-bld01.tem	-
-bld02.tem	-
-bld03.tem	-
-bridge.tem	-
-burnt01.tem	-
-burnt02.tem	-
-burnt03.tem	-
-burnt04.tem	-
-burnt05.tem	-
-burnt06.tem	-
-burnt07.tem	-
-burnt08.tem	-
-burnt09.tem	-
-burnt10.tem	-
-burnt11.tem	-
-burnt12.tem	-
-civ01.tem	-
-civ02.tem	-
-civ03.tem	-
-civ04.tem	-
-civ05.tem	-
-civ06.tem	-
-civ07.tem	-
-civ08.tem	-
-clat01.tem	-
-clat01a.tem	-
-clat02.tem	-
-clat02a.tem	-
-clat03.tem	-
-clat03a.tem	-
-clat04.tem	-
-clat04a.tem	-
-clat05.tem	-
-clat05a.tem	-
-clat06.tem	-
-clat06a.tem	-
-clat07.tem	-
-clat07a.tem	-
-clat08.tem	-
-clat08a.tem	-
-clat09.tem	-
-clat09a.tem	-
-clat10.tem	-
-clat10a.tem	-
-clat11.tem	-
-clat11a.tem	-
-clat12.tem	-
-clat12a.tem	-
-clat13.tem	-
-clat13a.tem	-
-clat14.tem	-
-clat14a.tem	-
-clat15.tem	-
-clat15a.tem	-
-clat16.tem	-
-clat16a.tem	-
-clear01.tem	-
-clear01a.tem	-
-clear01b.tem	-
-clear01c.tem	-
-clear01d.tem	-
-clear01e.tem	-
-clear01f.tem	-
-clear01g.tem	-
-clif01.tem	-
-clif02.tem	-
-cliff01.tem	-
-cliff02.tem	-
-cliff03.tem	-
-cliff04.tem	-
-cliff05.tem	-
-cliff06.tem	-
-cliff07.tem	-
-cliff08.tem	-
-cliff09.tem	-
-cliff10.tem	-
-cliff11.tem	-
-cliff12.tem	-
-cliff13.tem	-
-cliff14.tem	-
-cliff15.tem	-
-cliff16.tem	-
-cliff17.tem	-
-cliff18.tem	-
-cliff19.tem	-
-cliff20.tem	-
-cliff21.tem	-
-cliff22.tem	-
-cliff23.tem	-
-cliff24.tem	-
-cliff25.tem	-
-cliff26.tem	-
-cliff27.tem	-
-cliff28.tem	-
-cliff29.tem	-
-cliff30.tem	-
-cliff31.tem	-
-cliff32.tem	-
-cliff32a.tem	-
-cliff33.tem	-
-cliff33a.tem	-
-cliff34.tem	-
-cliff34a.tem	-
-cliff35.tem	-
-cliff36.tem	-
-cliff37.tem	-
-cliff38.tem	-
-cliff39.tem	-
-cliff40.tem	-
-crate.tem	-
-crater01.tem	-
-crater02.tem	-
-crater03.tem	-
-crater04.tem	-
-crater05.tem	-
-crater06.tem	-
-crater07.tem	-
-crater08.tem	-
-crater09.tem	-
-crater10.tem	-
-crater11.tem	-
-crater12.tem	-
-crystal1.tem	-
-crystal2.tem	-
-crystal3.tem	-
-crystal4.tem	-
-crys01.tem	-
-crys01a.tem	-
-crys01b.tem	-
-crys01c.tem	-
-crys01d.tem	-
-crys01e.tem	-
-crys01f.tem	-
-crys01g.tem	-
-cylat01.tem	-
-cylat02.tem	-
-cylat03.tem	-
-cylat04.tem	-
-cylat05.tem	-
-cylat06.tem	-
-cylat07.tem	-
-cylat08.tem	-
-cylat09.tem	-
-cylat10.tem	-
-cylat11.tem	-
-cylat12.tem	-
-cylat13.tem	-
-cylat14.tem	-
-cylat15.tem	-
-cylat16.tem	-
-cylat01a.tem	-
-cylat02a.tem	-
-cylat03a.tem	-
-cylat04a.tem	-
-cylat05a.tem	-
-cylat06a.tem	-
-cylat07a.tem	-
-cylat08a.tem	-
-cylat09a.tem	-
-cylat10a.tem	-
-cylat11a.tem	-
-cylat12a.tem	-
-cylat13a.tem	-
-cylat14a.tem	-
-cylat15a.tem	-
-cylat16a.tem	-
-swamp01.tem	-
-swamp01a.tem	-
-swamp01b.tem	-
-swamp01c.tem	-
-swamp01d.tem	-
-swamp01e.tem	-
-swamp01f.tem	-
-swamp01g.tem	-
-swamp02.tem	-
-swamp03.tem	-
-swamp04.tem	-
-swamp05.tem	-
-swamp06.tem	-
-swamp07.tem	-
-swamp08.tem	-
-swamp09.tem	-
-slat01.tem	-
-slat02.tem	-
-slat03.tem	-
-slat04.tem	-
-slat05.tem	-
-slat06.tem	-
-slat07.tem	-
-slat08.tem	-
-slat09.tem	-
-slat10.tem	-
-slat11.tem	-
-slat12.tem	-
-slat13.tem	-
-slat14.tem	-
-slat15.tem	-
-slat16.tem	-
-slat01a.tem	-
-slat02a.tem	-
-slat03a.tem	-
-slat04a.tem	-
-slat05a.tem	-
-slat06a.tem	-
-slat07a.tem	-
-slat08a.tem	-
-slat09a.tem	-
-slat10a.tem	-
-slat11a.tem	-
-slat12a.tem	-
-slat13a.tem	-
-slat14a.tem	-
-slat15a.tem	-
-slat16a.tem	-
-blue01.tem	-
-blue01a.tem	-
-blue01b.tem	-
-blue01c.tem	-
-blue01d.tem	-
-blue01e.tem	-
-blue01f.tem	-
-blue01g.tem	-
 blat01.tem	-
 blat01a.tem	-
 blat02.tem	-
@@ -2772,12 +1056,407 @@ blat15.tem	-
 blat15a.tem	-
 blat16.tem	-
 blat16a.tem	-
+bld01.sno	-
+bld01.tem	-
+bld02.sno	-
+bld02.tem	-
+bld03.sno	-
+bld03.tem	-
+bleep1.aud	generic beep
+blip.aud	-
+blue01.tem	-
+blue01a.tem	-
+blue01b.tem	-
+blue01c.tem	-
+blue01d.tem	-
+blue01e.tem	-
+blue01f.tem	-
+blue01g.tem	-
+bomb.shp	-
+boop.aud	stub sound used for all unsigned sound trigers
+bridge.sno	-
+bridge.tem	-
+brrkicon.shp	icon: gdi barracks
+brwflash.shp	-
+brwsopen.shp	-
+bst_chkd.pcx	-
+bst_chkg.pcx	-
+bst_uchk.pcx	-
+bst_uckg.pcx	-
+btib01.sno	
+btib01.tem	
+btib02.sno	
+btib02.tem	
+btib03.sno	
+btib03.tem	
+btn-mins.shp	-
+btn-plus.shp	-
+bud_li24.pcx	-
+bud_li30.pcx	-
+bud_mi24.pcx	-
+bud_mi30.pcx	-
+bud_ri24.pcx	-
+bud_ri30.pcx	-
+bue_li24.pcx	-
+bue_li30.pcx	-
+bue_mi24.pcx	-
+bue_mi30.pcx	-
+bue_ri24.pcx	-
+bue_ri30.pcx	-
+buildngz.shp	-
+burn-l.shp	large fire (on tree)
+burn-m.shp	medium fire (on tree)
+burn-s.shp	small fire (on tree)
+burnt01.sno	-
+burnt01.tem	-
+burnt02.sno	-
+burnt02.tem	-
+burnt03.sno	-
+burnt03.tem	-
+burnt04.sno	-
+burnt04.tem	-
+burnt05.sno	-
+burnt05.tem	-
+burnt06.sno	-
+burnt06.tem	-
+burnt07.sno	-
+burnt07.tem	-
+burnt08.sno	-
+burnt08.tem	-
+burnt09.sno	-
+burnt09.tem	-
+burnt10.sno	-
+burnt10.tem	-
+burnt11.sno	-
+burnt11.tem	-
+burnt12.sno	-
+burnt12.tem	-
+bus.hva	-
+bus.vxl	school bus
+button.aud	-
+button.shp	-
+bwdt.pcx	-
+bwdth.pcx	-
+c_kodiak.shp	-
+c_shadow.shp	-
+ca0001.shp	-
+ca0002.shp	-
+ca0003.shp	-
+ca0004.shp	-
+ca0005.shp	-
+ca0006.shp	-
+ca0007.shp	-
+ca0008.shp	-
+ca0009.shp	-
+ca0010.shp	-
+ca0011.shp	-
+ca0012.shp	-
+ca0013.shp	-
+ca0014.shp	-
+ca0015.shp	-
+ca0016.shp	-
+ca0017.shp	-
+ca0018.shp	-
+ca0019.shp	-
+ca0020.shp	-
+ca0021.shp	-
+caaray.shp	-
+caaray_a.shp	-
+caaray_b.shp	-
+caaray_c.shp	-
+caaray_d.shp	-
+caarmr.shp	-
+caarmr_a.shp	-
+cabhut.shp	-
+cache.mix	-
+cacrsh01.shp	-
+cacrsh02.shp	-
+cacrsh03.shp	-
+cacrsh04.shp	-
+cacrsh05.shp	-
+cadam.shp	-
+cadam_a.shp	-
+cadam_b.shp	-
+cahosp.shp	-
+cahosp_a.shp	-
+cameo.pal	icons palette
+canister.shp	-
+canister.shp	rpg projectile
+cap_trat.vqa	-
+capyr01.shp	-
+capyr02.shp	-
+capyr03.shp	-
+car.hva	-
+car.vxl	car
+cargocar.hva	-
+cargocar.vxl	train cargo car
+caryland.shp	-
+caseycan.ini	
+caseycan.map	-
+cashturn.aud	sell sound
+casu01.shp	-
+casu02.shp	-
+cavega.shp	-
+cback.pcx	-
+cback.vqa	-
+ccd_i.pcx	-
+cce_i.pcx	-
 ccliff01.tem	-
 ccliff02.tem	-
 ccliff03.tem	-
 ccliff04.tem	-
 ccliff05.tem	-
 ccliff06.tem	-
+cellsel.shp	-
+cfirstr.pcx	-
+cfirstrh.pcx	-
+chaingn1.aud	buggy fires gun/apache fires guns
+chamicon.shp	icon: mutant hijacker
+chamspy.shp	unit: chameleon spy
+chemicon.shp	icon: chemical missile
+chemisle.shp	crate: chemical missile
+choice1.aud	menu choice
+choice1.pcx	-
+circuit.aud	-
+city01.shp	-
+city02.shp	-
+city03.shp	-
+city04.shp	-
+city05.shp	-
+city06.shp	-
+city07.shp	-
+city08.shp	-
+city09.shp	-
+city10.shp	-
+city11.shp	-
+city12.shp	-
+city13.shp	-
+city14.shp	-
+city15.shp	-
+city16.shp	-
+city17.shp	-
+city18.shp	-
+city19.shp	-
+city20.shp	-
+city21.shp	-
+city22.shp	-
+cityscap.ini	
+cityscap.map	-
+civ01.sno	-
+civ01.tem	-
+civ02.sno	-
+civ02.tem	-
+civ03.sno	-
+civ03.tem	-
+civ04.sno	-
+civ04.tem	-
+civ05.sno	-
+civ05.tem	-
+civ06.sno	-
+civ06.tem	-
+civ07.sno	-
+civ07.tem	-
+civ08.sno	-
+civ08.tem	-
+civ1.shp	unit: civilian
+civ2.shp	unit: civilian
+civ3.shp	unit: civilian
+clat01.sno	-
+clat01.tem	-
+clat01a.sno	-
+clat01a.tem	-
+clat02.sno	-
+clat02.tem	-
+clat02a.sno	-
+clat02a.tem	-
+clat03.sno	-
+clat03.tem	-
+clat03a.sno	-
+clat03a.tem	-
+clat04.sno	-
+clat04.tem	-
+clat04a.sno	-
+clat04a.tem	-
+clat05.sno	-
+clat05.tem	-
+clat05a.sno	-
+clat05a.tem	-
+clat06.sno	-
+clat06.tem	-
+clat06a.sno	-
+clat06a.tem	-
+clat07.sno	-
+clat07.tem	-
+clat07a.sno	-
+clat07a.tem	-
+clat08.sno	-
+clat08.tem	-
+clat08a.sno	-
+clat08a.tem	-
+clat09.sno	-
+clat09.tem	-
+clat09a.sno	-
+clat09a.tem	-
+clat10.sno	-
+clat10.tem	-
+clat10a.sno	-
+clat10a.tem	-
+clat11.sno	-
+clat11.tem	-
+clat11a.sno	-
+clat11a.tem	-
+clat12.sno	-
+clat12.tem	-
+clat12a.sno	-
+clat12a.tem	-
+clat13.sno	-
+clat13.tem	-
+clat13a.sno	-
+clat13a.tem	-
+clat14.sno	-
+clat14.tem	-
+clat14a.sno	-
+clat14a.tem	-
+clat15.sno	-
+clat15.tem	-
+clat15a.sno	-
+clat15a.tem	-
+clat16.sno	-
+clat16.tem	-
+clat16a.sno	-
+clat16a.tem	-
+clckicon.shp	icon: stealth generator
+cldrngl1.shp	-
+cldrngl2.shp	-
+cldrngmd.shp	-
+cldrngsm.shp	-
+clear01.sno	-
+clear01.tem	-
+clear01a.sno	-
+clear01a.tem	-
+clear01b.sno	-
+clear01b.tem	-
+clear01c.sno	-
+clear01c.tem	-
+clear01d.sno	-
+clear01d.tem	-
+clear01e.sno	-
+clear01e.tem	-
+clear01f.sno	-
+clear01f.tem	-
+clear01g.sno	-
+clear01g.tem	-
+clicky1.aud	generic click
+clif01.sno	-
+clif01.tem	-
+clif02.sno	-
+clif02.tem	-
+cliff01.sno	-
+cliff01.tem	-
+cliff02.sno	-
+cliff02.tem	-
+cliff03.sno	-
+cliff03.tem	-
+cliff04.sno	-
+cliff04.tem	-
+cliff05.sno	-
+cliff05.tem	-
+cliff06.sno	-
+cliff06.tem	-
+cliff07.sno	-
+cliff07.tem	-
+cliff08.sno	-
+cliff08.tem	-
+cliff09.sno	-
+cliff09.tem	-
+cliff10.sno	-
+cliff10.tem	-
+cliff11.sno	-
+cliff11.tem	-
+cliff12.sno	-
+cliff12.tem	-
+cliff13.sno	-
+cliff13.tem	-
+cliff14.sno	-
+cliff14.tem	-
+cliff15.sno	-
+cliff15.tem	-
+cliff16.sno	-
+cliff16.tem	-
+cliff17.sno	-
+cliff17.tem	-
+cliff18.sno	-
+cliff18.tem	-
+cliff19.sno	-
+cliff19.tem	-
+cliff20.sno	-
+cliff20.tem	-
+cliff21.sno	-
+cliff21.tem	-
+cliff22.sno	-
+cliff22.tem	-
+cliff23.sno	-
+cliff23.tem	-
+cliff24.sno	-
+cliff24.tem	-
+cliff25.sno	-
+cliff25.tem	-
+cliff26.sno	-
+cliff26.tem	-
+cliff27.sno	-
+cliff27.tem	-
+cliff28.sno	-
+cliff28.tem	-
+cliff29.sno	-
+cliff29.tem	-
+cliff30.sno	-
+cliff30.tem	-
+cliff31.sno	-
+cliff31.tem	-
+cliff32.sno	-
+cliff32.tem	-
+cliff32a.tem	-
+cliff33.sno	-
+cliff33.tem	-
+cliff33a.sno	-
+cliff33a.tem	-
+cliff34.sno	-
+cliff34.tem	-
+cliff34a.sno	-
+cliff34a.tem	-
+cliff35.sno	-
+cliff35.tem	-
+cliff36.sno	-
+cliff36.tem	-
+cliff37.sno	-
+cliff37.tem	-
+cliff38.sno	-
+cliff38.tem	-
+cliff39.sno	-
+cliff39.tem	-
+cliff40.sno	-
+cliff40.tem	-
+cliff41.tem	
+cliff42.tem	
+cliffsin.ini	
+cliffsin.map	-
+cloak.shp	crate: stealth
+cloak5.aud	cloaking sound
+cloud1.shp	poison gas cloud (large)
+cloud1d.shp	poison gas cloud disappearing
+cloud2.shp	poison gas cloud (small)
+cloud2d.shp	poison gas cloud desappearing
+commup1.aud	communications center goes online
+compass.shp	-
+conquer.mix	-
+core.shp	-
+core_a.shp	-
+core_b.shp	-
+core_c.shp	-
+corefir1.aud	core defender fire
+coremk.shp	-
+coreup1.aud	core defender up
+coup.vqa	-
 crash01.tem	-
 crash02.tem	-
 crash03.tem	-
@@ -2785,8 +1464,200 @@ crash04.tem	-
 crash05.tem	-
 crash06.tem	-
 crash07.tem	-
+crat01.shp	-
+crat02.shp	-
+crat03.shp	-
+crat04.shp	-
+crat0a.shp	-
+crat0b.shp	-
+crat0c.shp	-
+crate.sno	-
+crate.tem	-
+crater01.sno	-
+crater01.tem	-
+crater02.sno	-
+crater02.tem	-
+crater03.sno	-
+crater03.tem	-
+crater04.sno	-
+crater04.tem	-
+crater05.sno	-
+crater05.tem	-
+crater06.sno	-
+crater06.tem	-
+crater07.sno	-
+crater07.tem	-
+crater08.sno	-
+crater08.tem	-
+crater09.sno	-
+crater09.tem	-
+crater10.sno	-
+crater10.tem	-
+crater11.sno	-
+crater11.tem	-
+crater12.sno	-
+crater12.tem	-
+creddwn1.aud	credit negative
+credup1.aud	credit positive
+crmble2.aud	building crumbling
+crryicon.shp	icon: orca transport
+crys01.tem	-
+crys01a.tem	-
+crys01b.tem	-
+crys01c.tem	-
+crys01d.tem	-
+crys01e.tem	-
+crys01f.tem	-
+crys01g.tem	-
+crystal1.sno	-
+crystal1.tem	-
+crystal2.sno	-
+crystal2.tem	-
+crystal3.sno	-
+crystal3.tem	-
+crystal4.sno	-
+crystal4.tem	-
+ct0001.shp	-
+ct0002.shp	-
+ct0003.shp	-
+ct0004.shp	-
+ct0005.shp	-
+ct0006.shp	-
+ct0007.shp	-
+ct0008.shp	-
+ct0009.shp	-
+ct0010.shp	-
+ct0011.shp	-
+ct0012.shp	-
+ct0013.shp	-
+ct0014.shp	-
+ct0015.shp	-
+ct0016.shp	-
+ct0017.shp	-
+ct0018.shp	-
+ct0019.shp	-
+ct0020.shp	-
+ct0021.shp	-
+ctaray.shp	-
+ctaray_a.shp	-
+ctaray_b.shp	-
+ctaray_c.shp	-
+ctaray_d.shp	-
+ctarmr.shp	-
+ctarmr_a.shp	-
+ctbhut.shp	-
+ctcrsh01.shp	-
+ctcrsh02.shp	-
+ctcrsh03.shp	-
+ctcrsh04.shp	-
+ctcrsh05.shp	-
+ctdam.shp	-
+ctdam_a.shp	-
+ctdam_b.shp	-
+ctech.shp	-
+cthosp.shp	-
+cthosp_a.shp	-
+ctibsun.pcx	-
+ctibsunh.pcx	-
+ctpyr01.shp	-
+ctpyr02.shp	-
+ctpyr03.shp	-
+ctvega.shp	-
+cud_i.pcx	-
+cue_i.pcx	-
+curr01.shp	-
+cursor.bmp	-
+cybcicon.shp	icon: cyborg commando
+cybiicon.shp	icon: cyborg
+cyborg.shp	-
+cyc2.shp	unit: cyborg commando
+cycl.shp	-
+cyclicon.shp	icon: attack cycle
+cygun1.aud	cyborg fires gun
+cylat01.tem	-
+cylat01a.tem	-
+cylat02.tem	-
+cylat02a.tem	-
+cylat03.tem	-
+cylat03a.tem	-
+cylat04.tem	-
+cylat04a.tem	-
+cylat05.tem	-
+cylat05a.tem	-
+cylat06.tem	-
+cylat06a.tem	-
+cylat07.tem	-
+cylat07a.tem	-
+cylat08.tem	-
+cylat08a.tem	-
+cylat09.tem	-
+cylat09a.tem	-
+cylat10.tem	-
+cylat10a.tem	-
+cylat11.tem	-
+cylat11a.tem	-
+cylat12.tem	-
+cylat12a.tem	-
+cylat13.tem	-
+cylat13a.tem	-
+cylat14.tem	-
+cylat14a.tem	-
+cylat15.tem	-
+cylat15a.tem	-
+cylat16.tem	-
+cylat16a.tem	-
+d.shp	-
+dambreak.vqa	-
+darken.shp	-
+day.ini	-
+dbak6440.pcx	-
+dbris10lg.shp	-
+dbris10sm.shp	-
+dbris1lg.shp	-
+dbris1sm.shp	-
+dbris2lg.shp	-
+dbris2sm.shp	-
+dbris3lg.shp	-
+dbris3sm.shp	-
+dbris4lg.shp	-
+dbris4sm.shp	-
+dbris5lg.shp	-
+dbris5sm.shp	-
+dbris6lg.shp	-
+dbris6sm.shp	-
+dbris7lg.shp	-
+dbris7sm.shp	-
+dbris8lg.shp	-
+dbris8sm.shp	-
+dbris9lg.shp	-
+dbris9sm.shp	-
+dbrs10lg.shp	
+dbrs10sm.shp	
+dcliff01.sno	-
 dcliff01.tem	-
+dcliff02.sno	-
 dcliff02.tem	-
+death_a.shp	-
+death_b.shp	-
+death_c.shp	-
+death_d.shp	-
+death_e.shp	-
+death_f.shp	-
+dedgirl1.aud	dead girl 1
+dedgirl2.aud	dead girl 2
+dedgirl3.aud	dead girl 3
+dedgirl4.aud	dead girl 4
+dedman1.aud	dead man 1
+dedman2.aud	dead man 2
+dedman3.aud	dead man 3
+dedman4.aud	dead man 4
+dedman5.aud	dead man 5
+dedman6.aud	dead man 6
+defd.shp	-
+defd_exp.shp	-
+defdmk.shp	-
+defender.shp	-
+defense.aud	defense
 des0101.tem	-
 des0102.tem	-
 des0103.tem	-
@@ -2842,6 +1713,7 @@ des0204.tem	-
 des0205.tem	-
 des0206.tem	-
 des0207.tem	-
+des0208.tem	-
 des0209.tem	-
 des0210.tem	-
 des0211.tem	-
@@ -2882,6 +1754,22 @@ des0245.tem	-
 des0246.tem	-
 des0247.tem	-
 des0248.tem	-
+desolar.ini	
+desolar.map	-
+detnicon.shp	icon: hunter-seeker
+dgreen1.shp	-
+dgreen2.shp	-
+dgreen3.shp	-
+dgreen4.shp	-
+dig.shp	digging animation
+dirtexpl.shp	dirt explosion
+discus.shp	disk thrower's disk
+diskdest.vqa	-
+djugg.shp	-
+djugg_a.shp	-
+djuggbar.hva	-
+djuggbar.vxl	deployed juggernaut barrel
+djuggmk.shp	-
 dlat01.tem	-
 dlat01a.tem	-
 dlat02.tem	-
@@ -2914,128 +1802,437 @@ dlat15.tem	-
 dlat15a.tem	-
 dlat16.tem	-
 dlat16a.tem	-
+dlgsysa.pcx	-
+dlgsysi.pcx	-
+dlimp_a.shp	-
+dlimpet.shp	-
+dlimpmk.shp	-
+dmachine.aud	-
+dnarrow.pcx	-
+dnarrowp.pcx	-
+dnarrowr.pcx	-
+doggie.shp	-
+downbtn.shp	-
+downbtn2.shp	-
+dpod.hva	-
+dpod.vxl	droppod
+dpodbarl.hva	-
+dpodtur.hva	-
+dragon.shp	missile image
+drawbrid.ini	
+drawbrid.map	-
+droadc01.sno	-
 droadc01.tem	-
+droadc02.sno	-
 droadc02.tem	-
+droadc03.sno	-
 droadc03.tem	-
+droadc04.sno	-
 droadc04.tem	-
+droadc05.sno	-
 droadc05.tem	-
+droadc06.sno	-
 droadc06.tem	-
+droadc07.sno	-
 droadc07.tem	-
+droadc08.sno	-
 droadc08.tem	-
+droadc09.sno	-
 droadc09.tem	-
+droadc10.sno	-
 droadc10.tem	-
+droadc11.sno	-
 droadc11.tem	-
+droadc12.sno	-
 droadc12.tem	-
+droadc13.sno	-
 droadc13.tem	-
+droadc14.sno	-
 droadc14.tem	-
+droadc15.sno	-
 droadc15.tem	-
+droadc16.sno	-
 droadc16.tem	-
+droadc17.sno	-
 droadc17.tem	-
+droadc18.sno	-
 droadc18.tem	-
+droadc19.sno	-
 droadc19.tem	-
+droadc20.sno	-
 droadc20.tem	-
+droadc21.sno	-
 droadc21.tem	-
+droadc22.sno	-
 droadc22.tem	-
+droadc23.sno	-
 droadc23.tem	-
+droadc24.sno	-
 droadc24.tem	-
+droadj01.sno	-
 droadj01.tem	-
+droadj02.sno	-
 droadj02.tem	-
+droadj03.sno	-
 droadj03.tem	-
+droadj04.sno	-
 droadj04.tem	-
+droadj05.sno	-
 droadj05.tem	-
+droadj06.sno	-
 droadj06.tem	-
+droadj07.sno	-
 droadj07.tem	-
+droadj08.sno	-
 droadj08.tem	-
+droadj09.sno	-
 droadj09.tem	-
+droadj10.sno	-
 droadj10.tem	-
+droadj11.sno	-
 droadj11.tem	-
+droads01.sno	-
 droads01.tem	-
+droads02.sno	-
 droads02.tem	-
+droads03.sno	-
 droads03.tem	-
+droads04.sno	-
 droads04.tem	-
+droads05.sno	-
 droads05.tem	-
+droads06.sno	-
 droads06.tem	-
+droads07.sno	-
 droads07.tem	-
+droads08.sno	-
 droads08.tem	-
+droads09.sno	-
 droads09.tem	-
+droads10.sno	-
 droads10.tem	-
+droads11.sno	-
 droads11.tem	-
+droads12.sno	-
 droads12.tem	-
+droads13.sno	-
 droads13.tem	-
-droads13.tem	-
+droads14.sno	-
 droads14.tem	-
+droads15.sno	-
 droads15.tem	-
+droads16.sno	-
 droads16.tem	-
+droads17.sno	-
 droads17.tem	-
+droads18.sno	-
 droads18.tem	-
+droads19.sno	-
 droads19.tem	-
+droads20.sno	-
 droads20.tem	-
+droads21.sno	-
 droads21.tem	-
+droads22.sno	-
 droads22.tem	-
+droads23.sno	-
 droads23.tem	-
-droads23.tem	-
+droads24.sno	-
 droads24.tem	-
+droads25.sno	-
 droads25.tem	-
+droads26.sno	-
 droads26.tem	-
+droads27.sno	-
 droads27.tem	-
+droads28.sno	-
 droads28.tem	-
+droads29.sno	-
 droads29.tem	-
+droads30.sno	-
 droads30.tem	-
+droads31.sno	-
 droads31.tem	-
+droads32.sno	-
 droads32.tem	-
+droads33.sno	-
 droads33.tem	-
+droads34.sno	-
 droads34.tem	-
+droads35.sno	-
 droads35.tem	-
+droads36.sno	-
 droads36.tem	-
+droads37.sno	-
 droads37.tem	-
+droads38.sno	-
 droads38.tem	-
+droads39.sno	-
 droads39.tem	-
+droads40.sno	-
 droads40.tem	-
+droads41.sno	-
 droads41.tem	-
+droads42.sno	-
 droads42.tem	-
-droads42.tem	-
+droads43.sno	-
 droads43.tem	-
-droads43.tem	-
+droads44.sno	-
 droads44.tem	-
+droads45.sno	-
 droads45.tem	-
+droads46.sno	-
 droads46.tem	-
+droads47.sno	-
 droads47.tem	-
+droads48.sno	-
 droads48.tem	-
+droads49.sno	-
 droads49.tem	-
+droads50.sno	-
 droads50.tem	-
+droads51.sno	-
 droads51.tem	-
+droads52.sno	-
 droads52.tem	-
+droads53.sno	-
 droads53.tem	-
+droads54.sno	-
 droads54.tem	-
+droads55.sno	-
 droads55.tem	-
+droads56.sno	-
 droads56.tem	-
+droads57.sno	-
 droads57.tem	-
+droads58.sno	-
 droads58.tem	-
+droads59.sno	-
 droads59.tem	-
+droads60.sno	-
 droads60.tem	-
+droads61.sno	-
 droads61.tem	-
+droads62.sno	-
 droads62.tem	-
+droads63.sno	-
 droads63.tem	-
+droads64.sno	-
 droads64.tem	-
+droads65.sno	-
 droads65.tem	-
+droads66.sno	-
 droads66.tem	-
+drop0001.shp	-
+drop0002.shp	-
+drop0003.shp	-
+dropdown.shp	-
+dropdwn1.aud	dropship lands
+dropexp.shp	-
+dropland.shp	-
+droppod.shp	unit: droppod (dropping from right)
+droppod2.shp	unit: droppod (dropping from left)
+droppody.shp	-
+droppody2.shp	-
+dropship.pal	dropship palette
+dropup.shp	-
+dropup1.aud	dropship takes off
+drslpe01.sno	-
 drslpe01.tem	-
+drslpe02.sno	-
 drslpe02.tem	-
+drslpe03.sno	-
 drslpe03.tem	-
+drslpe04.sno	-
 drslpe04.tem	-
+drslpe05.sno	-
 drslpe05.tem	-
+drslpe06.sno	-
 drslpe06.tem	-
+drslpe07.sno	-
 drslpe07.tem	-
+drslpe08.sno	-
 drslpe08.tem	-
+drum01.shp	oil container
+drum02.shp	oil container
+dsaping1.aud	deployable sensor array ping
+dshp.hva	-
+dshp.vxl	dropship
+dshpbarl.hva	-
+dshptur.hva	-
+dtunn01.sno	-
 dtunn01.tem	-
+dtunn02.sno	-
 dtunn02.tem	-
+dtunn03.sno	-
 dtunn03.tem	-
+dtunn04.sno	-
 dtunn04.tem	-
+dtunnt01.sno	-
 dtunnt01.tem	-
+dtunnt02.sno	-
 dtunnt02.tem	-
+dtunnt03.sno	-
 dtunnt03.tem	-
+dtunnt04.sno	-
 dtunnt04.tem	-
+duel.ini	
+duel.map	-
+dusk.ini	-
+duskhour.aud	dusk hour
+e01sc01.mix	-
+e01sc02.mix	-
+e01vox01.mix	-
+e01vox02.mix	-
+e1.shp	unit: light infantry
+e1icon.shp	icon: light infantry
+e2.shp	unit: disk thrower
+e2icon.shp	icon: disk thrower
+e3.shp	-
+e4.shp	unit: rocket infantry
+e4icon.shp	icon: rocket infantry
+e5.shp	-
+e_enhn.shp	-
+ebtn-dn.shp	
+ebtn-up.shp	
+ecache01.mix	-
+editfnt.fnt	-
+eeback.pcx	
+eebackh.pcx	
+eegr01.shp	
+eegr02.shp	
+eegr03.shp	
+eegr04.shp	
+eegr05.shp	
+eegr06.shp	
+eegr07.shp	
+eegr08.shp	
+eegr09.shp	
+eegr10.shp	
+eegr11.shp	
+eegr12.shp	
+eegr13.shp	
+eegr14.shp	
+eegr15.shp	
+eegr16.shp	
+eegr17.shp	
+eegr18.shp	
+eegr19.shp	
+eegr20.shp	
+eegr21.shp	
+eegr22.shp	
+eegr23.shp	
+eegr24.shp	
+eegr25.shp	
+eegr26.shp	
+eegr27.shp	
+eegr28.shp	
+eegr29.shp	
+eegr30.shp	
+eenr01.shp	
+eenr02.shp	
+eenr03.shp	
+eenr04.shp	
+eenr05.shp	
+eenr06.shp	
+eenr07.shp	
+eenr08.shp	
+eenr09.shp	
+eenr10.shp	
+eenr11.shp	
+eenr12.shp	
+eenr13.shp	
+eenr14.shp	
+eenr15.shp	
+eenr16.shp	
+eenr17.shp	
+eenr18.shp	
+eenr19.shp	
+eenr20.shp	
+eenr21.shp	
+eenr22.shp	
+eenr23.shp	
+eenr24.shp	
+eenr25.shp	
+eenr26.shp	
+eenr27.shp	
+eenr28.shp	
+eenr29.shp	
+eenr30.shp	
+efficien.aud	-
+efic01.shp	-
+elcad.shp	-
+electro.shp	infantry being electricuted
+electro1.aud	electrocution
+elusive.aud	-
+emblem.aud	emblem
+emp_fx01.shp	emp effect displayed on units
+empicon.shp	-
+empulse.vqa	-
+engineer.shp	unit: engineer
+engnicon.shp	-
+euroclick1.pcx	-
+eva.vqa	-
+exitopen.shp	-
+expdirt1.aud	dirt explosion
+explolrg.shp	big explosion
+explomed.shp	medium explosion
+explosml.shp	small explosion
+expnew01.aud	big building explosion with glass
+expnew02.aud	big building explosion with glass
+expnew03.aud	big building explosion with glass
+expnew04.aud	big building explosion with glass
+expnew05.aud	medium explosion for vehicle or structure
+expnew06.aud	medium explosion good for all & land destruction
+expnew07.aud	medium explosion with glass
+expnew08.aud	lg/md explosion with glass
+expnew09.aud	medium explosion general
+expnew10.aud	medium explosion general and vehicle
+expnew11.aud	medium explosion with glass
+expnew12.aud	small explosion general
+expnew13.aud	small explosion general
+expnew14.aud	small explosion general
+expnew15.aud	small explosion general
+expnew16.aud	explosion
+expnew17.aud	explosion
+expnew18.aud	explosion
+expnew19.aud	explosion
+extendb.shp	-
+extndl01.shp	-
+extndl02.shp	-
+facbld1.aud	factory goes online
+facticon.shp	icon: construction yard
+fenc.shp	-
+fiend1.aud	tiberium fiend
+fiend2.aud	tiberium fiend
+fire1.shp	large fire (on ground)
+fire2.shp	medium fire (on ground)
+fire3.shp	small fire (on ground)
+fire4.shp	tiny fire (on ground)
+firepowr.shp	crate: firepower upgrade
+firestrm.ini	FS main settings
+fireweb1.aud	web firing sound
+firstrm1.aud	firestorm defense burning
+fixicon.shp	-
+flagfly.shp	-
+flak.shp	-
+flameall.shp	devil's tongue flame stream
+flameguy.shp	infantry caught on fire
+flamthro.shp	-
+flamtnk1.aud	flame tank fire
+float.ini	
+float.map	-
+floater.shp	-
+floatk1.aud	tiberium floater attack
+floatmov.aud	tiberium floater move
+flotmov2.aud	tiberium floater move
+flotmov3.aud	tiberium floater move
+flotmov4.aud	tiberium floater move
+flow01.sno	-
 flow01.tem	-
+flurry.aud	flurry
+focus.shp	-
+fog.shp	-
 fona01.tem	-
 fona02.tem	-
 fona03.tem	-
@@ -3051,38 +2248,406 @@ fona12.tem	-
 fona13.tem	-
 fona14.tem	-
 fona15.tem	-
+font.pal	-
+forestfr.ini	
+forestfr.map	-
+fs_sb01.vqa	-
+fs_title.vqa	-
+fsair.shp	firestorm animation (with aerial proj/units)
+fsdicon.shp	icon: firestrom generator
+fsgdi01.ini	
+fsgdi01.map	-
+fsgdi02.ini	
+fsgdi02.map	-
+fsgdi03.ini	
+fsgdi03.map	-
+fsgdi04.ini	
+fsgdi04.map	-
+fsgdi05.ini	
+fsgdi05.map	-
+fsgdi06.ini	
+fsgdi06.map	-
+fsgdi07.ini	
+fsgdi07.map	-
+fsgdi08.ini	
+fsgdi08.map	-
+fsgdi09.ini	
+fsgdi09.map	-
+fsgdifnl.vqa	-
+fsgdiint.vqa	-
+fsgdim01.vqa	-
+fsgdim02.vqa	-
+fsgdim03.vqa	-
+fsgdim04.vqa	-
+fsgdim05.vqa	-
+fsgdim06.vqa	-
+fsgdim07.vqa	-
+fsgdim08.vqa	-
+fsgdim09.vqa	-
+fsgrnd.shp	firestorm animation (with ground proj/units)
+fsidle.shp	firestorm animation (blue idle anim)
+fsmap.aud	firestorm map screen
+fsmenu.aud	firestorm main menu
+fsnod01.ini	
+fsnod01.map	-
+fsnod02.ini	
+fsnod02.map	-
+fsnod03.ini	
+fsnod03.map	-
+fsnod04.ini	
+fsnod04.map	-
+fsnod05.ini	
+fsnod05.map	-
+fsnod06.ini	
+fsnod06.map	-
+fsnod07.ini	
+fsnod07.map	-
+fsnod08.ini	
+fsnod08.map	-
+fsnod09.ini	
+fsnod09.map	-
+fsnodfnl.vqa	-
+fsnodm01.vqa	-
+fsnodm02.vqa	-
+fsnodm03.vqa	-
+fsnodm04.vqa	-
+fsnodm05.vqa	-
+fsnodm06.vqa	-
+fsnodm07.vqa	-
+fsnodm08.vqa	-
+fsnodm09.vqa	-
+fspicon.shp	icon: firestorm wall section
+fstback.pcx	-
+fstback.vqa	-
+fstdicon.shp	icon: firestorm defence
+ftnk.hva	-
+ftnk.vxl	flame tank
+fullfnt3.pal	-
+fullfnt3.shp	-
+g_canyon.ini	
+g_canyon.map	-
+g_knoll.ini	
+g_knoll.map	-
+gaarty.shp	-
+gaartymk.shp	-
+gacnst.shp	-
+gacnst_a.shp	-
+gacnst_b.shp	-
+gacnst_c.shp	-
+gacnst_d.shp	-
+gacnstmk.shp	-
+gactwr.shp	-
+gactwr_a.shp	-
+gactwr_b.shp	-
+gactwr_c.shp	-
+gactwr_d.shp	-
+gactwrmk.shp	-
+gadept.shp	-
+gadept_a.shp	-
+gadept_b.shp	-
+gadept_c.shp	-
+gadept_d.shp	-
+gadeptbb.shp	-
+gadeptmk.shp	-
+gadpsa.shp	-
+gadpsa_a.shp	-
+gadpsamk.shp	-
+gadrop.shp	-
+gadrop_a.shp	-
+gadrop_b.shp	-
+gadropmk.shp	-
+gafdsf.shp	-
+gafire.shp	-
+gafire_a.shp	-
+gafire_b.shp	-
+gafire_c.shp	-
+gafiremk.shp	-
+gafsdf.shp	-
+gafsdf_a.shp	-
+gagate_a.shp	-
+gagate_b.shp	-
+gagateza.shp	-
+gagatezb.shp	-
+gagreen.shp	-
+gahpad.shp	-
+gahpad_a.shp	-
+gahpadbb.shp	-
+gahpadmk.shp	-
+gaicbm.shp	-
+gaicbm_a.shp	-
+gaicbmmk.shp	-
+gakodk.shp	-
+gakodk_a.shp	-
+gakodk_b.shp	-
+gakodk_c.shp	-
+galite.shp	-
+gamefrm1.aud	game forming
+gaoldcc1.shp	Ruined Old C&C Construction Yard
+gaoldcc2.shp	Ruined Old C&C Temple
+gaoldcc3.shp	Ruined Old C&C Weapons Factory
+gaoldcc4.shp	Ruined Old C&C Refinery
+gaoldcc5.shp	Ruined Old C&C Advanced Power
+gaoldcc6.shp	Ruined Old C&C Silos
+gap.shp	-
+gap.sno	-
+gapave.shp	-
+gapile.shp	-
+gapile_a.shp	-
+gapile_b.shp	-
+gapile_c.shp	-
+gapilemk.shp	-
+gaplug.shp	-
+gaplug_a.shp	-
+gaplug_b.shp	-
+gaplug_c.shp	-
+gaplug_d.shp	-
+gaplug_e.shp	-
+gaplug_f.shp	-
+gaplugmk.shp	-
+gapmake.shp	-
+gapmake.sno	-
+gapowr.shp	-
+gapowr_a.shp	-
+gapowr_b.shp	-
+gapowrmk.shp	-
+garadr.shp	-
+garadr_a.shp	-
+garadrmk.shp	-
+gasand.shp	-
+gasilo.shp	-
+gasilo_a.shp	-
+gasilo_b.shp	-
+gasilomk.shp	-
+gaslrgmk.shp	veinhole creating gas animation
+gaspot.shp	-
+gaspot_a.shp	-
+gaspotmk.shp	-
+gastank.hva	-
+gastank.vxl	debris
+gat2icon.shp	icon: gdi gate
+gatech.shp	-
+gatech_a.shp	-
+gatechmk.shp	-
+gatedwn1.aud	gate going down
+gateicon.shp	icon: gdi gate
+gateup1.aud	gate going up
+gatick.shp	-
+gatickmk.shp	-
+gauge.aud	-
+gaugeend.aud	-
+gawall.shp	-
+gaweap.shp	-
+gaweap_1.shp	-
+gaweap_2.shp	-
+gaweap_a.shp	-
+gaweap_b.shp	-
+gaweap_c.shp	-
+gaweap_d.shp	-
+gaweapbb.shp	-
+gaweapmk.shp	-
+gbayicon.shp	icon: dropship bay
+gclock2.shp	-
+gdi-01.aud	-
+gdi-02.aud	-
+gdi-03a.aud	-
+gdi-03b.aud	-
+gdi-04.aud	-
+gdi-05a.aud	-
+gdi-05b.aud	-
+gdi-06a.aud	-
+gdi-06b.aud	-
+gdi-07.aud	-
+gdi-08.aud	-
+gdi-09a.aud	-
+gdi-09b.aud	-
+gdi-09c.aud	-
+gdi-09d.aud	-
+gdi-10a.aud	-
+gdi-10b.aud	-
+gdi-11.aud	-
+gdi-12.aud	-
+gdi01_sb.vqa	-
+gdi02_sb.vqa	-
+gdi03_sb.vqa	-
+gdi10a.ini	
+gdi10a.map	-
+gdi10b.ini	
+gdi10b.map	-
+gdi11a.ini	
+gdi11a.map	-
+gdi12a.ini	
+gdi12a.map	-
+gdi1a.ini	
+gdi1a.map	-
+gdi2a.ini	
+gdi2a.map	-
+gdi3a.ini	
+gdi3a.map	-
+gdi3b.ini	
+gdi3b.map	-
+gdi4a.ini	
+gdi4a.map	-
+gdi5a.ini	
+gdi5a.map	-
+gdi5b.ini	
+gdi5b.map	-
+gdi5c.ini	
+gdi5c.map	-
+gdi6a.ini	
+gdi6a.map	-
+gdi6b.ini	
+gdi6b.map	-
+gdi7a.ini	
+gdi7a.map	-
+gdi8a.ini	
+gdi8a.map	-
+gdi9a.ini	
+gdi9a.map	-
+gdi9b.ini	
+gdi9b.map	-
+gdi9c.ini	
+gdi9c.map	-
+gdi9d.ini	
+gdi9d.map	-
+gdi_finl.vqa	-
+gdi_flag.vqa	-
+gdi_logo.vqa	-
+gdi_m02.vqa	-
+gdi_m03.vqa	-
+gdi_m04.vqa	-
+gdi_m05.vqa	-
+gdi_m06.vqa	-
+gdi_m07.vqa	-
+gdi_m08.vqa	-
+gdi_m09a.vqa	-
+gdi_m09b.vqa	-
+gdi_m09c.vqa	-
+gdi_m10a.vqa	-
+gdi_m11.vqa	-
+gdi_m12a.vqa	-
+gdiamerica.pal	
+gdiamerica.pcx	
+gdiamerica.vqa	
+gdic.pcx	-
+gdich.pcx	-
+gdiclk01.pcx	-
+gdiclk02.pcx	-
+gdiclk03.pcx	-
+gdiclk04.pcx	-
+gdiclk05.pcx	-
+gdiclose.aud	-
+gdieurope.pal	
+gdieurope.pcx	
+gdieurope.vqa	
+gdii.pcx	-
+gdilogo.pal	
+gdilogo.shp	
+gdim09cw.vqa	-
+gdim09d1.vqa	-
+gdimap01.pcx	-
+gdimap01.vqa	-
+gdimap02.pcx	-
+gdimap02.vqa	-
+gdimap03.pcx	-
+gdimap03.vqa	-
+gdimap04.pcx	-
+gdimap04.vqa	-
+gdimap05.pcx	-
+gdimap05.vqa	-
+gdiopen.aud	-
+gditarget.pal	-
+gditarget2.shp	-
+gem01.sno	-
+gem01.tem	-
+gem02.sno	-
+gem02.tem	-
+gem03.sno	-
+gem03.tem	-
+gem04.sno	-
+gem04.tem	-
+gennodl1.vqa	-
+genwin01.vqa	-
+gghunt.shp	unit: hunter seeker
+ghost.shp	unit: ghost stalker
+glat01.sno	-
 glat01.tem	-
+glat01a.sno	-
 glat01a.tem	-
+glat02.sno	-
 glat02.tem	-
+glat02a.sno	-
 glat02a.tem	-
+glat03.sno	-
 glat03.tem	-
+glat03a.sno	-
 glat03a.tem	-
+glat04.sno	-
 glat04.tem	-
+glat04a.sno	-
 glat04a.tem	-
+glat05.sno	-
 glat05.tem	-
+glat05a.sno	-
 glat05a.tem	-
+glat06.sno	-
 glat06.tem	-
+glat06a.sno	-
 glat06a.tem	-
+glat07.sno	-
 glat07.tem	-
+glat07a.sno	-
 glat07a.tem	-
+glat08.sno	-
 glat08.tem	-
+glat08a.sno	-
 glat08a.tem	-
+glat09.sno	-
 glat09.tem	-
+glat09a.sno	-
 glat09a.tem	-
+glat10.sno	-
 glat10.tem	-
+glat10a.sno	-
 glat10a.tem	-
+glat11.sno	-
 glat11.tem	-
+glat11a.sno	-
 glat11a.tem	-
+glat12.sno	-
 glat12.tem	-
+glat12a.sno	-
 glat12a.tem	-
+glat13.sno	-
 glat13.tem	-
+glat13a.sno	-
 glat13a.tem	-
+glat14.sno	-
 glat14.tem	-
+glat14a.sno	-
 glat14a.tem	-
+glat15.sno	-
 glat15.tem	-
+glat15a.sno	-
 glat15a.tem	-
+glat16.sno	-
 glat16.tem	-
+glat16a.sno	-
 glat16a.tem	-
+glnch4.aud	rpg launch
+globe.shp	-
+gloom.aud	gloom
+gmenu.mix	-
+gold01.sno	-
+gold01.tem	-
+gold02.sno	-
+gold02.tem	-
+gold03.sno	-
+gold03.tem	-
+gold04.sno	-
+gold04.tem	-
+gostgun1.aud	ghost talker
+gosticon.shp	icon: ghost stalker
+grad6fnt.fnt	-
 green01.tem	-
 green01a.tem	-
 green01b.tem	-
@@ -3091,922 +2656,6 @@ green01d.tem	-
 green01e.tem	-
 green01f.tem	-
 green01g.tem	-
-house01.tem	-
-ishore01.tem	-
-ishore02.tem	-
-ishore03.tem	-
-ishore04.tem	-
-ishore05.tem	-
-ishore06.tem	-
-ishore07.tem	-
-ishore08.tem	-
-ishore09.tem	-
-ishore10.tem	-
-ishore11.tem	-
-ishore12.tem	-
-ishore13.tem	-
-ishore14.tem	-
-ishore15.tem	-
-ishore16.tem	-
-ishore17.tem	-
-ishore18.tem	-
-ishore19.tem	-
-ishore20.tem	-
-ishore21.tem	-
-ishore22.tem	-
-ishore23.tem	-
-ishore24.tem	-
-ishore25.tem	-
-ishore26.tem	-
-ishore27.tem	-
-ishore28.tem	-
-ishore29.tem	-
-ishore30.tem	-
-ishore31.tem	-
-ishore32.tem	-
-ishore33.tem	-
-ishore34.tem	-
-ishore35.tem	-
-ishore36.tem	-
-ishore37.tem	-
-ishore38.tem	-
-ishore39.tem	-
-ishore40.tem	-
-ishore41.tem	-
-ishore42.tem	-
-ishore43.tem	-
-ishore44.tem	-
-ishore45.tem	-
-ishore46.tem	-
-ishore47.tem	-
-ishore48.tem	-
-lobrdge1.tem	-
-lobrdge2.tem	-
-lobrdge3.tem	-
-lobrdge4.tem	-
-lobrdge1.sno	-
-lobrdge2.sno	-
-lobrdge3.sno	-
-lobrdge4.sno	-
-lobrdg01.tem	-
-lobrdg02.tem	-
-lobrdg03.tem	-
-lobrdg04.tem	-
-lobrdg05.tem	-
-lobrdg06.tem	-
-lobrdg07.tem	-
-lobrdg08.tem	-
-lobrdg09.tem	-
-lobrdg10.tem	-
-lobrdg11.tem	-
-lobrdg12.tem	-
-lobrdg13.tem	-
-lobrdg14.tem	-
-lobrdg15.tem	-
-lobrdg16.tem	-
-lobrdg17.tem	-
-lobrdg18.tem	-
-lobrdg19.tem	-
-lobrdg20.tem	-
-lobrdg21.tem	-
-lobrdg22.tem	-
-lobrdg23.tem	-
-lobrdg24.tem	-
-lobrdg25.tem	-
-lobrdg26.tem	-
-lobrdg27.tem	-
-lobrdg28.tem	-
-ovrps01.tem	-
-ovrps01a.tem	-
-ovrps02.tem	-
-ovrps02a.tem	-
-ovrps03.tem	-
-ovrps03a.tem	-
-ovrps04.tem	-
-ovrps04a.tem	-
-ovrps05.tem	-
-ovrps05a.tem	-
-ovrps06.tem	-
-ovrps06a.tem	-
-ovrps07.tem	-
-ovrps08.tem	-
-ovrps09.tem	-
-ovrps10.tem	-
-ovrps11.tem	-
-ovrps12.tem	-
-ovrps13.tem	-
-ovrps14.tem	-
-ovrps15.tem	-
-ovrps16.tem	-
-p_end01.tem	-
-p_end02.tem	-
-p_end03.tem	-
-p_end04.tem	-
-pave01.tem	-
-pave02.tem	-
-pave03.tem	-
-pave04.tem	-
-pave05.tem	-
-pave06.tem	-
-pave07.tem	-
-pave08.tem	-
-pave09.tem	-
-pave10.tem	-
-pave11.tem	-
-pave12.tem	-
-pave13.tem	-
-pave14.tem	-
-plat01.tem	-
-plat01a.tem	-
-plat02.tem	-
-plat02a.tem	-
-plat03.tem	-
-plat03a.tem	-
-plat04.tem	-
-plat04a.tem	-
-plat05.tem	-
-plat05a.tem	-
-plat06.tem	-
-plat06a.tem	-
-plat07.tem	-
-plat07a.tem	-
-plat08.tem	-
-plat08a.tem	-
-plat09.tem	-
-plat09a.tem	-
-plat10.tem	-
-plat10a.tem	-
-plat11.tem	-
-plat11a.tem	-
-plat12.tem	-
-plat12a.tem	-
-plat13.tem	-
-plat13a.tem	-
-plat14.tem	-
-plat14a.tem	-
-plat15.tem	-
-plat15a.tem	-
-plat16.tem	-
-plat16a.tem	-
-proad01.tem	-
-proad01a.tem	-
-proad01b.tem	-
-proad01c.tem	-
-proad02.tem	-
-proad02a.tem	-
-proad02b.tem	-
-proad02c.tem	-
-proad03.tem	-
-proad04.tem	-
-proad05.tem	-
-proad06.tem	-
-proad07.tem	-
-proad08.tem	-
-proad09.tem	-
-proad10.tem	-
-proad11.tem	-
-proad12.tem	-
-proad13.tem	-
-proad14.tem	-
-proad15.tem	-
-proad16.tem	-
-proad17.tem	-
-proad18.tem	-
-proad19.tem	-
-proad20.tem	-
-proad21.tem	-
-proadc01.tem	-
-proadc02.tem	-
-proadc03.tem	-
-proadc04.tem	-
-proadc05.tem	-
-proadc06.tem	-
-proadc07.tem	-
-proadc08.tem	-
-proadc09.tem	-
-proadc10.tem	-
-proadc11.tem	-
-proadc12.tem	-
-proadc13.tem	-
-proadc14.tem	-
-prslpe01.tem	-
-prslpe02.tem	-
-prslpe03.tem	-
-prslpe04.tem	-
-pvclr01.tem	-
-pvclr01a.tem	-
-pvclr01b.tem	-
-pvclr01c.tem	-
-pvclr01d.tem	-
-pvclr01e.tem	-
-pvclr01f.tem	-
-pvclr01g.tem	-
-railbrdg.tem	-
-ramp01.tem	-
-ramp02.tem	-
-ramp03.tem	-
-ramp04.tem	-
-ramp05.tem	-
-ramp06.tem	-
-ramp07.tem	-
-ramp08.tem	-
-ramp09.tem	-
-ramp10.tem	-
-rmpfx01.tem	-
-rmpfx01a.tem	-
-rmpfx01b.tem	-
-rmpfx01c.tem	-
-rmpfx02.tem	-
-rmpfx02a.tem	-
-rmpfx02b.tem	-
-rmpfx02c.tem	-
-rmpfx03.tem	-
-rmpfx03.tem	-
-rmpfx03a.tem	-
-rmpfx03b.tem	-
-rmpfx03c.tem	-
-rmpfx04.tem	-
-rmpfx04a.tem	-
-rmpfx04b.tem	-
-rmpfx04c.tem	-
-rmpfx05.tem	-
-rmpfx05a.tem	-
-rmpfx05b.tem	-
-rmpfx05c.tem	-
-rmpfx06.tem	-
-rmpfx06a.tem	-
-rmpfx06b.tem	-
-rmpfx06c.tem	-
-rmpfx07.tem	-
-rmpfx07a.tem	-
-rmpfx07b.tem	-
-rmpfx07c.tem	-
-rmpfx08.tem	-
-rmpfx08a.tem	-
-rmpfx08b.tem	-
-rmpfx08c.tem	-
-rmpfx09.tem	-
-rmpfx09a.tem	-
-rmpfx09b.tem	-
-rmpfx09c.tem	-
-rmpfx10.tem	-
-rmpfx10a.tem	-
-rmpfx10b.tem	-
-rmpfx10c.tem	-
-rmpfx11.tem	-
-rmpfx11a.tem	-
-rmpfx11b.tem	-
-rmpfx11c.tem	-
-rmpfx12.tem	-
-rmpfx12a.tem	-
-rmpfx12b.tem	-
-rmpfx12c.tem	-
-rough01.tem	-
-rough02.tem	-
-rough03.tem	-
-rough04.tem	-
-rough05.tem	-
-rough06.tem	-
-rough07.tem	-
-rough08.tem	-
-rough09.tem	-
-rough10.tem	-
-ruff01.tem	-
-ruff01a.tem	-
-ruff01b.tem	-
-ruff01c.tem	-
-ruff01d.tem	-
-ruff01e.tem	-
-ruff01f.tem	-
-ruff01g.tem	-
-ruin01.tem	-
-sandy01.tem	-
-sandy01a.tem	-
-sandy01b.tem	-
-sandy01c.tem	-
-sandy01d.tem	-
-sandy01e.tem	-
-sandy01f.tem	-
-sandy01g.tem	-
-scrin01.tem	-
-scrin02.tem	-
-scrin03.tem	-
-scrin04.tem	-
-scrin05.tem	-
-scrin06.tem	-
-shore01.tem	-
-shore02.tem	-
-shore03.tem	-
-shore04.tem	-
-shore05.tem	-
-shore06.tem	-
-shore07.tem	-
-shore08.tem	-
-shore09.tem	-
-shore10.tem	-
-shore11.tem	-
-shore12.tem	-
-shore13.tem	-
-shore14.tem	-
-shore15.tem	-
-shore16.tem	-
-shore17.tem	-
-shore18.tem	-
-shore19.tem	-
-shore20.tem	-
-shore21.tem	-
-shore22.tem	-
-shore23.tem	-
-shore24.tem	-
-shore25.tem	-
-shore26.tem	-
-shore27.tem	-
-shore28.tem	-
-shore29.tem	-
-shore30.tem	-
-shore31.tem	-
-shore32.tem	-
-shore33.tem	-
-shore34.tem	-
-shore35.tem	-
-shore36.tem	-
-shore37.tem	-
-shore38.tem	-
-shore39.tem	-
-shore40.tem	-
-shore41.tem	-
-shore42.tem	-
-slop01z.tem	-
-slop02z.tem	-
-slop03z.tem	-
-slop04z.tem	-
-slope01.tem	-
-slope01a.tem	-
-slope01b.tem	-
-slope01c.tem	-
-slope02.tem	-
-slope02a.tem	-
-slope02b.tem	-
-slope02c.tem	-
-slope03.tem	-
-slope03a.tem	-
-slope03b.tem	-
-slope03c.tem	-
-slope04.tem	-
-slope04a.tem	-
-slope04b.tem	-
-slope04c.tem	-
-slope05.tem	-
-slope05a.tem	-
-slope05b.tem	-
-slope05c.tem	-
-slope06.tem	-
-slope06a.tem	-
-slope06b.tem	-
-slope06c.tem	-
-slope07.tem	-
-slope07a.tem	-
-slope07b.tem	-
-slope07c.tem	-
-slope08.tem	-
-slope08a.tem	-
-slope08b.tem	-
-slope08c.tem	-
-slope09.tem	-
-slope09a.tem	-
-slope09b.tem	-
-slope09c.tem	-
-slope10.tem	-
-slope10a.tem	-
-slope10b.tem	-
-slope10c.tem	-
-slope11.tem	-
-slope11a.tem	-
-slope11b.tem	-
-slope11c.tem	-
-slope12.tem	-
-slope12a.tem	-
-slope12b.tem	-
-slope12c.tem	-
-slope13.tem	-
-slope13a.tem	-
-slope13b.tem	-
-slope13c.tem	-
-slope14.tem	-
-slope14a.tem	-
-slope14b.tem	-
-slope14c.tem	-
-slope15.tem	-
-slope15a.tem	-
-slope15b.tem	-
-slope15c.tem	-
-slope16.tem	-
-slope16a.tem	-
-slope16b.tem	-
-slope16c.tem	-
-slope17.tem	-
-slope18.tem	-
-slope19.tem	-
-slope20.tem	-
-snow01.tem	-
-snow01a.tem	-
-snow01b.tem	-
-snow01c.tem	-
-snow02.tem	-
-snow03.tem	-
-snow04.tem	-
-srock01.tem	-
-srock02.tem	-
-srock03.tem	-
-srock04.tem	-
-srock05.tem	-
-tanker01.tem	-
-tib01.tem	-
-tib02.tem	-
-tib03.tem	-
-tib04.tem	-
-tib05.tem	-
-tib06.tem	-
-tib07.tem	-
-tib08.tem	-
-tib09.tem	-
-tib10.tem	-
-tib11.tem	-
-tib12.tem	-
-tib13.tem	-
-tib14.tem	-
-tib15.tem	-
-tib16.tem	-
-tib17.tem	-
-tib18.tem	-
-tib19.tem	-
-tib20.tem	-
-tibtre01.tem	-
-tibtre02.tem	-
-tibtre03.tem	-
-tovrps01.tem	-
-tovrps01a.tem	-
-tovrps02.tem	-
-tovrps02a.tem	-
-tovrps03.tem	-
-tovrps03a.tem	-
-tovrps04.tem	-
-tovrps04a.tem	-
-tovrps05.tem	-
-tovrps05a.tem	-
-tovrps06.tem	-
-tovrps06a.tem	-
-tovrps07.tem	-
-tovrps08.tem	-
-tovrps09.tem	-
-tovrps10.tem	-
-tovrps11.tem	-
-tovrps12.tem	-
-tovrps13.tem	-
-tovrps14.tem	-
-tovrps15.tem	-
-tovrps16.tem	-
-tracks01.tem	-
-tracks02.tem	-
-tracks03.tem	-
-tracks04.tem	-
-tracks05.tem	-
-tracks06.tem	-
-tracks07.tem	-
-tracks08.tem	-
-tracks09.tem	-
-tracks10.tem	-
-tracks11.tem	-
-tracks12.tem	-
-tracks13.tem	-
-tracks14.tem	-
-tracks15.tem	-
-tracks16.tem	-
-tree01.tem	-
-tree02.tem	-
-tree03.tem	-
-tree04.tem	-
-tree05.tem	-
-tree06.tem	-
-tree07.tem	-
-tree08.tem	-
-tree09.tem	-
-tree10.tem	-
-tree11.tem	-
-tree12.tem	-
-tree13.tem	-
-tree14.tem	-
-tree15.tem	-
-tree16.tem	-
-tree17.tem	-
-tree18.tem	-
-tree19.tem	-
-tree20.tem	-
-tree21.tem	-
-tree22.tem	-
-tree23.tem	-
-tree24.tem	-
-tree25.tem	-
-trock01.tem	-
-trock02.tem	-
-trock03.tem	-
-trock04.tem	-
-trock05.tem	-
-trtunn01.tem	-
-trtunn02.tem	-
-trtunn03.tem	-
-trtunn04.tem	-
-tslope01.tem	-
-tslope02.tem	-
-tslope03.tem	-
-tslope04.tem	-
-tunnel01.tem	-
-tunnel02.tem	-
-tunnel03.tem	-
-tunnel04.tem	-
-tunnet01.tem	-
-tunnet02.tem	-
-tunnet03.tem	-
-tunnet04.tem	-
-tunnex01.tem	-
-tunnex02.tem	-
-tuntop01.tem	-
-tuntop02.tem	-
-tuntop03.tem	-
-tuntop04.tem	-
-ufo.tem	-
-veinatac.tem	-
-veinhole.tem	-
-veins.tem	-
-w-a-01.tem	-
-wa01x.tem	-
-w-a-02.tem	-
-wa02x.tem	-
-w-a-03.tem	-
-wa03x.tem	-
-w-a-04.tem	-
-wa04x.tem	-
-water01.tem	-
-water02.tem	-
-water03.tem	-
-water04.tem	-
-water05.tem	-
-water06.tem	-
-water07.tem	-
-water08.tem	-
-water09.tem	-
-water10.tem	-
-water11.tem	-
-water12.tem	-
-water13.tem	-
-water14.tem	-
-w-b-01.tem	-
-wb01x.tem	-
-w-b-02.tem	-
-wb02x.tem	-
-w-b-03.tem	-
-wb03x.tem	-
-w-b-04.tem	-
-wb04x.tem	-
-w-c-01.tem	-
-wc01x.tem	-
-w-c-02.tem	-
-wc02x.tem	-
-w-c-03.tem	-
-wc03x.tem	-
-w-c-04.tem	-
-wc04x.tem	-
-wcave01.tem	-
-wcave02.tem	-
-wcave03.tem	-
-wcave04.tem	-
-wcave05.tem	-
-wcave06.tem	-
-wcave07.tem	-
-wcave08.tem	-
-wcliff01.tem	-
-wcliff02.tem	-
-wcliff03.tem	-
-wcliff04.tem	-
-wcliff05.tem	-
-wcliff06.tem	-
-wcliff07.tem	-
-wcliff08.tem	-
-wcliff09.tem	-
-wcliff10.tem	-
-wcliff11.tem	-
-wcliff12.tem	-
-wcliff13.tem	-
-wcliff14.tem	-
-wcliff15.tem	-
-wcliff16.tem	-
-wcliff17.tem	-
-wcliff18.tem	-
-wcliff19.tem	-
-wcliff20.tem	-
-wcliff21.tem	-
-wcliff22.tem	-
-wcliff23.tem	-
-wcliff24.tem	-
-wcliff25.tem	-
-wcliff26.tem	-
-wcliff27.tem	-
-wcliff28.tem	-
-w-d-01.tem	-
-wd01x.tem	-
-w-d-02.tem	-
-wd02x.tem	-
-w-d-03.tem	-
-wd03x.tem	-
-w-d-04.tem	-
-wd04x.tem	-
-wslope01.tem	-
-wslope02.tem	-
-wslope03.tem	-
-wslope04.tem	-
-bigblue.sno	-
-blank01.sno	-
-bld01.sno	-
-bld02.sno	-
-bld03.sno	-
-bridge.sno	-
-burnt01.sno	-
-burnt02.sno	-
-burnt03.sno	-
-burnt04.sno	-
-burnt05.sno	-
-burnt06.sno	-
-burnt07.sno	-
-burnt08.sno	-
-burnt09.sno	-
-burnt10.sno	-
-burnt11.sno	-
-burnt12.sno	-
-civ01.sno	-
-civ02.sno	-
-civ03.sno	-
-civ04.sno	-
-civ05.sno	-
-civ06.sno	-
-civ07.sno	-
-civ08.sno	-
-clat01.sno	-
-clat01a.sno	-
-clat02.sno	-
-clat02a.sno	-
-clat03.sno	-
-clat03a.sno	-
-clat04.sno	-
-clat04a.sno	-
-clat05.sno	-
-clat05a.sno	-
-clat06.sno	-
-clat06a.sno	-
-clat07.sno	-
-clat07a.sno	-
-clat08.sno	-
-clat08a.sno	-
-clat09.sno	-
-clat09a.sno	-
-clat10.sno	-
-clat10a.sno	-
-clat11.sno	-
-clat11a.sno	-
-clat12.sno	-
-clat12a.sno	-
-clat13.sno	-
-clat13a.sno	-
-clat14.sno	-
-clat14a.sno	-
-clat15.sno	-
-clat15a.sno	-
-clat16.sno	-
-clat16a.sno	-
-clear01.sno	-
-clear01a.sno	-
-clear01b.sno	-
-clear01c.sno	-
-clear01d.sno	-
-clear01e.sno	-
-clear01f.sno	-
-clear01g.sno	-
-clif01.sno	-
-clif02.sno	-
-cliff01.sno	-
-cliff02.sno	-
-cliff03.sno	-
-cliff04.sno	-
-cliff05.sno	-
-cliff06.sno	-
-cliff07.sno	-
-cliff08.sno	-
-cliff09.sno	-
-cliff10.sno	-
-cliff11.sno	-
-cliff12.sno	-
-cliff13.sno	-
-cliff14.sno	-
-cliff15.sno	-
-cliff16.sno	-
-cliff17.sno	-
-cliff18.sno	-
-cliff19.sno	-
-cliff20.sno	-
-cliff21.sno	-
-cliff22.sno	-
-cliff23.sno	-
-cliff24.sno	-
-cliff25.sno	-
-cliff26.sno	-
-cliff27.sno	-
-cliff28.sno	-
-cliff29.sno	-
-cliff30.sno	-
-cliff31.sno	-
-cliff32.sno	-
-cliff33.sno	-
-cliff33a.sno	-
-cliff34.sno	-
-cliff34a.sno	-
-cliff35.sno	-
-cliff36.sno	-
-cliff37.sno	-
-cliff38.sno	-
-cliff39.sno	-
-cliff40.sno	-
-crate.sno	-
-crater01.sno	-
-crater02.sno	-
-crater03.sno	-
-crater04.sno	-
-crater05.sno	-
-crater06.sno	-
-crater07.sno	-
-crater08.sno	-
-crater09.sno	-
-crater10.sno	-
-crater11.sno	-
-crater12.sno	-
-crystal1.sno	-
-crystal2.sno	-
-crystal3.sno	-
-crystal4.sno	-
-dcliff01.sno	-
-dcliff02.sno	-
-droadc01.sno	-
-droadc02.sno	-
-droadc03.sno	-
-droadc04.sno	-
-droadc05.sno	-
-droadc06.sno	-
-droadc07.sno	-
-droadc08.sno	-
-droadc09.sno	-
-droadc10.sno	-
-droadc11.sno	-
-droadc12.sno	-
-droadc13.sno	-
-droadc14.sno	-
-droadc15.sno	-
-droadc16.sno	-
-droadc17.sno	-
-droadc18.sno	-
-droadc19.sno	-
-droadc20.sno	-
-droadc21.sno	-
-droadc22.sno	-
-droadc23.sno	-
-droadc24.sno	-
-droadj01.sno	-
-droadj02.sno	-
-droadj03.sno	-
-droadj04.sno	-
-droadj05.sno	-
-droadj06.sno	-
-droadj07.sno	-
-droadj08.sno	-
-droadj09.sno	-
-droadj10.sno	-
-droadj11.sno	-
-droads01.sno	-
-droads02.sno	-
-droads03.sno	-
-droads04.sno	-
-droads05.sno	-
-droads06.sno	-
-droads07.sno	-
-droads08.sno	-
-droads09.sno	-
-droads10.sno	-
-droads11.sno	-
-droads12.sno	-
-droads13.sno	-
-droads13.sno	-
-droads14.sno	-
-droads15.sno	-
-droads16.sno	-
-droads17.sno	-
-droads18.sno	-
-droads19.sno	-
-droads20.sno	-
-droads21.sno	-
-droads22.sno	-
-droads23.sno	-
-droads23.sno	-
-droads24.sno	-
-droads25.sno	-
-droads26.sno	-
-droads27.sno	-
-droads28.sno	-
-droads29.sno	-
-droads30.sno	-
-droads31.sno	-
-droads32.sno	-
-droads33.sno	-
-droads34.sno	-
-droads35.sno	-
-droads36.sno	-
-droads37.sno	-
-droads38.sno	-
-droads39.sno	-
-droads40.sno	-
-droads41.sno	-
-droads42.sno	-
-droads42.sno	-
-droads43.sno	-
-droads43.sno	-
-droads44.sno	-
-droads45.sno	-
-droads46.sno	-
-droads47.sno	-
-droads48.sno	-
-droads49.sno	-
-droads50.sno	-
-droads51.sno	-
-droads52.sno	-
-droads53.sno	-
-droads54.sno	-
-droads55.sno	-
-droads56.sno	-
-droads57.sno	-
-droads58.sno	-
-droads59.sno	-
-droads60.sno	-
-droads61.sno	-
-droads62.sno	-
-droads63.sno	-
-droads64.sno	-
-droads65.sno	-
-droads66.sno	-
-drslpe01.sno	-
-drslpe02.sno	-
-drslpe03.sno	-
-drslpe04.sno	-
-drslpe05.sno	-
-drslpe06.sno	-
-drslpe07.sno	-
-drslpe08.sno	-
-dtunn01.sno	-
-dtunn02.sno	-
-dtunn03.sno	-
-dtunn04.sno	-
-dtunnt01.sno	-
-dtunnt02.sno	-
-dtunnt03.sno	-
-dtunnt04.sno	-
-flow01.sno	-
-glat01.sno	-
-glat01a.sno	-
-glat02.sno	-
-glat02a.sno	-
-glat03.sno	-
-glat03a.sno	-
-glat04.sno	-
-glat04a.sno	-
-glat05.sno	-
-glat05a.sno	-
-glat06.sno	-
-glat06a.sno	-
-glat07.sno	-
-glat07a.sno	-
-glat08.sno	-
-glat08a.sno	-
-glat09.sno	-
-glat09a.sno	-
-glat10.sno	-
-glat10a.sno	-
-glat11.sno	-
-glat11a.sno	-
-glat12.sno	-
-glat12a.sno	-
-glat13.sno	-
-glat13a.sno	-
-glat14.sno	-
-glat14a.sno	-
-glat15.sno	-
-glat15a.sno	-
-glat16.sno	-
-glat16a.sno	-
 grey01.sno	-
 grey01a.sno	-
 grey01b.sno	-
@@ -4015,7 +2664,171 @@ grey01d.sno	-
 grey01e.sno	-
 grey01f.sno	-
 grey01g.sno	-
+gsweep.aud	-
+gtarty.shp	-
+gtartymk.shp	-
+gtcnst.shp	-
+gtcnst_a.shp	-
+gtcnst_b.shp	-
+gtcnst_c.shp	-
+gtcnst_d.shp	-
+gtcnstmk.shp	-
+gtcommmk.shp	-
+gtctwr.shp	-
+gtctwr_a.shp	-
+gtctwr_b.shp	-
+gtctwr_c.shp	-
+gtctwr_d.shp	-
+gtctwrmk.shp	-
+gtdept.shp	-
+gtdept_a.shp	-
+gtdept_b.shp	-
+gtdept_c.shp	-
+gtdept_d.shp	-
+gtdeptbb.shp	-
+gtdeptmk.shp	-
+gtdpsa.shp	-
+gtdpsa_a.shp	-
+gtdpsamk.shp	-
+gtdrop.shp	-
+gtdrop_a.shp	-
+gtdrop_b.shp	-
+gtdropmk.shp	-
+gtfire.shp	-
+gtfire_a.shp	-
+gtfire_b.shp	-
+gtfire_c.shp	-
+gtfiremk.shp	-
+gtfsdf.shp	-
+gtfsdf_a.shp	-
+gtgate_a.shp	-
+gtgate_b.shp	-
+gtgateza.shp	-
+gtgatezb.shp	-
+gtgreen.shp	-
+gthpad.shp	-
+gthpad_a.shp	-
+gthpadbb.shp	-
+gthpadmk.shp	-
+gticbm.shp	-
+gticbm_a.shp	-
+gticbmmk.shp	-
+gtkodk.shp	-
+gtkodk_a.shp	-
+gtkodk_b.shp	-
+gtkodk_c.shp	-
+gtlite.shp	-
+gtoldcc1.shp	Ruined Old C&C Construction Yard
+gtoldcc2.shp	Ruined Old C&C Temple
+gtoldcc3.shp	Ruined Old C&C Weapons Factory
+gtoldcc4.shp	Ruined Old C&C Refinery
+gtoldcc5.shp	Ruined Old C&C Advanced Power
+gtoldcc6.shp	Ruined Old C&C Silos
+gtpave.shp	-
+gtpile.shp	-
+gtpile_a.shp	-
+gtpile_b.shp	-
+gtpile_c.shp	-
+gtpilemk.shp	-
+gtplug.shp	-
+gtplug_a.shp	-
+gtplug_b.shp	-
+gtplug_c.shp	-
+gtplug_d.shp	-
+gtplug_e.shp	-
+gtplug_f.shp	-
+gtplugmk.shp	-
+gtpowr.shp	-
+gtpowr_a.shp	-
+gtpowr_b.shp	-
+gtpowrmk.shp	-
+gtradr.shp	-
+gtradr_a.shp	-
+gtradrmk.shp	-
+gtsand.shp	-
+gtsilo.shp	-
+gtsilo_a.shp	-
+gtsilo_b.shp	-
+gtsilomk.shp	-
+gtslrgmk.shp	-
+gtspot.shp	-
+gtspot_a.shp	-
+gtspotmk.shp	-
+gtt2icon.shp	-
+gttech.shp	-
+gttech_a.shp	-
+gttechmk.shp	-
+gtteicon.shp	-
+gttick.shp	-
+gttickmk.shp	-
+gtwall.shp	-
+gtweap.shp	-
+gtweap_1.shp	-
+gtweap_2.shp	-
+gtweap_a.shp	-
+gtweap_b.shp	-
+gtweap_c.shp	-
+gtweap_d.shp	-
+gtweapbb.shp	-
+gtweapmk.shp	-
+gun18.aud	civilian gun
+gunfire.shp	-
+h18tur.hva	-
+h2o_exp1.shp	-
+h2o_exp2.shp	-
+h2o_exp3.shp	-
+hacker.aud	-
+handicon.shp	icon: hand of nod
+harv.hva	-
+harv.vxl	harvester
+harvestr.shp	-
+harvicon.shp	-
+hbox.sno	-
+hbox.tem	-
+hboxmake.sno	-
+hboxmake.tem	-
+hdline01.bmp	-
+hdline02.bmp	-
+hdline03.bmp	-
+hdline04.bmp	-
+hdline05.bmp	-
+hdline06.bmp	-
+hdline07.bmp	-
+hdline08.bmp	-
+hdline09.bmp	-
+hdline10.bmp	-
+healall.shp	crate: heal everything
+healer1.aud	healing units
+healone.shp	crate: heal unit
+heli.hva	-
+heli.vxl	longbow
+heliicon.shp	icon: gdi helipad
+heroism.aud	heroism
+hextreme.ini	
+hextreme.map	-
+hideseek.vqa	-
+hind.hva	-
+hind.vxl	hind
+hlight.shp	-
+hmec.hva	-
+hmec.vxl	mammoth mk 2
+hmecicon.shp	icon: mammoth mk 2
+horv.hva	-
+horv.vxl	harvester with back removed
 house01.sno	-
+house01.tem	-
+hovricon.shp	icon: hover mlrs
+hovrmis1.aud	hovermlrs rocket fire
+hunter2.aud	hunter seeker droid
+hvr.hva	-
+hvr.vxl	hover mlrs
+hvrbarl.hva	-
+hvrtur.hva	-
+hvrtur.vxl	hover mlrs
+icbm.hva	-
+icbm.vxl	ICBM
+icbm1.aud	big huge icbm rocket
+icbmlnch.vqa	-
 ice0101.sno	-
 ice0102.sno	-
 ice0103.sno	-
@@ -4081,6 +2894,7 @@ ice0162.sno	-
 ice0163.sno	-
 ice0164.sno	-
 ice0201.sno	-
+ice0202.sno	-
 ice0203.sno	-
 ice0204.sno	-
 ice0205.sno	-
@@ -4207,230 +3021,1104 @@ ice0361.sno	-
 ice0362.sno	-
 ice0363.sno	-
 ice0364.sno	-
+icecliff.ini	
+icecliff.map	-
+icecrak1.aud	ice crack
+icecrak2.aud	ice crack
+icecrak3.aud	ice crack
+icemust.ini	
+icemust.map	-
+iceskate.vqa	-
+infdie.shp	-
+infgun3.aud	infantry gun
+infiltra.aud	-
+infrared.aud	infrared
+intro.aud	-
+intro.vqa	-
+inviso.shp	-
+ion.ini	-
+ion1.aud	ion cannon strike
+ionbeam.shp	ion cannon beam
+ioncicon.shp	icon: ion cannon
+ionstorm.aud	ion storm ambient (no music track but ion storm sound)
 ishore01.sno	-
+ishore01.tem	-
 ishore02.sno	-
+ishore02.tem	-
 ishore03.sno	-
+ishore03.tem	-
 ishore04.sno	-
+ishore04.tem	-
 ishore05.sno	-
+ishore05.tem	-
 ishore06.sno	-
+ishore06.tem	-
 ishore07.sno	-
+ishore07.tem	-
 ishore08.sno	-
+ishore08.tem	-
 ishore09.sno	-
+ishore09.tem	-
 ishore10.sno	-
+ishore10.tem	-
 ishore11.sno	-
+ishore11.tem	-
 ishore12.sno	-
+ishore12.tem	-
 ishore13.sno	-
+ishore13.tem	-
 ishore14.sno	-
+ishore14.tem	-
 ishore15.sno	-
+ishore15.tem	-
 ishore16.sno	-
+ishore16.tem	-
 ishore17.sno	-
+ishore17.tem	-
 ishore18.sno	-
+ishore18.tem	-
 ishore19.sno	-
+ishore19.tem	-
 ishore20.sno	-
+ishore20.tem	-
 ishore21.sno	-
+ishore21.tem	-
 ishore22.sno	-
+ishore22.tem	-
 ishore23.sno	-
+ishore23.tem	-
 ishore24.sno	-
+ishore24.tem	-
 ishore25.sno	-
+ishore25.tem	-
 ishore26.sno	-
+ishore26.tem	-
 ishore27.sno	-
+ishore27.tem	-
 ishore28.sno	-
+ishore28.tem	-
 ishore29.sno	-
+ishore29.tem	-
 ishore30.sno	-
+ishore30.tem	-
 ishore31.sno	-
+ishore31.tem	-
 ishore32.sno	-
+ishore32.tem	-
 ishore33.sno	-
+ishore33.tem	-
 ishore34.sno	-
+ishore34.tem	-
 ishore35.sno	-
+ishore35.tem	-
 ishore36.sno	-
+ishore36.tem	-
 ishore37.sno	-
+ishore37.tem	-
 ishore38.sno	-
+ishore38.tem	-
 ishore39.sno	-
+ishore39.tem	-
 ishore40.sno	-
+ishore40.tem	-
 ishore41.sno	-
+ishore41.tem	-
 ishore42.sno	-
+ishore42.tem	-
 ishore43.sno	-
+ishore43.tem	-
 ishore44.sno	-
+ishore44.tem	-
 ishore45.sno	-
+ishore45.tem	-
 ishore46.sno	-
+ishore46.tem	-
 ishore47.sno	-
+ishore47.tem	-
 ishore48.sno	-
+ishore48.tem	-
+isosno.pal	snow theater palette
+isosnow.mix	-
+isotem.pal	temperate theater paltette
+isotemp.mix	-
+jeep.hva	-
+jeep.vxl	-
+jeeptur.hva	-
+jeeptur.vxl	-
+jjeticon.shp	icon: jumpjet infantry
+jugger.shp	-
+jugger1.aud	juggernaut firing sound
+juggicon.shp	-
+jumpjet.shp	unit: jumpjet infantry
+jumpjet1.aud	jump jet fires gun
+k_light1.shp	-
+k_light2.shp	-
+key.ini	
+keyboard.ini	TS keyboard settings
+kia6pt.fnt	-
+kill_gdi.vqa	-
+killmech.vqa	-
+klax1.aud	klaxon
+kmachine.aud	-
+langrule.ini	
+laser.hva	-
+laser.vxl	laser turret turret
+lasricon.shp	icon: laser fence post
+lastur1.aud	laser turret
+leftbar.pcx	-
+lgrysmk1.shp	-
+light.pal	-
+limpbom1.aud	limpet drone attatch
+limpc3.aud	limpet drone move
+limpc4.aud	limpet drone move
+limped.shp	-
+limpicon.shp	-
+limpq3.aud	limpet drone move
+limpq4.aud	limpet drone move
+linkup.aud	-
+liteicon.shp	icon: light
+load400a.pcx	-
+load400b.pcx	-
+load400c.pcx	-
+load400d.pcx	-
+load480a.pcx	-
+load480b.pcx	-
+load480c.pcx	-
+load480d.pcx	-
+load600a.pcx	-
+load600b.pcx	-
+load600c.pcx	-
+load600d.pcx	-
+loading.pcx	-
+loadout.shp	-
 lobrdg01.sno	-
+lobrdg01.tem	-
 lobrdg02.sno	-
+lobrdg02.tem	-
 lobrdg03.sno	-
+lobrdg03.tem	-
 lobrdg04.sno	-
+lobrdg04.tem	-
 lobrdg05.sno	-
+lobrdg05.tem	-
 lobrdg06.sno	-
+lobrdg06.tem	-
 lobrdg07.sno	-
+lobrdg07.tem	-
 lobrdg08.sno	-
+lobrdg08.tem	-
 lobrdg09.sno	-
+lobrdg09.tem	-
 lobrdg10.sno	-
+lobrdg10.tem	-
 lobrdg11.sno	-
+lobrdg11.tem	-
 lobrdg12.sno	-
+lobrdg12.tem	-
 lobrdg13.sno	-
+lobrdg13.tem	-
 lobrdg14.sno	-
+lobrdg14.tem	-
 lobrdg15.sno	-
+lobrdg15.tem	-
 lobrdg16.sno	-
+lobrdg16.tem	-
 lobrdg17.sno	-
+lobrdg17.tem	-
 lobrdg18.sno	-
+lobrdg18.tem	-
 lobrdg19.sno	-
+lobrdg19.tem	-
 lobrdg20.sno	-
+lobrdg20.tem	-
 lobrdg21.sno	-
+lobrdg21.tem	-
 lobrdg22.sno	-
+lobrdg22.tem	-
 lobrdg23.sno	-
+lobrdg23.tem	-
 lobrdg24.sno	-
+lobrdg24.tem	-
 lobrdg25.sno	-
+lobrdg25.tem	-
 lobrdg26.sno	-
+lobrdg26.tem	-
 lobrdg27.sno	-
+lobrdg27.tem	-
 lobrdg28.sno	-
+lobrdg28.tem	-
+lobrdge1.sno	-
+lobrdge1.tem	-
+lobrdge2.sno	-
+lobrdge2.tem	-
+lobrdge3.sno	-
+lobrdge3.tem	-
+lobrdge4.sno	-
+lobrdge4.tem	-
+local mix database.dat	mix database
+local.mix	-
+logo01.shp	-
+lonetrop.aud	lone troop
+lpst.hva	-
+lpst.vxl	deployable sensor array
+lpsticon.shp	-
+lredsmk1.shp	-
+lrotor.shp	-
+m113.hva	-
+m113.vxl	apc
+m113tur.hva	-
+m113tur.vxl	apc
+m_emp.hva	-
+m_emp.vxl	mobile EMP
+madrap.aud	mad rap
+maps.aud	-
+mapsel.ini	TS map selection settings
+mapsel.pal	map selection screen palette
+mapsel01.ini	FS map selection settings
+matt.shp	-
+mcv.hva	-
+mcv.vxl	mobile construction vechicle
+mcvicon.shp	-
+mechatak.vqa	-
+medic.shp	unit: medic
+mediicon.shp	icon: medic
+mekatk2.vqa	-
+mempfx.shp	-
+mempicon.shp	-
+message1.aud	incomming message
+metdebri.shp	-
+meteor1.aud	large meteor
+meteor2.aud	small meteor
+methit1.aud	meteor hits ground
+metlarge.shp	large meteor
+metltral.shp	-
+metricon.shp	icon: meteor shower
+metsmall.shp	small meteor
+metstral.shp	-
+mgun-e.shp	machine gun fire (east)
+mgun-n.shp	machine gun fire (north)
+mgun-ne.shp	machine gun fire (northeast)
+mgun-nw.shp	machine gun fire (northwest)
+mgun-s.shp	machine gun fire (south)
+mgun-se.shp	machine gun fire (southeast)
+mgun-sw.shp	machine gun fire (southwest)
+mgun-w.shp	machine gun fire (west)
+mhijack.shp	unit: mutant hijacker
 mine.sno	-
 mine.tem	-
-gold01.tem	-
-gold02.tem	-
-gold03.tem	-
-gold04.tem	-
-gold01.sno	-
-gold02.sno	-
-gold03.sno	-
-gold04.sno	-
-gem01.sno	-
-gem02.sno	-
-gem03.sno	-
-gem04.sno	-
-gem01.tem	-
-gem02.tem	-
-gem03.tem	-
-gem04.tem	-
-hbox.tem	-
-hboxmake.tem	-
-hboxmake.sno	-
-hbox.sno	-
+misl.hva	-
+misl.vxl	-
+misl1.aud	bike missile
+mislchem.hva	-
+mislchem.vxl	chemical missile
+mislmlti.hva	-
+mislmlti.vxl	multi missile
+mislorca.hva	-
+mislorca.vxl	-
+mislsam.hva	
+mislsam.vxl	
+missile.shp	
+mission.ini	TS mission briefings
+mission1.ini	FS mission briefings
+missions.pkt	-
+mlrs.hva	-
+mlrs.vxl	mlrs
+mlrstur.hva	-
+mlrstur.vxl	mlrs
+mltiicon.shp	icon: multi-missile
+mltimisl.shp	multi-missile projectile
+mmch.shp	unit: titan
+mmchbarl.hva	-
+mmchbarl.vxl	titan turret
+mmchicon.shp	icon: titan
+mmchtur.hva	-
+mnly.hva	-
+mnly.vxl	mine layer
+mobemp1.aud	mobile emp
+money.shp	crate: money
+monocar.hva	-
+monocar.vxl	train engine
+monoeng.hva	-
+monoeng.vxl	train passenger car
+morning.ini	-
+mouse.shp	-
+mouse.shp	mouse cursors
+mousepal.pal	mouse cursors palette
+movelite.shp	-
+mpscore.pcx	-
+mrj.hva	-
+mrj.vxl	mobile radar jammer
+mrjtur.hva	-
+mrjtur.vxl	mobile radar jammer turret
+msg1.aud	message
 mslo.sno	-
 mslo.tem	-
-mslomake.tem	-
 mslomake.sno	-
+mslomake.tem	-
+msovrly.pal	map selection overlay palette
+msslicon.shp	icon: missile silo
+mstl.shp	-
+mstl_a.shp	-
+mstlicon.shp	-
+mstlmk.shp	-
+mtrb.hva	-
+mtrb.vxl	metior
+mtrs.hva	-
+mtrs.vxl	metior
+mtrt.hva	-
+mtrt.vxl	metior
+multi01.pkt	-
+mutant.shp	unit: mutant
+mutant2.shp	-
+mutant3.shp	unit: mutant sergent
+mutants.aud	mutants
+mutants.ini	
+mutants.map	-
+mutcicon.shp	icon: umagon, tratos, ghost stalker (group photo)
+mwar.shp	-
+mwar_1.shp	-
+mwar_2.shp	-
+mwar_a.shp	-
+mwar_b.shp	-
+mwar_c.shp	-
+mwar_d.shp	-
+mwar_nod.hva	-
+mwar_nod.vxl	mobile war factory/fist of nod
+mwarbb.shp	-
+mwaricon.shp	-
+mwarmk.shp	-
+mwmn.shp	unit: mutant soldier/woman
+n_logo_l.vqa	-
+n_logo_w.vqa	-
+naapwr.shp	-
+naapwr_a.shp	-
+naapwrmk.shp	-
+naback.pcx	
+nabackh.pcx	
+nafnce.shp	-
+nagate_a.shp	-
+nagate_b.shp	-
+nagateza.shp	-
+nagatezb.shp	-
+nagr01.shp	
+nagr02.shp	
+nagr03.shp	
+nagr04.shp	
+nagr05.shp	
+nagr06.shp	
+nagr07.shp	
+nagr08.shp	
+nagr09.shp	
+nagr10.shp	
+nagr11.shp	
+nagr12.shp	
+nagr13.shp	
+nagr14.shp	
+nagr15.shp	
+nagr16.shp	
+nagr17.shp	
+nagr18.shp	
+nagr19.shp	
+nagr20.shp	
+nagr21.shp	
+nagr22.shp	
+nagr23.shp	
+nagr24.shp	
+nagr25.shp	
+nagr26.shp	
+nagr27.shp	
+nagr28.shp	
+nagr29.shp	
+nagr30.shp	
+nahand.shp	-
+nahand_a.shp	-
+nahand_b.shp	-
+nahandmk.shp	-
+nahpad.shp	-
+nahpad_a.shp	-
+nahpadbb.shp	-
+nahpadmk.shp	-
+nalasr.shp	-
+nalasrmk.shp	-
+namisl.shp	-
+namisl_a.shp	-
+namisl_b.shp	-
+namislmk.shp	-
+namntk.shp	-
+namntk_a.shp	-
+namtnk_a.shp	-
+nanr01.shp	
+nanr02.shp	
+nanr03.shp	
+nanr04.shp	
+nanr05.shp	
+nanr06.shp	
+nanr07.shp	
+nanr08.shp	
+nanr09.shp	
+nanr10.shp	
+nanr11.shp	
+nanr12.shp	
+nanr13.shp	
+nanr14.shp	
+nanr15.shp	
+nanr16.shp	
+nanr17.shp	
+nanr18.shp	
+nanr19.shp	
+nanr20.shp	
+nanr21.shp	
+nanr22.shp	
+nanr23.shp	
+nanr24.shp	
+nanr25.shp	
+nanr26.shp	
+nanr27.shp	
+nanr28.shp	
+nanr29.shp	
+nanr30.shp	
+naobel.shp	-
+naobel_a.shp	-
+naobel_b.shp	-
+naobelmk.shp	-
+napost.shp	-
+napost_a.shp	-
+napost_b.shp	-
+napost_d.shp	-
+napostmk.shp	-
+napowr.shp	-
+napowr_a.shp	-
+napowrmk.shp	-
+napuls.shp	-
+napuls_a.shp	-
+napulsmk.shp	-
+napyra.shp	-
+napyra_a.shp	-
+naradr.shp	-
+naradr_a.shp	-
+naradrmk.shp	-
+narefn.shp	-
+narefn_C.shp	-
+narefn_a.shp	-
+narefn_ar.shp	-
+narefn_b.shp	-
+narefnbb.shp	-
+narefnmk.shp	-
+narrow.ini	
+narrow.map	-
+nasam.shp	-
+nasammk.shp	-
+nastlh.shp	-
+nastlh_a.shp	-
+nastlhmk.shp	-
+natech.shp	-
+natech_a.shp	-
+natechmk.shp	-
+natmpl.shp	-
+natmpl_a.shp	-
+natmplmk.shp	-
+nawall.shp	-
+nawast.shp	-
+nawast_a.shp	-
+nawast_b.shp	-
+nawastbb.shp	-
+nawastmk.shp	-
+naweap.shp	-
+naweap_1.shp	-
+naweap_2.shp	-
+naweap_a.shp	-
+naweap_b.shp	-
+naweapbb.shp	-
+naweapmk.shp	-
+newmenu.ini	new menu settings file
+nga2icon.shp	icon: nod gate
+ngaticon.shp	icon: nod gate
+nhpdicon.shp	icon: nod helipad
+night.ini	-
+nod-01.aud	-
+nod-02.aud	-
+nod-03a.aud	-
+nod-03b.aud	-
+nod-04a.aud	-
+nod-04b.aud	-
+nod-05.aud	-
+nod-06a.aud	-
+nod-06b.aud	-
+nod-06c.aud	-
+nod-07.aud	-
+nod-07a.aud	-
+nod-07b.aud	-
+nod-08.aud	-
+nod-09a.aud	-
+nod-09b.aud	-
+nod-10.aud	-
+nod-11.aud	-
+nod-12a.aud	-
+nod-12b.aud	-
+nod.aud	-
+nod01_sb.vqa	-
+nod02_sb.vqa	-
+nod06abw.vqa	-
+nod10a.ini	
+nod10a.map	-
+nod11a.ini	
+nod11a.map	-
+nod12a.ini	
+nod12a.map	-
+nod12b.ini	
+nod12b.map	-
+nod1a.ini	
+nod1a.map	-
+nod2a.ini	
+nod2a.map	-
+nod3a.ini	
+nod3a.map	-
+nod3b.ini	
+nod3b.map	-
+nod4a.ini	
+nod4a.map	-
+nod4b.ini	
+nod4b.map	-
+nod5a.ini	
+nod5a.map	-
+nod6a.ini	
+nod6a.map	-
+nod6b.ini	
+nod6b.map	-
+nod6c.ini	
+nod6c.map	-
+nod7a.ini	
+nod7a.map	-
+nod7b.ini	
+nod7b.map	-
+nod8a.ini	
+nod8a.map	-
+nod9a.ini	
+nod9a.map	-
+nod9b.ini	
+nod9b.map	-
+nod_finl.vqa	-
+nod_flag.vqa	-
+nod_m02.vqa	-
+nod_m03.vqa	-
+nod_m04.vqa	-
+nod_m05.vqa	-
+nod_m06.vqa	-
+nod_m07.vqa	-
+nod_m08.vqa	-
+nod_m09.vqa	-
+nod_m10.vqa	-
+nod_m11.vqa	-
+nod_m12.vqa	-
+nodamerica.pal	
+nodamerica.pcx	
+nodamerica.vqa	
+nodc.pcx	-
+nodch.pcx	-
+nodclk01.pcx	-
+nodclk02.pcx	-
+nodclk03.pcx	-
+nodclk04.pcx	-
+nodclk05.pcx	-
+nodcrush.aud	nod crush
+nodeurope.pal	
+nodeurope.pcx	
+nodeurope.vqa	
+nodi.pcx	-
+nodlogo.pal	
+nodlogo.shp	
+nodmap01.pcx	-
+nodmap01.vqa	-
+nodmap02.pcx	-
+nodmap02.vqa	-
+nodmap03.pcx	-
+nodmap03.vqa	-
+nodmap04.pcx	-
+nodmap04.vqa	-
+nodmap05.pcx	-
+nodmap05.vqa	-
+nodtarget.pal	-
+nodtarget2.shp	-
+notify.aud	notification
+nowcnot.vqa	-
+npwricon.shp	icon: nod power plant
+nradicon.shp	icon: nod radar
+nsweep.aud	-
+ntapwr.shp	-
+ntapwr_a.shp	-
+ntapwrmk.shp	-
+ntchicon.shp	icon: nod tech center
+ntfnce.shp	-
+ntgate_a.shp	-
+ntgate_b.shp	-
+ntgateza.shp	-
+ntgatezb.shp	-
+nthand.shp	-
+nthand_a.shp	-
+nthand_b.shp	-
+nthandmk.shp	-
+nthpad.shp	-
+nthpad_a.shp	-
+nthpadbb.shp	-
+nthpadmk.shp	-
+ntlasr.shp	-
+ntlasrmk.shp	-
+ntmisl.shp	-
+ntmisl_a.shp	-
+ntmisl_b.shp	-
+ntmislmk.shp	-
+ntmntk.shp	-
+ntmntk_a.shp	-
+ntmtnk_a.shp	-
+ntobel.shp	-
+ntobel_a.shp	-
+ntobel_b.shp	-
+ntobelmk.shp	-
+ntpost.shp	-
+ntpost_a.shp	-
+ntpost_b.shp	-
+ntpost_d.shp	-
+ntpostmk.shp	-
+ntpowr.shp	-
+ntpowr_a.shp	-
+ntpowrmk.shp	-
+ntpuls.shp	-
+ntpuls_a.shp	-
+ntpulsmk.shp	-
+ntpyra.shp	-
+ntpyra_a.shp	-
+ntradr.shp	-
+ntradr_a.shp	-
+ntradrmk.shp	-
+ntrefn.shp	-
+ntrefn_C.shp	-
+ntrefn_a.shp	-
+ntrefn_ar.shp	-
+ntrefn_b.shp	-
+ntrefnbb.shp	-
+ntrefnmk.shp	-
+ntsam.shp	-
+ntsammk.shp	-
+ntstlh.shp	-
+ntstlh_a.shp	-
+ntstlhmk.shp	-
+nttech.shp	-
+nttech_a.shp	-
+nttechmk.shp	-
+nttmpl.shp	-
+nttmpl_a.shp	-
+nttmplmk.shp	-
+ntwall.shp	-
+ntwast.shp	-
+ntwast_a.shp	-
+ntwast_b.shp	-
+ntwastbb.shp	-
+ntwastmk.shp	-
+ntweap.shp	-
+ntweap_1.shp	-
+ntweap_2.shp	-
+ntweap_a.shp	-
+ntweap_b.shp	-
+ntweapbb.shp	-
+ntweapmk.shp	-
+null.shp	-
+nwalicon.shp	icon: nod wall
+nwepicon.shp	icon: nod war factory
+obelcor3.aud	cabals obelisk firing
+obelmod1.aud	cabals obelisk firing
+obelpowr.aud	obelisk powering up
+obelray1.aud	obelisk firing laser
+obl1.shp	-
+obl1_a.shp	-
+obl1_b.shp	-
+obl1_c.shp	-
+obl2.shp	-
+obl2_a.shp	-
+obl2_b.shp	-
+obl2_c.shp	-
+obliicon.shp	icon: obliesk of light
+obmbicon.shp	icon: orca bomber
+options.aud	-
+orca.hva	-
+orca.vxl	orca fighter
+orcab.hva	-
+orcab.vxl	orca bomber
+orcadwn1.aud	orca lands
+orcaicon.shp	icon: orca fighter
+orcamis1.aud	orca fighter attack
+orcastrk.vqa	-
+orcatran.hva	-
+orcatran.vxl	orca transport
+orcaup1.aud	orca takes off
+otrnicon.shp	icon: carryall
 ovrps01.sno	-
+ovrps01.tem	-
 ovrps01a.sno	-
+ovrps01a.tem	-
 ovrps02.sno	-
+ovrps02.tem	-
 ovrps02a.sno	-
+ovrps02a.tem	-
 ovrps03.sno	-
+ovrps03.tem	-
 ovrps03a.sno	-
+ovrps03a.tem	-
 ovrps04.sno	-
+ovrps04.tem	-
 ovrps04a.sno	-
+ovrps04a.tem	-
 ovrps05.sno	-
+ovrps05.tem	-
 ovrps05a.sno	-
+ovrps05a.tem	-
 ovrps06.sno	-
+ovrps06.tem	-
 ovrps06a.sno	-
+ovrps06a.tem	-
 ovrps07.sno	-
+ovrps07.tem	-
 ovrps08.sno	-
+ovrps08.tem	-
 ovrps09.sno	-
+ovrps09.tem	-
 ovrps10.sno	-
+ovrps10.tem	-
 ovrps11.sno	-
+ovrps11.tem	-
 ovrps12.sno	-
+ovrps12.tem	-
 ovrps13.sno	-
+ovrps13.tem	-
 ovrps14.sno	-
+ovrps14.tem	-
 ovrps15.sno	-
+ovrps15.tem	-
 ovrps16.sno	-
+ovrps16.tem	-
+oxanna.shp	unit: oxanna
 p_end01.sno	-
+p_end01.tem	-
 p_end02.sno	-
+p_end02.tem	-
 p_end03.sno	-
+p_end03.tem	-
 p_end04.sno	-
+p_end04.tem	-
+palet01.shp	-
+palet02.shp	-
+palet03.shp	-
+palet04.shp	-
+palette.pal	-
+parabomb.shp	parabombs
+parach.shp	-
+patriot.shp	patriot missile
 pave01.sno	-
+pave01.tem	-
 pave02.sno	-
+pave02.tem	-
 pave03.sno	-
+pave03.tem	-
 pave04.sno	-
+pave04.tem	-
 pave05.sno	-
+pave05.tem	-
 pave06.sno	-
+pave06.tem	-
 pave07.sno	-
+pave07.tem	-
 pave08.sno	-
+pave08.tem	-
 pave09.sno	-
+pave09.tem	-
 pave10.sno	-
+pave10.tem	-
 pave11.sno	-
+pave11.tem	-
 pave12.sno	-
+pave12.tem	-
 pave13.sno	-
+pave13.tem	-
 pave14.sno	-
+pave14.tem	-
+paveicon.shp	icon: pavement
+pentagrm.ini	
+pentagrm.map	-
+permfrst.ini	
+permfrst.map	-
+pharotek.aud	pharotek
+pick.hva	-
+pick.vxl	pickup truck
+piece.hva	-
+piece.vxl	debris
+piff.shp	single bullet hits ground (hollow point)
+piffpiff.shp	multiple bullets hit ground (small arms fire)
+pilotlit.shp	-
+pips.shp	signs that appear at bottom of a unit
+pips2.shp	more pips
+pitplats.ini	
+pitplats.map	-
+place.shp	-
+place2.aud	place a building down
 plat01.sno	-
+plat01.tem	-
 plat01a.sno	-
+plat01a.tem	-
 plat02.sno	-
+plat02.tem	-
 plat02a.sno	-
+plat02a.tem	-
 plat03.sno	-
+plat03.tem	-
 plat03a.sno	-
+plat03a.tem	-
 plat04.sno	-
+plat04.tem	-
 plat04a.sno	-
+plat04a.tem	-
 plat05.sno	-
+plat05.tem	-
 plat05a.sno	-
+plat05a.tem	-
 plat06.sno	-
+plat06.tem	-
 plat06a.sno	-
+plat06a.tem	-
 plat07.sno	-
+plat07.tem	-
 plat07a.sno	-
+plat07a.tem	-
 plat08.sno	-
+plat08.tem	-
 plat08a.sno	-
+plat08a.tem	-
 plat09.sno	-
+plat09.tem	-
 plat09a.sno	-
+plat09a.tem	-
 plat10.sno	-
+plat10.tem	-
 plat10a.sno	-
+plat10a.tem	-
 plat11.sno	-
+plat11.tem	-
 plat11a.sno	-
+plat11a.tem	-
 plat12.sno	-
+plat12.tem	-
 plat12a.sno	-
+plat12a.tem	-
 plat13.sno	-
+plat13.tem	-
 plat13a.sno	-
+plat13a.tem	-
 plat14.sno	-
+plat14.tem	-
 plat14a.sno	-
+plat14a.tem	-
 plat15.sno	-
+plat15.tem	-
 plat15a.sno	-
+plat15a.tem	-
 plat16.sno	-
+plat16.tem	-
 plat16a.sno	-
+plat16a.tem	-
+plsecan2.aud	pulse cannon fires
+plticon.shp	icon: laser turret
+plugicon.shp	-
+pockets.ini	
+pockets.map	-
+pod.shp	unit: droppod
+podasslt.vqa	-
+podring.shp	droppod landing ring
+podsicon.shp	-
+power.shp	-
+poweroff.shp	-
+powerp.shp	-
+powricon.shp	icon: gdi power plant
 proad01.sno	-
+proad01.tem	-
 proad01a.sno	-
+proad01a.tem	-
 proad01b.sno	-
+proad01b.tem	-
 proad01c.sno	-
+proad01c.tem	-
 proad02.sno	-
+proad02.tem	-
 proad02a.sno	-
+proad02a.tem	-
 proad02b.sno	-
+proad02b.tem	-
 proad02c.sno	-
+proad02c.tem	-
 proad03.sno	-
+proad03.tem	-
 proad04.sno	-
+proad04.tem	-
 proad05.sno	-
+proad05.tem	-
 proad06.sno	-
+proad06.tem	-
 proad07.sno	-
+proad07.tem	-
 proad08.sno	-
+proad08.tem	-
 proad09.sno	-
+proad09.tem	-
 proad10.sno	-
+proad10.tem	-
 proad11.sno	-
+proad11.tem	-
 proad12.sno	-
+proad12.tem	-
 proad13.sno	-
+proad13.tem	-
 proad14.sno	-
+proad14.tem	-
 proad15.sno	-
+proad15.tem	-
 proad16.sno	-
+proad16.tem	-
 proad17.sno	-
+proad17.tem	-
 proad18.sno	-
+proad18.tem	-
 proad19.sno	-
+proad19.tem	-
 proad20.sno	-
+proad20.tem	-
 proad21.sno	-
+proad21.tem	-
+proadc01.tem	-
+proadc02.tem	-
+proadc03.tem	-
+proadc04.tem	-
+proadc05.tem	-
+proadc06.tem	-
+proadc07.tem	-
+proadc08.tem	-
+proadc09.tem	-
+proadc10.tem	-
+proadc11.tem	-
+proadc12.tem	-
+proadc13.tem	-
+proadc14.tem	-
+probe.hva	
+probe.vxl	
+progbar.shp	-
+progbar2.shp	-
+progbarm.shp	-
+proicon.shp	icon: banshee
 prslpe01.sno	-
+prslpe01.tem	-
 prslpe02.sno	-
+prslpe02.tem	-
 prslpe03.sno	-
+prslpe03.tem	-
 prslpe04.sno	-
+prslpe04.tem	-
+pulsball.shp	emp ball
+pulscan.hva	-
+pulscan.vxl	em pulse cannon turret
+pulsefx1.shp	emp hits
+pulsefx2.shp	emp hits
+pulsicon.shp	icon: em pulse
 pvclr01.sno	-
+pvclr01.tem	-
 pvclr01a.sno	-
+pvclr01a.tem	-
 pvclr01b.sno	-
+pvclr01b.tem	-
 pvclr01c.sno	-
+pvclr01c.tem	-
 pvclr01d.sno	-
+pvclr01d.tem	-
 pvclr01e.sno	-
+pvclr01e.tem	-
 pvclr01f.sno	-
+pvclr01f.tem	-
 pvclr01g.sno	-
+pvclr01g.tem	-
+r-dn.shp	-
+r-up.shp	-
+rad1icon.shp	icon: threat rating node
+rad2icon.shp	icon: seeker control
+rad3icon.shp	icon: ion cannon uplink
+radar.shp	-
+radardn1.aud	communication failure
+radricon.shp	icon: gdi radar
 railbrdg.sno	-
+railbrdg.tem	-
+railuse5.aud	heavy mech railgun
+rainnite.aud	-
 ramp01.sno	-
+ramp01.tem	-
 ramp02.sno	-
+ramp02.tem	-
 ramp03.sno	-
+ramp03.tem	-
 ramp04.sno	-
+ramp04.tem	-
 ramp05.sno	-
+ramp05.tem	-
 ramp06.sno	-
+ramp06.tem	-
 ramp07.sno	-
+ramp07.tem	-
 ramp08.sno	-
+ramp08.tem	-
 ramp09.sno	-
+ramp09.tem	-
 ramp10.sno	-
+ramp10.tem	-
+rboticon.shp	icon: mobile repair vehicle
+rclock2.shp	-
+reaper.shp	-
+reapicon.shp	-
+redlite.shp	-
+redsky.aud	red sky
+reficon.shp	-
+repair.hva	-
+repair.shp	-
+repair.vxl	mobile repair tank
+repair11.aud	repair vehicle
+retrbtn.vqa	-
+reveal.shp	crate: reveal whole map
+rg01a.shp	
+rg02a.shp	-
+rg03a.shp	-
+rg03ab.shp	-
+rg04a1.shp	-
+rg04a2.shp	-
+rg05ab1.shp	
+rg05ab2.shp	-
+rg05b1.shp	
+rg05b2.shp	-
+rg06ab1.shp	
+rg06ab2.shp	
+rg06ab3.shp	-
+rg06ab4.shp	-
+rg06b2.shp	
+rg06b3.shp	
+rg06b4.shp	-
+rg07a.shp	-
+rg08a.shp	-
+rg09abd.shp	-
+rg09bd.shp	-
+rg09cd.shp	
+rg09d1.shp	
+rg09d2.shp	
+rg10ab1.shp	-
+rg11a1.shp	-
+rg12a1.shp	-
+rg12a2.shp	
+rightbar.pcx	-
+ring.shp	-
+ring1.shp	ion cannon blast ring
+rivrrad4.ini	
+rivrrad4.map	-
+rketinf1.aud	rocket infantry fire
 rlat01.sno	-
 rlat01a.sno	-
 rlat02.sno	-
@@ -4464,53 +4152,131 @@ rlat15a.sno	-
 rlat16.sno	-
 rlat16a.sno	-
 rmpfx01.sno	-
+rmpfx01.tem	-
 rmpfx01a.sno	-
+rmpfx01a.tem	-
 rmpfx01b.sno	-
+rmpfx01b.tem	-
 rmpfx01c.sno	-
+rmpfx01c.tem	-
 rmpfx02.sno	-
+rmpfx02.tem	-
 rmpfx02a.sno	-
+rmpfx02a.tem	-
 rmpfx02b.sno	-
+rmpfx02b.tem	-
 rmpfx02c.sno	-
+rmpfx02c.tem	-
 rmpfx03.sno	-
+rmpfx03.tem	-
 rmpfx03a.sno	-
+rmpfx03a.tem	-
 rmpfx03b.sno	-
+rmpfx03b.tem	-
 rmpfx03c.sno	-
+rmpfx03c.tem	-
 rmpfx04.sno	-
+rmpfx04.tem	-
 rmpfx04a.sno	-
+rmpfx04a.tem	-
 rmpfx04b.sno	-
+rmpfx04b.tem	-
 rmpfx04c.sno	-
+rmpfx04c.tem	-
 rmpfx05.sno	-
+rmpfx05.tem	-
 rmpfx05a.sno	-
+rmpfx05a.tem	-
 rmpfx05b.sno	-
+rmpfx05b.tem	-
 rmpfx05c.sno	-
+rmpfx05c.tem	-
 rmpfx06.sno	-
+rmpfx06.tem	-
 rmpfx06a.sno	-
+rmpfx06a.tem	-
 rmpfx06b.sno	-
+rmpfx06b.tem	-
 rmpfx06c.sno	-
+rmpfx06c.tem	-
 rmpfx07.sno	-
+rmpfx07.tem	-
 rmpfx07a.sno	-
+rmpfx07a.tem	-
 rmpfx07b.sno	-
+rmpfx07b.tem	-
 rmpfx07c.sno	-
+rmpfx07c.tem	-
 rmpfx08.sno	-
+rmpfx08.tem	-
 rmpfx08a.sno	-
+rmpfx08a.tem	-
 rmpfx08b.sno	-
+rmpfx08b.tem	-
 rmpfx08c.sno	-
+rmpfx08c.tem	-
 rmpfx09.sno	-
+rmpfx09.tem	-
 rmpfx09a.sno	-
+rmpfx09a.tem	-
 rmpfx09b.sno	-
+rmpfx09b.tem	-
 rmpfx09c.sno	-
+rmpfx09c.tem	-
 rmpfx10.sno	-
+rmpfx10.tem	-
 rmpfx10a.sno	-
+rmpfx10a.tem	-
 rmpfx10b.sno	-
+rmpfx10b.tem	-
 rmpfx10c.sno	-
+rmpfx10c.tem	-
 rmpfx11.sno	-
+rmpfx11.tem	-
 rmpfx11a.sno	-
+rmpfx11a.tem	-
 rmpfx11b.sno	-
+rmpfx11b.tem	-
 rmpfx11c.sno	-
+rmpfx11c.tem	-
 rmpfx12.sno	-
+rmpfx12.tem	-
 rmpfx12a.sno	-
+rmpfx12a.tem	-
 rmpfx12b.sno	-
+rmpfx12b.tem	-
 rmpfx12c.sno	-
+rmpfx12c.tem	-
+rn01a.shp	
+rn02a.shp	-
+rn03a.shp	-
+rn03ab.shp	-
+rn04a1.shp	-
+rn04a2.shp	-
+rn05ab1.shp	
+rn05ab2.shp	-
+rn05b1.shp	
+rn05b2.shp	-
+rn06ab1.shp	
+rn06ab2.shp	
+rn06ab3.shp	-
+rn06ab4.shp	-
+rn06b1.shp	
+rn06b2.shp	
+rn06b3.shp	
+rn06b4.shp	-
+rn07a.shp	-
+rn08a.shp	-
+rn09abd.shp	-
+rn09bd.shp	-
+rn09cd.shp	
+rn09d1.shp	
+rn09d2.shp	
+rn10ab1.shp	-
+rn11a1.shp	-
+rn11a2.shp	
+rn12a1.shp	-
+rn12a2.shp	
 rock01.sno	-
 rock01a.sno	-
 rock01b.sno	-
@@ -4520,721 +4286,1171 @@ rock01e.sno	-
 rock01f.sno	-
 rock01g.sno	-
 rough01.sno	-
+rough01.tem	-
 rough02.sno	-
+rough02.tem	-
 rough03.sno	-
+rough03.tem	-
 rough04.sno	-
+rough04.tem	-
 rough05.sno	-
+rough05.tem	-
 rough06.sno	-
+rough06.tem	-
 rough07.sno	-
+rough07.tem	-
 rough08.sno	-
+rough08.tem	-
 rough09.sno	-
+rough09.tem	-
 rough10.sno	-
+rough10.tem	-
+rrotor.shp	-
 ruff01.sno	-
+ruff01.tem	-
 ruff01a.sno	-
+ruff01a.tem	-
 ruff01b.sno	-
+ruff01b.tem	-
 ruff01c.sno	-
+ruff01c.tem	-
 ruff01d.sno	-
+ruff01d.tem	-
 ruff01e.sno	-
+ruff01e.tem	-
 ruff01f.sno	-
+ruff01f.tem	-
 ruff01g.sno	-
+ruff01g.tem	-
 ruin01.sno	-
-shore01.sno	-
-shore02.sno	-
-shore03.sno	-
-shore04.sno	-
-shore05.sno	-
-shore06.sno	-
-shore07.sno	-
-shore08.sno	-
-shore09.sno	-
-shore10.sno	-
-shore11.sno	-
-shore12.sno	-
-shore13.sno	-
-shore14.sno	-
-shore15.sno	-
-shore16.sno	-
-shore17.sno	-
-shore18.sno	-
-shore19.sno	-
-shore20.sno	-
-shore21.sno	-
-shore22.sno	-
-shore23.sno	-
-shore24.sno	-
-shore25.sno	-
-shore26.sno	-
-shore27.sno	-
-shore28.sno	-
-shore29.sno	-
-shore30.sno	-
-shore31.sno	-
-shore32.sno	-
-shore33.sno	-
-shore34.sno	-
-shore35.sno	-
-shore36.sno	-
-shore37.sno	-
-shore38.sno	-
-shore39.sno	-
-shore40.sno	-
-shore41.sno	-
-shore42.sno	-
-slop01z.sno	-
-slop02z.sno	-
-slop03z.sno	-
-slop04z.sno	-
-slope01.sno	-
-slope01a.sno	-
-slope01b.sno	-
-slope01c.sno	-
-slope02.sno	-
-slope02a.sno	-
-slope02b.sno	-
-slope02c.sno	-
-slope03.sno	-
-slope03a.sno	-
-slope03b.sno	-
-slope03c.sno	-
-slope04.sno	-
-slope04a.sno	-
-slope04b.sno	-
-slope04c.sno	-
-slope05.sno	-
-slope05a.sno	-
-slope05b.sno	-
-slope05c.sno	-
-slope06.sno	-
-slope06a.sno	-
-slope06b.sno	-
-slope06c.sno	-
-slope07.sno	-
-slope07a.sno	-
-slope07b.sno	-
-slope07c.sno	-
-slope08.sno	-
-slope08a.sno	-
-slope08b.sno	-
-slope08c.sno	-
-slope09.sno	-
-slope09a.sno	-
-slope09b.sno	-
-slope09c.sno	-
-slope10.sno	-
-slope10a.sno	-
-slope10b.sno	-
-slope10c.sno	-
-slope11.sno	-
-slope11a.sno	-
-slope11b.sno	-
-slope11c.sno	-
-slope12.sno	-
-slope12a.sno	-
-slope12b.sno	-
-slope12c.sno	-
-slope13.sno	-
-slope13a.sno	-
-slope13b.sno	-
-slope13c.sno	-
-slope14.sno	-
-slope14a.sno	-
-slope14b.sno	-
-slope14c.sno	-
-slope15.sno	-
-slope15a.sno	-
-slope15b.sno	-
-slope15c.sno	-
-slope16.sno	-
-slope16a.sno	-
-slope16b.sno	-
-slope16c.sno	-
-slope17.sno	-
-slope18.sno	-
-slope19.sno	-
-slope20.sno	-
-snow01.sno	-
-snow01a.sno	-
-snow01b.sno	-
-snow01c.sno	-
-snow02.sno	-
-snow03.sno	-
-snow04.sno	-
-srock01.sno	-
-srock02.sno	-
-srock03.sno	-
-srock04.sno	-
-srock05.sno	-
-tanker01.sno	-
-tib01.sno	-
-tib02.sno	-
-tib03.sno	-
-tib04.sno	-
-tib05.sno	-
-tib06.sno	-
-tib07.sno	-
-tib08.sno	-
-tib09.sno	-
-tib10.sno	-
-tib11.sno	-
-tib12.sno	-
-tib13.sno	-
-tib14.sno	-
-tib15.sno	-
-tib16.sno	-
-tib17.sno	-
-tib18.sno	-
-tib19.sno	-
-tib20.sno	-
-tibtre01.sno	-
-tibtre02.sno	-
-tibtre03.sno	-
-tovrps01.sno	-
-tovrps01a.sno	-
-tovrps02.sno	-
-tovrps02a.sno	-
-tovrps03.sno	-
-tovrps03a.sno	-
-tovrps04.sno	-
-tovrps04a.sno	-
-tovrps05.sno	-
-tovrps05a.sno	-
-tovrps06.sno	-
-tovrps06a.sno	-
-tovrps07.sno	-
-tovrps08.sno	-
-tovrps09.sno	-
-tovrps10.sno	-
-tovrps11.sno	-
-tovrps12.sno	-
-tovrps13.sno	-
-tovrps14.sno	-
-tovrps15.sno	-
-tovrps16.sno	-
-tracks01.sno	-
-tracks02.sno	-
-tracks03.sno	-
-tracks04.sno	-
-tracks05.sno	-
-tracks06.sno	-
-tracks07.sno	-
-tracks08.sno	-
-tracks09.sno	-
-tracks10.sno	-
-tracks11.sno	-
-tracks12.sno	-
-tracks13.sno	-
-tracks14.sno	-
-tracks15.sno	-
-tracks16.sno	-
-tree01.sno	-
-tree02.sno	-
-tree03.sno	-
-tree04.sno	-
-tree05.sno	-
-tree06.sno	-
-tree07.sno	-
-tree08.sno	-
-tree09.sno	-
-tree10.sno	-
-tree11.sno	-
-tree12.sno	-
-tree13.sno	-
-tree14.sno	-
-tree15.sno	-
-tree16.sno	-
-tree17.sno	-
-tree18.sno	-
-tree19.sno	-
-tree20.sno	-
-tree21.sno	-
-tree22.sno	-
-tree23.sno	-
-tree24.sno	-
-tree25.sno	-
-trock01.sno	-
-trock02.sno	-
-trock03.sno	-
-trock04.sno	-
-trock05.sno	-
-trtunn01.sno	-
-trtunn02.sno	-
-trtunn03.sno	-
-trtunn04.sno	-
-tslope01.sno	-
-tslope02.sno	-
-tslope03.sno	-
-tslope04.sno	-
-tunnel01.sno	-
-tunnel02.sno	-
-tunnel03.sno	-
-tunnel04.sno	-
-tunnet01.sno	-
-tunnet02.sno	-
-tunnet03.sno	-
-tunnet04.sno	-
-tunnex01.sno	-
-tunnex02.sno	-
-tuntop01.sno	-
-tuntop02.sno	-
-tuntop03.sno	-
-tuntop04.sno	-
-veinatac.sno	-
-veinhole.sno	-
-veins.sno	-
-w-a-01.sno	-
-wa01x.sno	-
-w-a-02.sno	-
-wa02x.sno	-
-w-a-03.sno	-
-wa03x.sno	-
-w-a-04.sno	-
-wa04x.sno	-
-water01.sno	-
-water02.sno	-
-water03.sno	-
-water04.sno	-
-water05.sno	-
-water06.sno	-
-water07.sno	-
-water08.sno	-
-water09.sno	-
-water10.sno	-
-water11.sno	-
-water12.sno	-
-water13.sno	-
-water14.sno	-
-w-b-01.sno	-
-wb01x.sno	-
-w-b-02.sno	-
-wb02x.sno	-
-w-b-03.sno	-
-wb03x.sno	-
-w-b-04.sno	-
-wb04x.sno	-
-w-c-01.sno	-
-wc01x.sno	-
-w-c-02.sno	-
-wc02x.sno	-
-w-c-03.sno	-
-wc03x.sno	-
-w-c-04.sno	-
-wc04x.sno	-
-wcliff01.sno	-
-wcliff02.sno	-
-wcliff03.sno	-
-wcliff04.sno	-
-wcliff05.sno	-
-wcliff06.sno	-
-wcliff07.sno	-
-wcliff08.sno	-
-wcliff09.sno	-
-wcliff10.sno	-
-wcliff11.sno	-
-wcliff12.sno	-
-wcliff13.sno	-
-wcliff14.sno	-
-wcliff15.sno	-
-wcliff16.sno	-
-wcliff17.sno	-
-wcliff18.sno	-
-wcliff19.sno	-
-wcliff20.sno	-
-wcliff21.sno	-
-wcliff22.sno	-
-wcliff23.sno	-
-wcliff24.sno	-
-wcliff25.sno	-
-wcliff26.sno	-
-wcliff27.sno	-
-wcliff28.sno	-
-w-d-01.sno	-
-wd01x.sno	-
-w-d-02.sno	-
-wd02x.sno	-
-w-d-03.sno	-
-wd03x.sno	-
-w-d-04.sno	-
-wd04x.sno	-
-wslope01.sno	-
-wslope02.sno	-
-wslope03.sno	-
-wslope04.sno	-
-tscredit.txt	Tiberian Sun Credits
-voxels.vpl	-
-beachead.vqa	-
-cap_trat.vqa	-
-coup.vqa	-
-dambreak.vqa	-
-icbmlnch.vqa	-
-vegawin.vqa	-
-diskdest.vqa	-
-empulse.vqa	-
-eva.vqa	-
-fs_sb01.vqa	-
-fs_title.vqa	-
-fsgdifnl.vqa	-
-fsgdiint.vqa	-
-fsgdim01.vqa	-
-fsgdim02.vqa	-
-fsgdim03.vqa	-
-fsgdim04.vqa	-
-fsgdim05.vqa	-
-fsgdim06.vqa	-
-fsgdim07.vqa	-
-fsgdim08.vqa	-
-fsgdim09.vqa	-
-fsnodfnl.vqa	-
-fsnodm01.vqa	-
-fsnodm02.vqa	-
-fsnodm03.vqa	-
-fsnodm04.vqa	-
-fsnodm05.vqa	-
-fsnodm06.vqa	-
-fsnodm07.vqa	-
-fsnodm08.vqa	-
-fsnodm09.vqa	-
-gdi_finl.vqa	-
-gdi_flag.vqa	-
-gdi_logo.vqa	-
-gdi_m02.vqa	-
-gdi_m03.vqa	-
-gdi_m04.vqa	-
-gdi_m05.vqa	-
-gdi_m06.vqa	-
-gdi_m07.vqa	-
-gdi_m08.vqa	-
-gdi_m09a.vqa	-
-gdi_m09b.vqa	-
-gdi_m09c.vqa	-
-gdi_m10a.vqa	-
-gdi_m11.vqa	-
-gdi_m12a.vqa	-
-gdi01_sb.vqa	-
-gdi02_sb.vqa	-
-gdi03_sb.vqa	-
-gdim09cw.vqa	-
-gdim09d1.vqa	-
-gdimap01.vqa	-
-gdimap02.vqa	-
-gdimap03.vqa	-
-gdimap04.vqa	-
-gdimap05.vqa	-
-gennodl1.vqa	-
-genwin01.vqa	-
-hideseek.vqa	-
-iceskate.vqa	-
-intro.vqa	-
-kill_gdi.vqa	-
-killmech.vqa	-
-mechatak.vqa	-
-mekatk2.vqa	-
-n_logo_l.vqa	-
-n_logo_w.vqa	-
-nod_finl.vqa	-
-nod_flag.vqa	-
-nod_m02.vqa	-
-nod01_sb.vqa	-
-nod02_sb.vqa	-
-nod_m03.vqa	-
-nod_m04.vqa	-
-nod_m05.vqa	-
-nod_m06.vqa	-
-nod_m07.vqa	-
-nod_m08.vqa	-
-nod_m09.vqa	-
-nod_m10.vqa	-
-nod_m11.vqa	-
-nod_m12.vqa	-
-nod06abw.vqa	-
-nodmap01.vqa	-
-nodmap02.vqa	-
-nodmap03.vqa	-
-nodmap04.vqa	-
-nodmap05.vqa	-
-nowcnot.vqa	-
-orcastrk.vqa	-
-podasslt.vqa	-
-retrbtn.vqa	-
-score.vqa	-
-sizzle1.vqa	-
-startup.vqa	-
-tenevict.vqa	-
-trainrob.vqa	-
-ts_title.vqa	-
-ufoguard.vqa	-
-unstpble.vqa	-
-wwlogo.vqa	-
-1tnk.vxl	light tank
-1tnkbarl.vxl	light tank barrel
-1tnktur.vxl	light tank turret
-2tnk.vxl	medium tank
-2tnkbarl.vxl	medium tank barrel
-2tnktur.vxl	medium tank turret
-3tnk.vxl	heavy tank
-3tnkbarl.vxl	heavy tank barrel
-3tnktur.vxl	heavy tank turret
-4tnk.vxl	mammoth tank
-4tnkbarl.vxl	mammoth tank barrel
-4tnktur.vxl	mammoth tank turret
-apache.vxl	harpy
-apc.vxl	amphibious apc
-apcw.vxl	amphibious apc in water
-art2.vxl	deployable artillery
-art2barl.vxl	deployable artillery barrel
-art2tur.vxl	deployable artillery turret
-arty.vxl	artillery
-artybarl.vxl	artillery
-bggy.vxl	attack buggy
-bike.vxl	attack cycle
-bus.vxl	school bus
-car.vxl	car
-cargocar.vxl	train cargo car
-djuggbar.vxl	deployed juggernaut barrel
-dpod.vxl	droppod
-dshp.vxl	dropship
-ftnk.vxl	flame tank
-gastank.vxl	debris
-harv.vxl	harvester
-heli.vxl	longbow
-hind.vxl	hind
-hmec.vxl	mammoth mk 2
-horv.vxl	harvester with back removed
-hvr.vxl	hover mlrs
-hvrtur.vxl	hover mlrs
-icbm.vxl	ICBM
-jeep.vxl	-
-jeeptur.vxl	-
-laser.vxl	laser turret turret
-lpst.vxl	deployable sensor array
-m_emp.vxl	mobile EMP
-m113.vxl	apc
-m113tur.vxl	apc
-mcv.vxl	mobile construction vechicle
-misl.vxl	-
-mislchem.vxl	chemical missile
-mislmlti.vxl	multi missile
-mlrs.vxl	mlrs
-mlrstur.vxl	mlrs
-mmchbarl.vxl	titan turret
-mnly.vxl	mine layer
-monocar.vxl	train engine
-monoeng.vxl	train passenger car
-mrj.vxl	mobile radar jammer
-mrjtur.vxl	mobile radar jammer turret
-mtrb.vxl	metior
-mtrs.vxl	metior
-mtrt.vxl	metior
-mwar_nod.vxl	mobile war factory/fist of nod
-orca.vxl	orca fighter
-orcab.vxl	orca bomber
-orcatran.vxl	orca transport
-pick.vxl	pickup truck
-piece.vxl	debris
-pulscan.vxl	em pulse cannon turret
-repair.vxl	mobile repair tank
+ruin01.tem	-
+rule01.ini	TS main settings
+rule1.ini	TS main settings
+rules.ini	TS main settings
+rules01.ini	TS main settings
+rules1.ini	TS main settings
+s_bang16.shp	small explosion (bang/pop type)
+s_bang24.shp	medium explosion (bang/pop type)
+s_bang34.shp	large explosion (bang/pop type)
+s_bang38.shp	-
+s_bang48.shp	
+s_brnl20.shp	small explosion (burning type)
+s_brnl30.shp	medium explosion (burning type)
+s_brnl40.shp	large explosion (burning type)
+s_brnl58.shp	x-large explosion (burning type)
+s_clsn16.shp	tiny explosion (cannon/missile impact)
+s_clsn22.shp	small explosion (cannon/missile impact)
+s_clsn30.shp	medium explosion (cannon/missile impact)
+s_clsn42.shp	large explosion (cannon/missile impact)
+s_clsn58.shp	x-large explosion (cannon/missile impact)
+s_tumu22.shp	small explosion (vehicle blows up)
+s_tumu30.shp	medium explosion (vehicle blows up)
+s_tumu42.shp	large explosion (vehicle blows up)
+s_tumu60.shp	x-large explosion (vehicle blows up)
+sam-e.shp	-
+sam-n.shp	-
+sam-ne.shp	-
+sam-nw.shp	-
+sam-s.shp	-
+sam-se.shp	-
+sam-sw.shp	-
+sam-w.shp	-
+samicon.shp	icon: nod sam
+samshot1.aud	sam site missile
+sandbag1.aud	sandbag being run over
+sandy01.tem	-
+sandy01a.tem	-
+sandy01b.tem	-
+sandy01c.tem	-
+sandy01d.tem	-
+sandy01e.tem	-
+sandy01f.tem	-
+sandy01g.tem	-
+sapc.hva	-
 sapc.vxl	subterranian apc
-scrin.vxl	banshee fighter
-sgen.vxl	mobile stealth generator
-sonic.vxl	sonic tank
-sonictur.vxl	sonic tank turret
-stnk.vxl	stealth tank
-subtank.vxl	devils tongue flame tank
-tire.vxl	debris
-tran.vxl	chinnook
-trnsport.vxl	carryall
-trucka.vxl	truck
-truckb.vxl	loaded truck
-truk.vxl	convoy truck
-ttnk.vxl	tick tank
-ttnkbarl.vxl	tick tank barrel
-ttnktur.vxl	tick tank turret
-utnk.vxl	another version of the devils tongue
-weed.vxl	weedeater
-wini.vxl	RV
-50cal.shp	bullet
-arrow.shp	-
-bomb.shp	-
-bst_chkd.pcx	-
-bst_chkg.pcx	-
-bst_uchk.pcx	-
-bst_uckg.pcx	-
-diskdest.vqa	-
-flak.shp	-
-null.shp	-
+sapcicon.shp	icon: subterrainean apc
 sb_psh_d.pcx	-
 sb_psh_u.pcx	-
 sb_rel_d.pcx	-
 sb_rel_u.pcx	-
-ship.shp	-
-wake1.shp	-
-wake2.shp	-
-crat01.shp	-
-crat02.shp	-
-crat03.shp	-
-crat04.shp	-
-crat0a.shp	-
-crat0b.shp	-
-crat0c.shp	-
-drum01.shp	oil container
-drum02.shp	oil container
-palet01.shp	-
-palet02.shp	-
-palet03.shp	-
-palet04.shp	-
-screen02.bmp	-
+sbagicon.shp	
+sbgripb.pcx	-
+sbgripm.pcx	-
+sbgript.pcx	-
+scold8.aud	cant push button sound
+scoldsfx.aud	-
+score.aud	score screen
+score.pcx	-
+score.vqa	-
+scout.aud	scout
 screen01.bmp	-
+screen02.bmp	-
 screen03.bmp	-
-screen05.bmp	-
 screen04.bmp	-
+screen05.bmp	-
 screen06.bmp	-
 screen09.bmp	-
-hdline01.bmp	-
-hdline10.bmp	-
-hdline09.bmp	-
-hdline08.bmp	-
-hdline07.bmp	-
-hdline06.bmp	-
-hdline05.bmp	-
-hdline04.bmp	-
-hdline03.bmp	-
-hdline02.bmp	-
-cursor.bmp	-
-turning.shp	-
-whitlite.shp	-
-redlite.shp	-
-movelite.shp	-
-extndl01.shp	-
-extndl02.shp	-
-exitopen.shp	-
-downbtn2.shp	-
-downbtn.shp	-
-extendb.shp	-
-brwsopen.shp	-
-brwflash.shp	-
-focus.shp	-
-6pres.shp	-
-4pres.shp	-
-3pres.shp	-
-2pres.shp	-
-1pres.shp	-
-mouse.shp	-
-button.shp	-
-shapes2.shp	-
-shapes1.shp	-
-light.pal	-
+scrin.hva	-
+scrin.vxl	banshee fighter
+scrin01.tem	-
+scrin02.tem	-
+scrin03.tem	-
+scrin04.tem	-
+scrin05.tem	-
+scrin06.tem	-
+scrin5b.aud	banshee fires
+se2kmix.inf	sun edit 2000 mix information
+seekicon.shp	icon: hunter seeker
+seismic.ini	
+seismic.map	-
+select.shp	select unit mouse cursor
+sell.shp	-
+sgen.hva	-
+sgen.vxl	mobile stealth generator
+sgrysmk1.shp	-
+shadow.shp	-
 shapes.pal	-
-font.pal	-
-palette.pal	-
-gauge.aud	-
-gaugeend.aud	-
+shapes1.shp	-
+shapes2.shp	-
+ship.shp	-
+shore01.sno	-
+shore01.tem	-
+shore02.sno	-
+shore02.tem	-
+shore03.sno	-
+shore03.tem	-
+shore04.sno	-
+shore04.tem	-
+shore05.sno	-
+shore05.tem	-
+shore06.sno	-
+shore06.tem	-
+shore07.sno	-
+shore07.tem	-
+shore08.sno	-
+shore08.tem	-
+shore09.sno	-
+shore09.tem	-
+shore10.sno	-
+shore10.tem	-
+shore11.sno	-
+shore11.tem	-
+shore12.sno	-
+shore12.tem	-
+shore13.sno	-
+shore13.tem	-
+shore14.sno	-
+shore14.tem	-
+shore15.sno	-
+shore15.tem	-
+shore16.sno	-
+shore16.tem	-
+shore17.sno	-
+shore17.tem	-
+shore18.sno	-
+shore18.tem	-
+shore19.sno	-
+shore19.tem	-
+shore20.sno	-
+shore20.tem	-
+shore21.sno	-
+shore21.tem	-
+shore22.sno	-
+shore22.tem	-
+shore23.sno	-
+shore23.tem	-
+shore24.sno	-
+shore24.tem	-
+shore25.sno	-
+shore25.tem	-
+shore26.sno	-
+shore26.tem	-
+shore27.sno	-
+shore27.tem	-
+shore28.sno	-
+shore28.tem	-
+shore29.sno	-
+shore29.tem	-
+shore30.sno	-
+shore30.tem	-
+shore31.sno	-
+shore31.tem	-
+shore32.sno	-
+shore32.tem	-
+shore33.sno	-
+shore33.tem	-
+shore34.sno	-
+shore34.tem	-
+shore35.sno	-
+shore35.tem	-
+shore36.sno	-
+shore36.tem	-
+shore37.sno	-
+shore37.tem	-
+shore38.sno	-
+shore38.tem	-
+shore39.sno	-
+shore39.tem	-
+shore40.sno	-
+shore40.tem	-
+shore41.sno	-
+shore41.tem	-
+shore42.sno	-
+shore42.tem	-
+shroud.shp	-
+shroudx.shp	crate: shroud whole map
+side1.shp	-
+side2.shp	-
+side3.shp	-
+sidebar.pal	sidebar palette
+sidec01.mix	-
+sidec02.mix	-
+sidefnt3.pal	-
+sidegdi1.shp	-
+sidegdi2.shp	-
+sidegdi3.shp	-
+sidenc01.mix	-
+sidenc02.mix	-
+silencer.aud	sniper gun
+siloicon.shp	-
+sinkhole.ini	
+sinkhole.map	-
+sizzle1.vqa	-
+slat01.tem	-
+slat01a.tem	-
+slat02.tem	-
+slat02a.tem	-
+slat03.tem	-
+slat03a.tem	-
+slat04.tem	-
+slat04a.tem	-
+slat05.tem	-
+slat05a.tem	-
+slat06.tem	-
+slat06a.tem	-
+slat07.tem	-
+slat07a.tem	-
+slat08.tem	-
+slat08a.tem	-
+slat09.tem	-
+slat09a.tem	-
+slat10.tem	-
+slat10a.tem	-
+slat11.tem	-
+slat11a.tem	-
+slat12.tem	-
+slat12a.tem	-
+slat13.tem	-
+slat13a.tem	-
+slat14.tem	-
+slat14a.tem	-
+slat15.tem	-
+slat15a.tem	-
+slat16.tem	-
+slat16a.tem	-
+slav.shp	unit: slavick
+slavesys.aud	-
 slideout.aud	-
-circuit.aud	-
-gdiclose.aud	-
-gdiopen.aud	-
-nod.aud	-
-blip.aud	-
-gauge.aud	-
+slop01z.sno	-
+slop01z.tem	-
+slop02z.sno	-
+slop02z.tem	-
+slop03z.sno	-
+slop03z.tem	-
+slop04z.sno	-
+slop04z.tem	-
+slope01.sno	-
+slope01.tem	-
+slope01a.sno	-
+slope01a.tem	-
+slope01b.sno	-
+slope01b.tem	-
+slope01c.sno	-
+slope01c.tem	-
+slope02.sno	-
+slope02.tem	-
+slope02a.sno	-
+slope02a.tem	-
+slope02b.sno	-
+slope02b.tem	-
+slope02c.sno	-
+slope02c.tem	-
+slope03.sno	-
+slope03.tem	-
+slope03a.sno	-
+slope03a.tem	-
+slope03b.sno	-
+slope03b.tem	-
+slope03c.sno	-
+slope03c.tem	-
+slope04.sno	-
+slope04.tem	-
+slope04a.sno	-
+slope04a.tem	-
+slope04b.sno	-
+slope04b.tem	-
+slope04c.sno	-
+slope04c.tem	-
+slope05.sno	-
+slope05.tem	-
+slope05a.sno	-
+slope05a.tem	-
+slope05b.sno	-
+slope05b.tem	-
+slope05c.sno	-
+slope05c.tem	-
+slope06.sno	-
+slope06.tem	-
+slope06a.sno	-
+slope06a.tem	-
+slope06b.sno	-
+slope06b.tem	-
+slope06c.sno	-
+slope06c.tem	-
+slope07.sno	-
+slope07.tem	-
+slope07a.sno	-
+slope07a.tem	-
+slope07b.sno	-
+slope07b.tem	-
+slope07c.sno	-
+slope07c.tem	-
+slope08.sno	-
+slope08.tem	-
+slope08a.sno	-
+slope08a.tem	-
+slope08b.sno	-
+slope08b.tem	-
+slope08c.sno	-
+slope08c.tem	-
+slope09.sno	-
+slope09.tem	-
+slope09a.sno	-
+slope09a.tem	-
+slope09b.sno	-
+slope09b.tem	-
+slope09c.sno	-
+slope09c.tem	-
+slope10.sno	-
+slope10.tem	-
+slope10a.sno	-
+slope10a.tem	-
+slope10b.sno	-
+slope10b.tem	-
+slope10c.sno	-
+slope10c.tem	-
+slope11.sno	-
+slope11.tem	-
+slope11a.sno	-
+slope11a.tem	-
+slope11b.sno	-
+slope11b.tem	-
+slope11c.sno	-
+slope11c.tem	-
+slope12.sno	-
+slope12.tem	-
+slope12a.sno	-
+slope12a.tem	-
+slope12b.sno	-
+slope12b.tem	-
+slope12c.sno	-
+slope12c.tem	-
+slope13.sno	-
+slope13.tem	-
+slope13a.sno	-
+slope13a.tem	-
+slope13b.sno	-
+slope13b.tem	-
+slope13c.sno	-
+slope13c.tem	-
+slope14.sno	-
+slope14.tem	-
+slope14a.sno	-
+slope14a.tem	-
+slope14b.sno	-
+slope14b.tem	-
+slope14c.sno	-
+slope14c.tem	-
+slope15.sno	-
+slope15.tem	-
+slope15a.sno	-
+slope15a.tem	-
+slope15b.sno	-
+slope15b.tem	-
+slope15c.sno	-
+slope15c.tem	-
+slope16.sno	-
+slope16.tem	-
+slope16a.sno	-
+slope16a.tem	-
+slope16b.sno	-
+slope16b.tem	-
+slope16c.sno	-
+slope16c.tem	-
+slope17.sno	-
+slope17.tem	-
+slope18.sno	-
+slope18.tem	-
+slope19.sno	-
+slope19.tem	-
+slope20.sno	-
+slope20.tem	-
+slvkgun1.aud	slavik gun
+smchicon.shp	icon: wolverine
+smech.shp	unit: wolverine
+smlogo.shp	-
+smokey.shp	-
+smokey2.shp	-
+smokland.shp	-
+sno.mix	-
+snow.ini	TS snow theater settings
+snow.mix	-
+snow.pal	snow palette
+snow01.sno	-
+snow01.tem	-
+snow01a.sno	-
+snow01a.tem	-
+snow01b.sno	-
+snow01b.tem	-
+snow01c.sno	-
+snow01c.tem	-
+snow02.sno	-
+snow02.tem	-
+snow03.sno	-
+snow03.tem	-
+snow04.sno	-
+snow04.tem	-
+sonic.hva	-
+sonic.vxl	sonic tank
+sonic4.aud	sonic weapon fire
+sonicbarl.hva	-
+sonictur.hva	-
+sonictur.vxl	sonic tank turret
+soniicon.shp	icon: disruptor
+sound.ini	TS sound settings
+sound01.ini	FS sound settings
+sounds.mix	-
+sounds01.mix	-
+speech01.mix	-
+speech02.mix	-
+spiddie1.aud	reaper death
+spoticon.shp	icon: spotlight tower
+springs.ini	
+springs.map	-
+squish6.aud	guy squish
+squishy2.aud	guy squish
+sredsmk1.shp	-
+srock01.sno	-
+srock01.tem	-
+srock02.sno	-
+srock02.tem	-
+srock03.sno	-
+srock03.tem	-
+srock04.sno	-
+srock04.tem	-
+srock05.sno	-
+srock05.tem	-
+ssplash1.aud	small water splash
+ssplash2.aud	small water splash
+ssplash3.aud	small water splash
+startup.vqa	-
+static.shp	-
+steampuf.shp	-
+stnk.hva	-
+stnk.vxl	stealth tank
+stnkicon.shp	icon: stealth tank
+storm.aud	ion storm
+storms.ini	
+storms.map	-
+strmyvly.ini	
+strmyvly.map	-
+subdril1.aud	subterrian drill
+subtank.hva	-
+subtank.vxl	devils tongue flame tank
+subticon.shp	icon: devil's tongue flame tank
+sup_bh_r.ini	
+sup_bh_r.map	-
+swamp01.tem	-
+swamp01a.tem	-
+swamp01b.tem	-
+swamp01c.tem	-
+swamp01d.tem	-
+swamp01e.tem	-
+swamp01f.tem	-
+swamp01g.tem	-
+swamp02.tem	-
+swamp03.tem	-
+swamp04.tem	-
+swamp05.tem	-
+swamp06.tem	-
+swamp07.tem	-
+swamp08.tem	-
+swamp09.tem	-
+t_garden.ini	
+t_garden.map	-
+tab_fbl.pcx	-
+tab_fbm.pcx	-
+tab_fbr.pcx	-
+tab_fml.pcx	-
+tab_fmr.pcx	-
+tab_ftl.pcx	-
+tab_ftm.pcx	-
+tab_ftr.pcx	-
+tab_tld.pcx	-
+tab_tlu.pcx	-
+tab_tmd.pcx	-
+tab_tmu.pcx	-
+tab_trd.pcx	-
+tab_tru.pcx	-
+tabs.shp	-
+tactical.ini	
+tactical.map	-
+talkbubl.shp	-
+tanker01.sno	-
+tanker01.tem	-
+target1.shp	-
+target2.shp	-
+tb01nc-h.pcx	-
+tb01nc.pcx	-
+tb02lm-g.pcx	-
+tb02lm-h.pcx	-
+tb02lm.pcx	-
+tb03l-h.pcx	-
+tb03l.pcx	-
+tb04i-h.pcx	-
+tb04i.pcx	-
+tb05sm-h.pcx	-
+tb05sm.pcx	-
+tb06s-h.pcx	-
+tb06s.pcx	-
+tb07o-h.pcx	-
+tb07o.pcx	-
+tb08b-h.pcx	-
+tb08b.pcx	-
+tb09e-h.pcx	-
+tb09e.pcx	-
+tb10isp-h.pcx	-
+tb10isp.pcx	-
+techicon.shp	icon: gdi tech center
+tem.mix	-
+temperat.ini	TS temperate theater settings
+temperat.mix	-
+temperat.pal	temperate palette
+tenevict.vqa	-
+terrace.ini	
+terrace.map	-
+text1.aud	-
+text2.aud	-
+text3.aud	-
+tg01a.shp	
+tg02a.shp	-
+tg03a.shp	-
+tg03ab.shp	-
+tg04a1.shp	
+tg04a2.shp	-
+tg04ab1.shp	-
+tg04ab2.shp	-
+tg05a.shp	-
+tg06a1.shp	-
+tg06a2.shp	-
+tg06bc.shp	-
+tg07a1.shp	-
+tg07a2.shp	
+tg07ab1.shp	-
+tg07ab2.shp	
+tg08a.shp	-
+tg09ab.shp	-
+tg10a1.shp	-
+tg10a2.shp	-
+tg11a1.shp	
+tg11a2.shp	-
+tg12a1.shp	
+tg12a2.shp	-
+tg12ab1.shp	
+tg12ab2.shp	-
+theme.ini	TS music theme settings
+theme01.ini	FS music theme settings
+tib01.sno	-
+tib01.tem	-
+tib02.sno	-
+tib02.tem	-
+tib03.sno	-
+tib03.tem	-
+tib04.sno	-
+tib04.tem	-
+tib05.sno	-
+tib05.tem	-
+tib06.sno	-
+tib06.tem	-
+tib07.sno	-
+tib07.tem	-
+tib08.sno	-
+tib08.tem	-
+tib09.sno	-
+tib09.tem	-
+tib10.sno	-
+tib10.tem	-
+tib11.sno	-
+tib11.tem	-
+tib12.sno	-
+tib12.tem	-
+tib13.sno	-
+tib13.tem	-
+tib14.sno	-
+tib14.tem	-
+tib15.sno	-
+tib15.tem	-
+tib16.sno	-
+tib16.tem	-
+tib17.sno	-
+tib17.tem	-
+tib18.sno	-
+tib18.tem	-
+tib19.sno	-
+tib19.tem	-
+tib20.sno	-
+tib20.tem	-
+tibtre01.sno	-
+tibtre01.tem	-
+tibtre02.sno	-
+tibtre02.tem	-
+tibtre03.sno	-
+tibtre03.tem	-
+tickicon.shp	icon: tick tank
+tiers.ini	
+tiers.map	-
+time01.shp	-
+timebomb.aud	time bomb
+tire.hva	-
+tire.vxl	debris
+title.pcx	-
+tmcj4f.ini	-
+tmplicon.shp	icon: temple of nod
+tn01a.shp	
+tn02a.shp	-
+tn03a.shp	-
+tn03ab.shp	-
+tn04a1.shp	
+tn04a2.shp	-
+tn04ab1.shp	-
+tn04ab2.shp	-
+tn05a.shp	-
+tn06a1.shp	-
+tn06a2.shp	-
+tn06bc.shp	-
+tn07a1.shp	-
+tn07a2.shp	
+tn07ab1.shp	-
+tn07ab2.shp	
+tn08a.shp	-
+tn09ab.shp	-
+tn10a1.shp	-
+tn10a2.shp	-
+tn11a1.shp	
+tn11a2.shp	-
+tn12a1.shp	
+tn12a2.shp	-
+tn12ab1.shp	
+tn12ab2.shp	-
+torpedo.shp	proton torpedo
+tovrps01.sno	-
+tovrps01.tem	-
+tovrps01a.sno	-
+tovrps01a.tem	-
+tovrps02.sno	-
+tovrps02.tem	-
+tovrps02a.sno	-
+tovrps02a.tem	-
+tovrps03.sno	-
+tovrps03.tem	-
+tovrps03a.sno	-
+tovrps03a.tem	-
+tovrps04.sno	-
+tovrps04.tem	-
+tovrps04a.sno	-
+tovrps04a.tem	-
+tovrps05.sno	-
+tovrps05.tem	-
+tovrps05a.sno	-
+tovrps05a.tem	-
+tovrps06.sno	-
+tovrps06.tem	-
+tovrps06a.sno	-
+tovrps06a.tem	-
+tovrps07.sno	-
+tovrps07.tem	-
+tovrps08.sno	-
+tovrps08.tem	-
+tovrps09.sno	-
+tovrps09.tem	-
+tovrps10.sno	-
+tovrps10.tem	-
+tovrps11.sno	-
+tovrps11.tem	-
+tovrps12.sno	-
+tovrps12.tem	-
+tovrps13.sno	-
+tovrps13.tem	-
+tovrps14.sno	-
+tovrps14.tem	-
+tovrps15.sno	-
+tovrps15.tem	-
+tovrps16.sno	-
+tovrps16.tem	-
+towricon.shp	icon: component tower
+tracks01.sno	-
+tracks01.tem	-
+tracks02.sno	-
+tracks02.tem	-
+tracks03.sno	-
+tracks03.tem	-
+tracks04.sno	-
+tracks04.tem	-
+tracks05.sno	-
+tracks05.tem	-
+tracks06.sno	-
+tracks06.tem	-
+tracks07.sno	-
+tracks07.tem	-
+tracks08.sno	-
+tracks08.tem	-
+tracks09.sno	-
+tracks09.tem	-
+tracks10.sno	-
+tracks10.tem	-
+tracks11.sno	-
+tracks11.tem	-
+tracks12.sno	-
+tracks12.tem	-
+tracks13.sno	-
+tracks13.tem	-
+tracks14.sno	-
+tracks14.tem	-
+tracks15.sno	-
+tracks15.tem	-
+tracks16.sno	-
+tracks16.tem	-
+trainrob.vqa	-
+trakgrip.pcx	-
+tran.hva	-
+tran.vxl	chinnook
+tratos.shp	unit: tratos
+tread_l.ini	
+tread_l.map	-
+tree01.sno	-
+tree01.tem	-
+tree02.sno	-
+tree02.tem	-
+tree03.sno	-
+tree03.tem	-
+tree04.sno	-
+tree04.tem	-
+tree05.sno	-
+tree05.tem	-
+tree06.sno	-
+tree06.tem	-
+tree07.sno	-
+tree07.tem	-
+tree08.sno	-
+tree08.tem	-
+tree09.sno	-
+tree09.tem	-
+tree10.sno	-
+tree10.tem	-
+tree11.sno	-
+tree11.tem	-
+tree12.sno	-
+tree12.tem	-
+tree13.sno	-
+tree13.tem	-
+tree14.sno	-
+tree14.tem	-
+tree15.sno	-
+tree15.tem	-
+tree16.sno	-
+tree16.tem	-
+tree17.sno	-
+tree17.tem	-
+tree18.sno	-
+tree18.tem	-
+tree19.sno	-
+tree19.tem	-
+tree20.sno	-
+tree20.tem	-
+tree21.sno	-
+tree21.tem	-
+tree22.sno	-
+tree22.tem	-
+tree23.sno	-
+tree23.tem	-
+tree24.sno	-
+tree24.tem	-
+tree25.sno	-
+tree25.tem	-
+treesprd.shp	blossom tree spreading spores
+trnsport.hva	-
+trnsport.vxl	carryall
+trock01.sno	-
+trock01.tem	-
+trock02.sno	-
+trock02.tem	-
+trock03.sno	-
+trock03.tem	-
+trock04.sno	-
+trock04.tem	-
+trock05.sno	-
+trock05.tem	-
+trofl.pcx	-
+trofm.pcx	-
+trofr.pcx	-
+trtunn01.sno	-
+trtunn01.tem	-
+trtunn02.sno	-
+trtunn02.tem	-
+trtunn03.sno	-
+trtunn03.tem	-
+trtunn04.sno	-
+trtunn04.tem	-
+truck2.hva	-
+truck2.vxl	-
+trucka.hva	-
+trucka.vxl	truck
+truckb.hva	-
+truckb.vxl	loaded truck
+truk.hva	-
+truk.vxl	convoy truck
+ts_title.vqa	-
+tscredit.txt	Tiberian Sun Credits
+tsgun4.aud	wolverene gun
+tslope01.sno	-
+tslope01.tem	-
+tslope02.sno	-
+tslope02.tem	-
+tslope03.sno	-
+tslope03.tem	-
+tslope04.sno	-
+tslope04.tem	-
+tstback.pcx	-
+ttnk.hva	-
+ttnk.vxl	tick tank
+ttnkbarl.hva	-
+ttnkbarl.vxl	tick tank barrel
+ttnktur.hva	-
+ttnktur.vxl	tick tank turret
+tunnel.ini	
+tunnel.map	-
+tunnel01.sno	-
+tunnel01.tem	-
+tunnel02.sno	-
+tunnel02.tem	-
+tunnel03.sno	-
+tunnel03.tem	-
+tunnel04.sno	-
+tunnel04.tem	-
+tunnet01.sno	-
+tunnet01.tem	-
+tunnet02.sno	-
+tunnet02.tem	-
+tunnet03.sno	-
+tunnet03.tem	-
+tunnet04.sno	-
+tunnet04.tem	-
+tunnex01.sno	-
+tunnex01.tem	-
+tunnex02.sno	-
+tunnex02.tem	-
+tuntop01.sno	-
+tuntop01.tem	-
+tuntop02.sno	-
+tuntop02.tem	-
+tuntop03.sno	-
+tuntop03.tem	-
+tuntop04.sno	-
+tuntop04.tem	-
+turbicon.shp	icon: power turbine
+turning.shp	-
+tutorial.ini	TS ingame strings
+twinkle1.shp	-
+twinkle2.shp	-
+twinkle3.shp	-
+twlt026.shp	small explosion (white)
+twlt036.shp	medium explosion (white)
+twlt050.shp	large explosion (white)
+twlt070.shp	x-large explosion (white)
+twlt070t.shp	-
+twlt100.shp	biggest explosion in the game
+twlt100i.shp	-
+twr1icon.shp	icon: vulcan cannon add-on
+twr2icon.shp	icon: rpg add-on
+twr3icon.shp	icon: sam add-on
+type.aud	-
+ufo.tem	-
+ufoguard.vqa	-
+umagicon.shp	icon: umagon
+umagon.shp	unit: umagon
+unitsno.pal	snow unit palette
+unittem.pal	temperate unit palette
+unstpble.vqa	-
+uparrow.pcx	-
+uparrowp.pcx	-
+uparrowr.pcx	-
 usertype.aud	-
-options.aud	-
-button.aud	-
-scoldsfx.aud	-
-gtcommmk.shp	-
-d.shp	-
-caryland.shp	-
-dropland.shp	-
-cycl.shp	-
-barb.shp	-
-wood.shp	-
+utnk.hva	-
+utnk.vxl	another version of the devils tongue
 v16.shp	-
 v17.shp	-
-fenc.shp	-
 v18.shp	-
-canister.shp	-
-patriot.shp	patriot missile
-00-W029.V00	-
-00-W031.V00	-
-01-W030.V01	-
-01-W032.V01	-
-00-W020.V00	-
-00-W018.V00	-
-00-W017.V00	-
-00-W026.V00	-
-00-W024.V00	-
-00-W022.V00	-
-01-W022.V01	-
-01-W020.V01	-
-01-W018.V01	-
-01-W028.V01	-
-01-W026.V01	-
-01-W024.V01	-
-dnarrow.pcx	-
-uparrow.pcx	-
-01-W044.V01	-
-00-W042.V00	-
-00-W010.V00	-
-01-W016.V01	-
-00-W034.V00	-
-01-W002.V01	-
-00-W004.V00	-
-00-W040.V00	-
-01-W046.V01	-
-01-W014.V01	-
-00-W036.V00	-
-00-W012.V00	-
-00-W008.V00	-
-00-W006.V00	-
-01-W000.V01	-
-00-W022.V00	-
-00-W038.V00	-
-00-W030.V00	-
-01-W012.V01	-
-01-W008.V01	-
-00-W014.V00	-
-01-W036.V01	-
-01-W031.V01	-
-01-W040.V01	-
-00-W000.V00	-
-01-W038.V01	-
-01-W006.V01	-
-00-W016.V00	-
-01-W034.V01	-
-00-W028.V00	-
-00-W032.V00	-
-01-W010.V01	-
-01-W042.V01	-
-00-W044.V00	-
-01-W004.V01	-
-00-W002.V00	-
-lredsmk1.shp	-
-sredsmk1.shp	-
-hlight.shp	-
-cellsel.shp	-
-mislorca.hva	-
-mislorca.vxl	-
-des0208.tem	-
-ice0202.sno	-
-namntk_a.shp	-
-ntmntk_a.shp	-
-nod-01.aud	-
-gdi-01.aud	-
-nod-07a.aud	-
-nod-07b.aud	-
+valves1b.aud	valves
+vegawin.vqa	-
+veinatac.sno	-
+veinatac.tem	-
+veinhole.sno	-
+veinhole.tem	-
+veins.sno	-
+veins.tem	-
+veteran.shp	crate: veteran upgrade
+vicer1.aud	two viceroids combine
+visc_lrg.shp	-
+visc_sml.shp	-
+vislgatk.shp	adult visroid attack animation
+vislrg.shp	unit: adult visroid
+vissml.shp	unit: baby visroid
+voxels.vpl	-
+w-a-01.sno	-
+w-a-01.tem	-
+w-a-02.sno	-
+w-a-02.tem	-
+w-a-03.sno	-
+w-a-03.tem	-
+w-a-04.sno	-
+w-a-04.tem	-
+w-b-01.sno	-
+w-b-01.tem	-
+w-b-02.sno	-
+w-b-02.tem	-
+w-b-03.sno	-
+w-b-03.tem	-
+w-b-04.sno	-
+w-b-04.tem	-
+w-c-01.sno	-
+w-c-01.tem	-
+w-c-02.sno	-
+w-c-02.tem	-
+w-c-03.sno	-
+w-c-03.tem	-
+w-c-04.sno	-
+w-c-04.tem	-
+w-d-01.sno	-
+w-d-01.tem	-
+w-d-02.sno	-
+w-d-02.tem	-
+w-d-03.sno	-
+w-d-03.tem	-
+w-d-04.sno	-
+w-d-04.tem	-
 w_piff.shp	-
-web.shp	-
-e_enhn.shp	-
-flamthro.shp	-
-alphatst.shp	-
-truck2.vxl	-
-truck2.hva	-
-btib01.tem	
-btib02.tem	
-btib03.tem	
-btib01.sno	
-btib02.sno	
-btib03.sno	
+wa01x.sno	-
+wa01x.tem	-
+wa02x.sno	-
+wa02x.tem	-
+wa03x.sno	-
+wa03x.tem	-
+wa04x.sno	-
+wa04x.tem	-
+wake1.shp	-
+wake2.shp	-
+wallicon.shp	icon: concrete wall
+wasticon.shp	icon: tiberium waste facility
+water01.sno	-
+water01.tem	-
+water02.sno	-
+water02.tem	-
+water03.sno	-
+water03.tem	-
+water04.sno	-
+water04.tem	-
+water05.sno	-
+water05.tem	-
+water06.sno	-
+water06.tem	-
+water07.sno	-
+water07.tem	-
+water08.sno	-
+water08.tem	-
+water09.sno	-
+water09.tem	-
+water10.sno	-
+water10.tem	-
+water11.sno	-
+water11.tem	-
+water12.sno	-
+water12.tem	-
+water13.sno	-
+water13.tem	-
+water14.sno	-
+water14.tem	-
+wayp.shp	-
+waypoint.pal	waypoint palette
+wb01x.sno	-
+wb01x.tem	-
+wb02x.sno	-
+wb02x.tem	-
+wb03x.sno	-
+wb03x.tem	-
+wb04x.sno	-
+wb04x.tem	-
+wc01x.sno	-
+wc01x.tem	-
+wc02x.sno	-
+wc02x.tem	-
+wc03x.sno	-
+wc03x.tem	-
+wc04x.sno	-
+wc04x.tem	-
+wcave01.tem	-
+wcave02.tem	-
+wcave03.tem	-
+wcave04.tem	-
+wcave05.tem	-
+wcave06.tem	-
+wcave07.tem	-
+wcave08.tem	-
+wcliff01.sno	-
+wcliff01.tem	-
+wcliff02.sno	-
+wcliff02.tem	-
+wcliff03.sno	-
+wcliff03.tem	-
+wcliff04.sno	-
+wcliff04.tem	-
+wcliff05.sno	-
+wcliff05.tem	-
+wcliff06.sno	-
+wcliff06.tem	-
+wcliff07.sno	-
+wcliff07.tem	-
+wcliff08.sno	-
+wcliff08.tem	-
+wcliff09.sno	-
+wcliff09.tem	-
+wcliff10.sno	-
+wcliff10.tem	-
+wcliff11.sno	-
+wcliff11.tem	-
+wcliff12.sno	-
+wcliff12.tem	-
+wcliff13.sno	-
+wcliff13.tem	-
+wcliff14.sno	-
+wcliff14.tem	-
+wcliff15.sno	-
+wcliff15.tem	-
+wcliff16.sno	-
+wcliff16.tem	-
+wcliff17.sno	-
+wcliff17.tem	-
+wcliff18.sno	-
+wcliff18.tem	-
+wcliff19.sno	-
+wcliff19.tem	-
+wcliff20.sno	-
+wcliff20.tem	-
+wcliff21.sno	-
+wcliff21.tem	-
+wcliff22.sno	-
+wcliff22.tem	-
+wcliff23.sno	-
+wcliff23.tem	-
+wcliff24.sno	-
+wcliff24.tem	-
+wcliff25.sno	-
+wcliff25.tem	-
+wcliff26.sno	-
+wcliff26.tem	-
+wcliff27.sno	-
+wcliff27.tem	-
+wcliff28.sno	-
+wcliff28.tem	-
+wd01x.sno	-
+wd01x.tem	-
+wd02x.sno	-
+wd02x.tem	-
+wd03x.sno	-
+wd03x.tem	-
+wd04x.sno	-
+wd04x.tem	-
+wdtchoice.ini	-
+wdtfc.pcx	-
+wdtfc.vqa	
 wdtfs.pal	
-nodlogo.pal	
-gdilogo.pal	
-nodlogo.shp	
-gdilogo.shp	
-WDTFC.VQA	
+wdthist.ini	-
+wdtmap.ini	-
+wdttarget1.shp	
+weapicon.shp	icon: gdi war factory
+weaticon.shp	icon: ?
+web.shp	-
+webguy.shp	-
+weed.hva	-
+weed.shp	unit: ?
+weed.vxl	weedeater
+weedicon.shp	icon: weed eater
+whatlurk.aud	what lurks
+whitlite.shp	-
+wini.hva	-
+wini.vxl	RV
+wipe.aud	-
+wodact.pcx	-
+wodban.pcx	-
+wodclan.pcx	-
+woddcon.pcx	-
+wodfgame.pcx	-
+wodfind.pcx	-
+wodhelp.pcx	-
+wodkick.pcx	-
+wodleave.pcx	-
+wodopt.pcx	-
+wodref.pcx	-
+wodsqlch.pcx	-
+wodtrny.pcx	-
+wolacpt.pcx	-
+wolclan.pcx	-
+wolhost.pcx	-
+woloper.pcx	-
+wolpriv.pcx	-
+wolsqlch.pcx	-
+woltrny.pcx	-
+woluser.pcx	-
+wolvoice.pcx	-
+wood.shp	-
+wouact.pcx	-
+wouban.pcx	-
+wouclan.pcx	-
+woudcon.pcx	-
+woufgame.pcx	-
+woufind.pcx	-
+wouhelp.pcx	-
+woukick.pcx	-
+wouleave.pcx	-
+wouopt.pcx	-
+wouref.pcx	-
+wousqlch.pcx	-
+woutrny.pcx	-
+wrench.shp	-
+wrong1.aud	build queue full
+wslope01.sno	-
+wslope01.tem	-
+wslope02.sno	-
+wslope02.tem	-
+wslope03.sno	-
+wslope03.tem	-
+wslope04.sno	-
+wslope04.tem	-
+wwlogo.vqa	-
+xcapades.ini	
+xcapades.map	-
+xgrymed1.shp	medium explosion (high explosives)
+xgrymed2.shp	medium explosion (high explosives)
+xgrysml1.shp	small explosion (high explosives)
+xgrysml2.shp	small explosion (high explosives)
+xplolrg.shp	-
+xxicon.shp	icon: blank
