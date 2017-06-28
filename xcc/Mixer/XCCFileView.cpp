@@ -908,7 +908,7 @@ void CXCCFileView::OnDraw(CDC* pDC)
 					draw_info("Scale X max:", _gcvt(section_tailer.x_max_scale, 10, fb));
 					draw_info("Scale Y max:", _gcvt(section_tailer.y_max_scale, 10, fb));
 					draw_info("Scale Z max:", _gcvt(section_tailer.z_max_scale, 10, fb));
-					draw_info("Unknown:", n(section_tailer.unknown));
+					draw_info("Normal Type:", n(section_tailer.unknown));
 					byte* image = new byte[c_pixels];
 					byte* image_s = new byte[c_pixels];
 					char* image_z = new char[c_pixels];
