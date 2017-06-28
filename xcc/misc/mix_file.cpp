@@ -34,6 +34,7 @@ bool Cmix_file::is_valid()
 		return false;
 	m_has_checksum = header.flags & mix_checksum;
 	m_is_encrypted = header.flags & mix_encrypted;
+    m_rawflagvalue = header.flags;
 	if (m_is_encrypted)
 	{
 		Cblowfish bf;
@@ -157,6 +158,7 @@ int Cmix_file::post_open()
 		{
 			m_has_checksum = header.flags & mix_checksum;
 			m_is_encrypted = header.flags & mix_encrypted;
+            m_rawflagvalue = header.flags;
 			bool aligned = true;
 			Cblowfish bf;
 			seek(4);

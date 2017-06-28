@@ -510,6 +510,7 @@ void CXCCFileView::OnDraw(CDC* pDC)
 				draw_info("Checksum:", n(f.has_checksum()));
 				draw_info("Encrypted:", n(f.is_encrypted()));
 				draw_info("Game:", game_name[game]);
+                draw_info("Raw Flags:", nh(8, f.rawflags()));
 				m_y += m_y_inc;
 				for (int i = 0; i < c_files; i++)
 				{

@@ -78,6 +78,11 @@ public:
 		return m_is_encrypted;	
 	}
 
+    int rawflags() const
+    {
+        return m_rawflagvalue;
+    }
+
 	const t_mix_index_entry* index() const
 	{
 		return &m_index[0];
@@ -91,6 +96,7 @@ private:
 	bool m_mix_expansion = false;
 	bool m_is_encrypted;
 	bool m_has_checksum;
+    int m_rawflagvalue;
 	vector<t_mix_index_entry> m_index;
 	vector<t_file_type> m_index_ft;
 	t_id_index m_id_index;
