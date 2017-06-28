@@ -129,11 +129,10 @@ const char* ft_name[] =
 	"unknown"
 };
 
-Ccc_file::Ccc_file(bool read_on_open):
+Ccc_file::Ccc_file(bool read_on_open) :
 	m_read_on_open(read_on_open)
-	{
-		m_is_open = false;
-	}
+{
+}
 
 #define test_fail(res) { int v = res; if (v) { close(); return v; }}
 
@@ -161,6 +160,7 @@ Ccc_file::Ccc_file(bool read_on_open):
 
 	int Ccc_file::open(const string& name)
 	{
+		close();
 		assert(!is_open());
 #ifdef NO_MIX_SUPPORT
 		test_fail(m_f.open_read(name));
