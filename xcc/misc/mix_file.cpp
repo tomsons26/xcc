@@ -334,7 +334,7 @@ string Cmix_file::get_name(int id)
 
 int Cmix_file::get_id(t_game game, string name)
 {
-	to_upper(name);
+	name = to_upper(name);
 	std::replace(name.begin(), name.end(), '/', '\\');
 	switch (game)
 	{
