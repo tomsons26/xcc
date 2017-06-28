@@ -7,8 +7,6 @@
 #include "string_conversion.h"
 #include "xcc_dirs.h"
 
-using namespace boost;
-
 CXSTE_dlg::CXSTE_dlg(t_game game, CWnd* pParent /*=NULL*/)
 	: ETSLayoutDialog(CXSTE_dlg::IDD, pParent, "XSTE_dlg")
 {

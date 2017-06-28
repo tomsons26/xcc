@@ -101,7 +101,7 @@ BOOL Cdlg_open::OnInitDialog()
 					if (!key.import(Cvirtual_binary(e.dir + e.name)) && key.keys().size() >= 2)
 					{
 						Cgame_state game_state;
-						game_state.import_diff(boost::next(key.keys().begin())->second);
+						game_state.import_diff(std::next(key.keys().begin())->second);
 						e.scenario = game_state.scenario;
 						for (auto& p : game_state.players)
 						{

@@ -849,7 +849,7 @@ int Cxcc_level::load_ini(const Cvirtual_binary& data, bool fast)
 		int pos = s.find(';');
 		if (pos != -1)
 			s.erase(pos);
-		boost::trim(s);
+		trim(s);
 		if (s.empty())
 			continue;
 		try

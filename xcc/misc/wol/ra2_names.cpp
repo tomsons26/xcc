@@ -1,9 +1,7 @@
 #include "ra2_names.h"
 
-#include <boost/algorithm/string.hpp>
 #include <xbt/bt_misc.h>
-
-using namespace boost;
+#include "string_conversion.h"
 
 string get_country_name(int i)
 {

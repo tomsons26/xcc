@@ -1,6 +1,5 @@
 #pragma once
 
-#include <boost/array.hpp>
 #include <string>
 #include <vector>
 
@@ -31,13 +30,13 @@ public:
 	}
 
 	template<size_t U>
-	memory_range_base(boost::array<char, U>& v)
+	memory_range_base(std::array<char, U>& v)
 	{
 		assign(&v.front(), v.size());
 	}
 
 	template<size_t U>
-	memory_range_base(boost::array<unsigned char, U>& v)
+	memory_range_base(std::array<unsigned char, U>& v)
 	{
 		assign(&v.front(), v.size());
 	}
@@ -153,13 +152,13 @@ public:
 	}
 
 	template<size_t U>
-	const_memory_range_base(const boost::array<char, U>& v)
+	const_memory_range_base(const std::array<char, U>& v)
 	{
 		assign(&v.front(), v.size());
 	}
 
 	template<size_t U>
-	const_memory_range_base(const boost::array<unsigned char, U>& v)
+	const_memory_range_base(const std::array<unsigned char, U>& v)
 	{
 		assign(&v.front(), v.size());
 	}

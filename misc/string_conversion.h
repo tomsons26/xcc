@@ -29,6 +29,7 @@ std::string to_lower(const string& s);
 std::string to_normal(string s);
 std::string to_upper(const string& s);
 void split_key(const string& key, string& name, string& value);
+bool iequals(const string& l, const string& r);
 
 inline char* make_c_str(const string& s)
 {
