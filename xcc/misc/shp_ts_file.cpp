@@ -630,8 +630,11 @@ Cvirtual_binary shp_decode4(const byte* s, int cb_d)
 		image_header.y = y;
 		image_header.cx = cx;
 		image_header.cy = cy;
-		image_header.compression = 3;
-		image_header.unknown = 0;
+		image_header.flags = 3;
+		image_header.red = 0;
+        image_header.green = 0;
+        image_header.blue = 0;
+        image_header.alpha = 0;
 		image_header.zero = 0;
 		image_header.offset = w1 - d.data();
 		w += sizeof(t_shp_ts_image_header);

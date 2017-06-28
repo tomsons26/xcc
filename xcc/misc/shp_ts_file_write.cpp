@@ -83,8 +83,8 @@ Cvirtual_binary shp_ts_file_write(const byte* s, int global_cx, int global_cy, i
 		image_header.y = y;
 		image_header.cx = cx;
 		image_header.cy = cy;
-		image_header.compression = 0;
-		image_header.unknown = c_images & 1 || i < c_images / 2 ? 0x70000 : 0;
+		image_header.flags = 0;
+		//image_header.unknown = c_images & 1 || i < c_images / 2 ? 0x70000 : 0;
 		image_header.zero = 0;
     image_header.offset = w1 - d.data();
 		w += sizeof(t_shp_ts_image_header);
@@ -94,7 +94,7 @@ Cvirtual_binary shp_ts_file_write(const byte* s, int global_cx, int global_cy, i
 			int cb_u = enable_compression ? encode3(t, u, cx, cy) : INT_MAX;
 			if (cb_u < cx * cy)
 			{
-				image_header.compression = 3;
+				image_header.flags = 3;
 				memcpy(w1, u, cb_u);
 				w1 += cb_u;
 			}

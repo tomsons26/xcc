@@ -645,14 +645,18 @@ void CXCCFileView::OnDraw(CDC* pDC)
 				const int c_images = f.cf();
 				const int cx = m_cx = f.cx();
 				const int cy = m_cy = f.cy();
+                const int zero = f.zero();
 				draw_info("Count images:", n(c_images));
 				draw_info("Size:", n(cx) + " x " + n(cy));
+                draw_info("Unknown:", nh(8, zero));
 				m_y += m_y_inc;
 				load_color_table(get_default_palet(), true);
 				for (int i = 0; i < c_images; i++)
 				{
 #ifndef NDEBUG
-					draw_info("Unknown:", nh(8, f.get_image_header(i)->unknown));
+					draw_info("Radar Color:", "R:" + n(f.get_image_header(i)->red) + " G:" + n(f.get_image_header(i)->green) + " B:" + n(f.get_image_header(i)->blue) + " A:" + n(f.get_image_header(i)->alpha));
+					draw_info("Frame Flags:", nh(8, f.get_image_header(i)->flags));
+					draw_info("Unknown:", nh(8, f.get_image_header(i)->zero));
 #endif
 					const int cx = f.get_cx(i);
 					const int cy = f.get_cy(i);

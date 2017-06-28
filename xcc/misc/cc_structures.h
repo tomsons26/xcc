@@ -303,8 +303,11 @@ struct t_shp_ts_image_header
 	__int16 y;
     __int16 cx;
     __int16 cy;
-    __int32 compression;
-	__int32 unknown;
+    __int32 flags;
+    unsigned __int8 red;
+    unsigned __int8 green;
+    unsigned __int8 blue;
+    unsigned __int8 alpha;
 	__int32 zero;
 	__int32 offset;
 };

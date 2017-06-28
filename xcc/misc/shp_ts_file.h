@@ -34,6 +34,11 @@ public:
 		return header().cy;
 	}
 
+    int zero() const
+    {
+        return header().zero;
+    }
+
 	int get_x(int i) const
 	{
 		return get_image_header(i)->x;
@@ -61,8 +66,13 @@ public:
 
 	bool is_compressed(int i) const
 	{
-		return get_image_header(i)->compression & 2;
+		return get_image_header(i)->flags & 2;
 	}
+
+    bool flags (int i) const
+    {
+        return get_image_header(i)->flags;
+    }
 
 	const t_shp_ts_image_header* get_image_header(int i) const
 	{
