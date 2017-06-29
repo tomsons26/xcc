@@ -759,8 +759,13 @@ void CXCCFileView::OnDraw(CDC* pDC)
 				Ctmp_ra_file f;
 				f.load(m_data);
 				const int c_tiles = f.get_c_tiles();
-				const int cx = f.get_cblocks_x();
-				const int cy = f.get_cblocks_y();
+				int cx = f.get_cblocks_x();
+				int cy = f.get_cblocks_y();
+                if ( cx == -1 && cy == -1 )
+                {
+                    cx = 1;
+                    cy = c_tiles;
+                }
 				draw_info("Count tiles:", n(c_tiles));
 				draw_info("Size:", n(cx) + " x " + n(cy));
 				m_y += m_y_inc;
