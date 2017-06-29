@@ -561,9 +561,12 @@ void CXCCFileView::OnDraw(CDC* pDC)
 				const t_palet_entry* palet = f.get_palet();
 				for (int i = 0; i < 256; i++)
 				{
+					CBrush box;
 					CBrush brush;
+					box.CreateSolidBrush(RGB(0, 0, 0));
 					brush.CreateSolidBrush(RGB(palet[i].r * 255 / 63, palet[i].g * 255 / 63, palet[i].b * 255 / 63));
 					y += m_y_inc;
+					pDC->FillRect(CRect(CPoint(99, y - 1), CSize(26, m_y_inc * 2 / 3 + 2)), &box);
 					pDC->FillRect(CRect(CPoint(100, y), CSize(24, m_y_inc * 2 / 3)), &brush);
 				}
 				break;
@@ -658,7 +661,15 @@ void CXCCFileView::OnDraw(CDC* pDC)
 				for (int i = 0; i < c_images; i++)
 				{
 #ifndef NDEBUG
-					draw_info("Radar Color:", "R:" + n(f.get_image_header(i)->red) + " G:" + n(f.get_image_header(i)->green) + " B:" + n(f.get_image_header(i)->blue) + " A:" + n(f.get_image_header(i)->alpha));
+					draw_info("Radar Color:", "R:" + nwzl(3, f.get_image_header(i)->red) + " G:" + nwzl(3, f.get_image_header(i)->green) + " B:" + nwzl(3, f.get_image_header(i)->blue) + " A:" + nwzl(3, f.get_image_header(i)->alpha));
+					CBrush box;
+					CBrush color;
+					box.CreateSolidBrush(RGB(0, 0, 0));
+					color.CreateSolidBrush(RGB(f.get_image_header(i)->red, f.get_image_header(i)->green, f.get_image_header(i)->blue));
+					//Draw box that will fill the background edges, needed for light colors
+					pDC->FillRect(CRect(CPoint(94, m_y - 12), CSize(26, m_y_inc * 2 / 3 + 2)), &box);
+					//Draw the actual color
+					pDC->FillRect(CRect(CPoint(95, m_y - 11), CSize(24, m_y_inc * 2 / 3)), &color);
 					draw_info("Frame Flags:", nh(8, f.get_image_header(i)->flags));
 					draw_info("Unknown:", nh(8, f.get_image_header(i)->zero));
 #endif
