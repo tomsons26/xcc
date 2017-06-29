@@ -20,6 +20,7 @@ enum t_game
 	game_bfme2,
 	game_tw,
 	game_ts_fs,
+    game_lol3,
 	game_unknown
 };
 

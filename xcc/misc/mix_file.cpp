@@ -357,6 +357,17 @@ int Cmix_file::get_id(t_game game, string name)
 	case game_gr:
 	case game_gr_zh:
 			return compute_crc(name.c_str(), name.length());
+	case game_lol3:
+    	{
+        	int i = 0;
+        	unsigned int id = 0;
+        	int l = name.length();
+			for (int i = 0; i < l; i++)
+			{
+				id = static_cast<unsigned int>((name[i] - 48) & 63) + (id >> 6 | id << 32 - 6);
+			}
+		    return id;
+    	}
 	default:
 		int i = 0;
 		unsigned int id = 0;
